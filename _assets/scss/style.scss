@@ -1,0 +1,99 @@
+$link-color:   #1e6bb8;
+$body-color:   #606c71;
+$text-primary: #152999e5;
+
+$navbar-light-color:       $text-primary;
+$navbar-light-hover-color: $text-primary;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "variables";
+@import "syntax-highlighting-light";
+
+#scrollButton {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	padding: 6px;
+	border-radius: 50%;
+}
+#scrollButton:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+blockquote {
+  display: block;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: #eee;
+  padding: 1.5em 0 0.5em;
+  margin: 1.5em 0;
+  position: relative;
+}
+blockquote:before {
+  content: '\201C';
+  position: absolute;
+  top: 0em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 3rem;
+  height: 2rem;
+  font-size: x-large;
+  color: #555;
+  text-align: center;
+}
+a.nav-link:hover
+{
+  text-decoration: underline;
+}
+img
+{
+    border-radius: 5px;
+}
+.img-align-right
+{
+    float: right;
+    margin-right: 1em;
+    font-size: 11pt;
+    text-align: center;
+}
+.center
+{
+    display: block;
+    height: auto;
+    margin: auto;
+    width: 70%;
+}
+.container
+{
+    max-width: 64em;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+#content
+{
+    h1, h2, h3, h4, h5, h6
+    {
+        color: $text-primary;
+    }
+    hr
+    {
+        height: 2px;
+        padding: 0;
+        margin: 1rem 0;
+        background-color: $header-border-color;
+        border: 0;
+    }
+    article > div > code
+    {
+        color: $include_path_color;
+    }
+}

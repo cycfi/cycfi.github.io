@@ -1,0 +1,30 @@
+$base-font-family:           "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:             16px;
+$base-font-weight:           400;
+$base-line-height:           1.5;
+$code-font-family:           Consolas, "Liberation Mono", Menlo, Courier, monospace;
+$content-width:              1000px;
+$footer-border-color:        #eff0f1;
+$footer-height:              100px;
+$header-border-color:        $footer-border-color;
+$header-font-family:         "Source Sans Pro",sans-serif;
+$icon-hover-secondary-color: white;
+$icon-secondary-color:       white;
+$include_path_color:         #f08;
+$on-laptop:                  800px;
+$on-palm:                    600px;
+$site-grey-color:            #949597;
+$site-menu-background-color: inherit;
+$site-menu-border-color:     transparent;
+$spacing-unit:               30px;
+
+$highlight-accent-color:     #dbdbdb;
+$highlight-background-color: #f3f6fa;
+$embedded-code-accent-color: $highlight-accent-color;
+$embedded-code-background-color: $body-bg;
+$embedded-code-text-color:   #567482;
+
+$inline-code-accent-color:       $highlight-background-color;
+$inline-code-background-color:   $highlight-background-color;
+$inline-code-text-color:         $embedded-code-text-color;
+

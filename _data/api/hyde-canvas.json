@@ -1,0 +1,4541 @@
+{
+  "classes": [
+    {
+      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "deprecated": false,
+      "kind": "class",
+      "methods": {
+        "add_circle": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "c",
+                "type": "const cycfi::artist::circle &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void add_circle(const cycfi::artist::circle &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::add_circle(const cycfi::artist::circle &)",
+            "return_type": "void",
+            "short_name": "add_circle",
+            "signature": "void add_circle(const cycfi::artist::circle &)",
+            "signature_with_names": "void add_circle(const cycfi::artist::circle & c)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "cx",
+                "type": "float"
+              },
+              {
+                "name": "cy",
+                "type": "float"
+              },
+              {
+                "name": "radius",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void add_circle(float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::add_circle(float, float, float)",
+            "return_type": "void",
+            "short_name": "add_circle",
+            "signature": "void add_circle(float, float, float)",
+            "signature_with_names": "void add_circle(float cx, float cy, float radius)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "add_path": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "const cycfi::artist::path &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void add_path(const cycfi::artist::path &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::add_path(const cycfi::artist::path &)",
+            "return_type": "void",
+            "short_name": "add_path",
+            "signature": "void add_path(const cycfi::artist::path &)",
+            "signature_with_names": "void add_path(const cycfi::artist::path & p)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "add_rect": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "r",
+                "type": "const cycfi::artist::rect &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void add_rect(const cycfi::artist::rect &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::add_rect(const cycfi::artist::rect &)",
+            "return_type": "void",
+            "short_name": "add_rect",
+            "signature": "void add_rect(const cycfi::artist::rect &)",
+            "signature_with_names": "void add_rect(const cycfi::artist::rect & r)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              },
+              {
+                "name": "width",
+                "type": "float"
+              },
+              {
+                "name": "height",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void add_rect(float, float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::add_rect(float, float, float, float)",
+            "return_type": "void",
+            "short_name": "add_rect",
+            "signature": "void add_rect(float, float, float, float)",
+            "signature_with_names": "void add_rect(float x, float y, float width, float height)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "add_round_rect": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "r",
+                "type": "const cycfi::artist::rect &"
+              },
+              {
+                "name": "radius",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void add_round_rect(const cycfi::artist::rect &, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::add_round_rect(const cycfi::artist::rect &, float)",
+            "return_type": "void",
+            "short_name": "add_round_rect",
+            "signature": "void add_round_rect(const cycfi::artist::rect &, float)",
+            "signature_with_names": "void add_round_rect(const cycfi::artist::rect & r, float radius)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              },
+              {
+                "name": "width",
+                "type": "float"
+              },
+              {
+                "name": "height",
+                "type": "float"
+              },
+              {
+                "name": "radius",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void add_round_rect(float, float, float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::add_round_rect(float, float, float, float, float)",
+            "return_type": "void",
+            "short_name": "add_round_rect",
+            "signature": "void add_round_rect(float, float, float, float, float)",
+            "signature_with_names": "void add_round_rect(float x, float y, float width, float height, float radius)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "arc": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              },
+              {
+                "name": "radius",
+                "type": "float"
+              },
+              {
+                "name": "start_angle",
+                "type": "float"
+              },
+              {
+                "name": "end_angle",
+                "type": "float"
+              },
+              {
+                "name": "ccw",
+                "type": "bool"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void arc(cycfi::artist::point, float, float, float, bool)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::arc(cycfi::artist::point, float, float, float, bool)",
+            "return_type": "void",
+            "short_name": "arc",
+            "signature": "void arc(cycfi::artist::point, float, float, float, bool)",
+            "signature_with_names": "void arc(cycfi::artist::point p, float radius, float start_angle, float end_angle, bool ccw)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              },
+              {
+                "name": "radius",
+                "type": "float"
+              },
+              {
+                "name": "start_angle",
+                "type": "float"
+              },
+              {
+                "name": "end_angle",
+                "type": "float"
+              },
+              {
+                "name": "ccw",
+                "type": "bool"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void arc(float, float, float, float, float, bool)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::arc(float, float, float, float, float, bool)",
+            "return_type": "void",
+            "short_name": "arc",
+            "signature": "void arc(float, float, float, float, float, bool)",
+            "signature_with_names": "void arc(float x, float y, float radius, float start_angle, float end_angle, bool ccw)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "arc_to": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p1",
+                "type": "cycfi::artist::point"
+              },
+              {
+                "name": "p2",
+                "type": "cycfi::artist::point"
+              },
+              {
+                "name": "radius",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void arc_to(cycfi::artist::point, cycfi::artist::point, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::arc_to(cycfi::artist::point, cycfi::artist::point, float)",
+            "return_type": "void",
+            "short_name": "arc_to",
+            "signature": "void arc_to(cycfi::artist::point, cycfi::artist::point, float)",
+            "signature_with_names": "void arc_to(cycfi::artist::point p1, cycfi::artist::point p2, float radius)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x1",
+                "type": "float"
+              },
+              {
+                "name": "y1",
+                "type": "float"
+              },
+              {
+                "name": "x2",
+                "type": "float"
+              },
+              {
+                "name": "y2",
+                "type": "float"
+              },
+              {
+                "name": "radius",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void arc_to(float, float, float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::arc_to(float, float, float, float, float)",
+            "return_type": "void",
+            "short_name": "arc_to",
+            "signature": "void arc_to(float, float, float, float, float)",
+            "signature_with_names": "void arc_to(float x1, float y1, float x2, float y2, float radius)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "begin_path": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void begin_path()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::begin_path()",
+            "return_type": "void",
+            "short_name": "begin_path",
+            "signature": "void begin_path()",
+            "signature_with_names": "void begin_path()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "bezier_curve_to": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "cp1",
+                "type": "cycfi::artist::point"
+              },
+              {
+                "name": "cp2",
+                "type": "cycfi::artist::point"
+              },
+              {
+                "name": "end",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void bezier_curve_to(cycfi::artist::point, cycfi::artist::point, cycfi::artist::point)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::bezier_curve_to(cycfi::artist::point, cycfi::artist::point, cycfi::artist::point)",
+            "return_type": "void",
+            "short_name": "bezier_curve_to",
+            "signature": "void bezier_curve_to(cycfi::artist::point, cycfi::artist::point, cycfi::artist::point)",
+            "signature_with_names": "void bezier_curve_to(cycfi::artist::point cp1, cycfi::artist::point cp2, cycfi::artist::point end)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "cp1x",
+                "type": "float"
+              },
+              {
+                "name": "cp1y",
+                "type": "float"
+              },
+              {
+                "name": "cp2x",
+                "type": "float"
+              },
+              {
+                "name": "cp2y",
+                "type": "float"
+              },
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void bezier_curve_to(float, float, float, float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::bezier_curve_to(float, float, float, float, float, float)",
+            "return_type": "void",
+            "short_name": "bezier_curve_to",
+            "signature": "void bezier_curve_to(float, float, float, float, float, float)",
+            "signature_with_names": "void bezier_curve_to(float cp1x, float cp1y, float cp2x, float cp2y, float x, float y)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "canvas": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "context_",
+                "type": "cycfi::artist::canvas_impl *"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "explicit": true,
+            "is_ctor": true,
+            "name": "explicit canvas(cycfi::artist::canvas_impl *)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "explicit cycfi::artist::canvas::canvas(cycfi::artist::canvas_impl *)",
+            "return_type": "void",
+            "short_name": "canvas",
+            "signature": "explicit canvas(cycfi::artist::canvas_impl *)",
+            "signature_with_names": "explicit canvas(cycfi::artist::canvas_impl * context_)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rhs",
+                "type": "const cycfi::artist::canvas &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "delete": true,
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "canvas(const cycfi::artist::canvas &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "cycfi::artist::canvas::canvas(const cycfi::artist::canvas &)",
+            "return_type": "void",
+            "short_name": "canvas",
+            "signature": "canvas(const cycfi::artist::canvas &)",
+            "signature_with_names": "canvas(const cycfi::artist::canvas & rhs)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rhs",
+                "type": "cycfi::artist::canvas &&"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "delete": true,
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "canvas(cycfi::artist::canvas &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "cycfi::artist::canvas::canvas(cycfi::artist::canvas &&)",
+            "return_type": "void",
+            "short_name": "canvas",
+            "signature": "canvas(cycfi::artist::canvas &&)",
+            "signature_with_names": "canvas(cycfi::artist::canvas && rhs)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "clear_rect": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "r",
+                "type": "const cycfi::artist::rect &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void clear_rect(const cycfi::artist::rect &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::clear_rect(const cycfi::artist::rect &)",
+            "return_type": "void",
+            "short_name": "clear_rect",
+            "signature": "void clear_rect(const cycfi::artist::rect &)",
+            "signature_with_names": "void clear_rect(const cycfi::artist::rect & r)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              },
+              {
+                "name": "width",
+                "type": "float"
+              },
+              {
+                "name": "height",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void clear_rect(float, float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::clear_rect(float, float, float, float)",
+            "return_type": "void",
+            "short_name": "clear_rect",
+            "signature": "void clear_rect(float, float, float, float)",
+            "signature_with_names": "void clear_rect(float x, float y, float width, float height)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "clip": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void clip()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::clip()",
+            "return_type": "void",
+            "short_name": "clip",
+            "signature": "void clip()",
+            "signature_with_names": "void clip()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "const cycfi::artist::path &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void clip(const cycfi::artist::path &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::clip(const cycfi::artist::path &)",
+            "return_type": "void",
+            "short_name": "clip",
+            "signature": "void clip(const cycfi::artist::path &)",
+            "signature_with_names": "void clip(const cycfi::artist::path & p)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "close_path": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void close_path()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::close_path()",
+            "return_type": "void",
+            "short_name": "close_path",
+            "signature": "void close_path()",
+            "signature_with_names": "void close_path()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "composite_op": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "mode",
+                "type": "cycfi::artist::canvas::composite_op_enum"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void composite_op(cycfi::artist::canvas::composite_op_enum)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::composite_op(cycfi::artist::canvas::composite_op_enum)",
+            "return_type": "void",
+            "short_name": "composite_op",
+            "signature": "void composite_op(cycfi::artist::canvas::composite_op_enum)",
+            "signature_with_names": "void composite_op(cycfi::artist::canvas::composite_op_enum mode)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "device_to_user": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::point device_to_user(cycfi::artist::point)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "cycfi::artist::point cycfi::artist::canvas::device_to_user(cycfi::artist::point)",
+            "return_type": "cycfi::artist::point",
+            "short_name": "device_to_user",
+            "signature": "cycfi::artist::point device_to_user(cycfi::artist::point)",
+            "signature_with_names": "cycfi::artist::point device_to_user(cycfi::artist::point p)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::point device_to_user(float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "cycfi::artist::point cycfi::artist::canvas::device_to_user(float, float)",
+            "return_type": "cycfi::artist::point",
+            "short_name": "device_to_user",
+            "signature": "cycfi::artist::point device_to_user(float, float)",
+            "signature_with_names": "cycfi::artist::point device_to_user(float x, float y)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "draw": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "pic",
+                "type": "const cycfi::artist::image &"
+              },
+              {
+                "name": "src",
+                "type": "const cycfi::artist::rect &"
+              },
+              {
+                "name": "dest",
+                "type": "const cycfi::artist::rect &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void draw(const cycfi::artist::image &, const cycfi::artist::rect &, const cycfi::artist::rect &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::draw(const cycfi::artist::image &, const cycfi::artist::rect &, const cycfi::artist::rect &)",
+            "return_type": "void",
+            "short_name": "draw",
+            "signature": "void draw(const cycfi::artist::image &, const cycfi::artist::rect &, const cycfi::artist::rect &)",
+            "signature_with_names": "void draw(const cycfi::artist::image & pic, const cycfi::artist::rect & src, const cycfi::artist::rect & dest)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "pic",
+                "type": "const cycfi::artist::image &"
+              },
+              {
+                "name": "dest",
+                "type": "const cycfi::artist::rect &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void draw(const cycfi::artist::image &, const cycfi::artist::rect &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::draw(const cycfi::artist::image &, const cycfi::artist::rect &)",
+            "return_type": "void",
+            "short_name": "draw",
+            "signature": "void draw(const cycfi::artist::image &, const cycfi::artist::rect &)",
+            "signature_with_names": "void draw(const cycfi::artist::image & pic, const cycfi::artist::rect & dest)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "pic",
+                "type": "const cycfi::artist::image &"
+              },
+              {
+                "name": "pos",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void draw(const cycfi::artist::image &, cycfi::artist::point)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::draw(const cycfi::artist::image &, cycfi::artist::point)",
+            "return_type": "void",
+            "short_name": "draw",
+            "signature": "void draw(const cycfi::artist::image &, cycfi::artist::point)",
+            "signature_with_names": "void draw(const cycfi::artist::image & pic, cycfi::artist::point pos)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "pic",
+                "type": "const cycfi::artist::image &"
+              },
+              {
+                "name": "pos",
+                "type": "cycfi::artist::point"
+              },
+              {
+                "name": "scale",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void draw(const cycfi::artist::image &, cycfi::artist::point, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::draw(const cycfi::artist::image &, cycfi::artist::point, float)",
+            "return_type": "void",
+            "short_name": "draw",
+            "signature": "void draw(const cycfi::artist::image &, cycfi::artist::point, float)",
+            "signature_with_names": "void draw(const cycfi::artist::image & pic, cycfi::artist::point pos, float scale)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "pic",
+                "type": "const cycfi::artist::image &"
+              },
+              {
+                "name": "posx",
+                "type": "float"
+              },
+              {
+                "name": "posy",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void draw(const cycfi::artist::image &, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::draw(const cycfi::artist::image &, float, float)",
+            "return_type": "void",
+            "short_name": "draw",
+            "signature": "void draw(const cycfi::artist::image &, float, float)",
+            "signature_with_names": "void draw(const cycfi::artist::image & pic, float posx, float posy)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "pic",
+                "type": "const cycfi::artist::image &"
+              },
+              {
+                "name": "posx",
+                "type": "float"
+              },
+              {
+                "name": "posy",
+                "type": "float"
+              },
+              {
+                "name": "scale",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void draw(const cycfi::artist::image &, float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::draw(const cycfi::artist::image &, float, float, float)",
+            "return_type": "void",
+            "short_name": "draw",
+            "signature": "void draw(const cycfi::artist::image &, float, float, float)",
+            "signature_with_names": "void draw(const cycfi::artist::image & pic, float posx, float posy, float scale)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "fill": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void fill()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::fill()",
+            "return_type": "void",
+            "short_name": "fill",
+            "signature": "void fill()",
+            "signature_with_names": "void fill()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "fill_color": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "c",
+                "type": "cycfi::artist::color"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void fill_color(cycfi::artist::color)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::fill_color(cycfi::artist::color)",
+            "return_type": "void",
+            "short_name": "fill_color",
+            "signature": "void fill_color(cycfi::artist::color)",
+            "signature_with_names": "void fill_color(cycfi::artist::color c)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "fill_extent": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::rect fill_extent() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "cycfi::artist::rect cycfi::artist::canvas::fill_extent() const",
+            "return_type": "cycfi::artist::rect",
+            "short_name": "fill_extent",
+            "signature": "cycfi::artist::rect fill_extent() const",
+            "signature_with_names": "cycfi::artist::rect fill_extent() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "fill_preserve": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void fill_preserve()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::fill_preserve()",
+            "return_type": "void",
+            "short_name": "fill_preserve",
+            "signature": "void fill_preserve()",
+            "signature_with_names": "void fill_preserve()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "fill_rect": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "r",
+                "type": "const cycfi::artist::rect &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void fill_rect(const cycfi::artist::rect &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::fill_rect(const cycfi::artist::rect &)",
+            "return_type": "void",
+            "short_name": "fill_rect",
+            "signature": "void fill_rect(const cycfi::artist::rect &)",
+            "signature_with_names": "void fill_rect(const cycfi::artist::rect & r)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              },
+              {
+                "name": "width",
+                "type": "float"
+              },
+              {
+                "name": "height",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void fill_rect(float, float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::fill_rect(float, float, float, float)",
+            "return_type": "void",
+            "short_name": "fill_rect",
+            "signature": "void fill_rect(float, float, float, float)",
+            "signature_with_names": "void fill_rect(float x, float y, float width, float height)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "fill_round_rect": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "r",
+                "type": "const cycfi::artist::rect &"
+              },
+              {
+                "name": "radius",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void fill_round_rect(const cycfi::artist::rect &, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::fill_round_rect(const cycfi::artist::rect &, float)",
+            "return_type": "void",
+            "short_name": "fill_round_rect",
+            "signature": "void fill_round_rect(const cycfi::artist::rect &, float)",
+            "signature_with_names": "void fill_round_rect(const cycfi::artist::rect & r, float radius)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              },
+              {
+                "name": "width",
+                "type": "float"
+              },
+              {
+                "name": "height",
+                "type": "float"
+              },
+              {
+                "name": "radius",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void fill_round_rect(float, float, float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::fill_round_rect(float, float, float, float, float)",
+            "return_type": "void",
+            "short_name": "fill_round_rect",
+            "signature": "void fill_round_rect(float, float, float, float, float)",
+            "signature_with_names": "void fill_round_rect(float x, float y, float width, float height, float radius)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "fill_rule": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rule",
+                "type": "path::fill_rule_enum"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void fill_rule(path::fill_rule_enum)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::fill_rule(path::fill_rule_enum)",
+            "return_type": "void",
+            "short_name": "fill_rule",
+            "signature": "void fill_rule(path::fill_rule_enum)",
+            "signature_with_names": "void fill_rule(path::fill_rule_enum rule)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "fill_style": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "c",
+                "type": "cycfi::artist::color"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void fill_style(cycfi::artist::color)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::fill_style(cycfi::artist::color)",
+            "return_type": "void",
+            "short_name": "fill_style",
+            "signature": "void fill_style(cycfi::artist::color)",
+            "signature_with_names": "void fill_style(cycfi::artist::color c)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "gr",
+                "type": "const cycfi::artist::canvas::linear_gradient &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void fill_style(const cycfi::artist::canvas::linear_gradient &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::fill_style(const cycfi::artist::canvas::linear_gradient &)",
+            "return_type": "void",
+            "short_name": "fill_style",
+            "signature": "void fill_style(const cycfi::artist::canvas::linear_gradient &)",
+            "signature_with_names": "void fill_style(const cycfi::artist::canvas::linear_gradient & gr)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "gr",
+                "type": "const cycfi::artist::canvas::radial_gradient &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void fill_style(const cycfi::artist::canvas::radial_gradient &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::fill_style(const cycfi::artist::canvas::radial_gradient &)",
+            "return_type": "void",
+            "short_name": "fill_style",
+            "signature": "void fill_style(const cycfi::artist::canvas::radial_gradient &)",
+            "signature_with_names": "void fill_style(const cycfi::artist::canvas::radial_gradient & gr)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "fill_text": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "utf8",
+                "type": "std::string_view"
+              },
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void fill_text(std::string_view, cycfi::artist::point)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::fill_text(std::string_view, cycfi::artist::point)",
+            "return_type": "void",
+            "short_name": "fill_text",
+            "signature": "void fill_text(std::string_view, cycfi::artist::point)",
+            "signature_with_names": "void fill_text(std::string_view utf8, cycfi::artist::point p)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "utf8",
+                "type": "std::string_view"
+              },
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void fill_text(std::string_view, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::fill_text(std::string_view, float, float)",
+            "return_type": "void",
+            "short_name": "fill_text",
+            "signature": "void fill_text(std::string_view, float, float)",
+            "signature_with_names": "void fill_text(std::string_view utf8, float x, float y)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "font": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "font_",
+                "type": "const class font &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void font(const class font &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::font(const class font &)",
+            "return_type": "void",
+            "short_name": "font",
+            "signature": "void font(const class font &)",
+            "signature_with_names": "void font(const class font & font_)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "global_composite_operation": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "mode",
+                "type": "cycfi::artist::canvas::composite_op_enum"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void global_composite_operation(cycfi::artist::canvas::composite_op_enum)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::global_composite_operation(cycfi::artist::canvas::composite_op_enum)",
+            "return_type": "void",
+            "short_name": "global_composite_operation",
+            "signature": "void global_composite_operation(cycfi::artist::canvas::composite_op_enum)",
+            "signature_with_names": "void global_composite_operation(cycfi::artist::canvas::composite_op_enum mode)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "impl": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::canvas_impl * impl() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "cycfi::artist::canvas_impl * cycfi::artist::canvas::impl() const",
+            "return_type": "cycfi::artist::canvas_impl *",
+            "short_name": "impl",
+            "signature": "cycfi::artist::canvas_impl * impl() const",
+            "signature_with_names": "cycfi::artist::canvas_impl * impl() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "line_cap": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "cap",
+                "type": "cycfi::artist::canvas::line_cap_enum"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void line_cap(cycfi::artist::canvas::line_cap_enum)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::line_cap(cycfi::artist::canvas::line_cap_enum)",
+            "return_type": "void",
+            "short_name": "line_cap",
+            "signature": "void line_cap(cycfi::artist::canvas::line_cap_enum)",
+            "signature_with_names": "void line_cap(cycfi::artist::canvas::line_cap_enum cap)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "line_join": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "join",
+                "type": "cycfi::artist::canvas::join_enum"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void line_join(cycfi::artist::canvas::join_enum)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::line_join(cycfi::artist::canvas::join_enum)",
+            "return_type": "void",
+            "short_name": "line_join",
+            "signature": "void line_join(cycfi::artist::canvas::join_enum)",
+            "signature_with_names": "void line_join(cycfi::artist::canvas::join_enum join)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "line_to": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void line_to(cycfi::artist::point)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::line_to(cycfi::artist::point)",
+            "return_type": "void",
+            "short_name": "line_to",
+            "signature": "void line_to(cycfi::artist::point)",
+            "signature_with_names": "void line_to(cycfi::artist::point p)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void line_to(float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::line_to(float, float)",
+            "return_type": "void",
+            "short_name": "line_to",
+            "signature": "void line_to(float, float)",
+            "signature_with_names": "void line_to(float x, float y)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "line_width": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "w",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void line_width(float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::line_width(float)",
+            "return_type": "void",
+            "short_name": "line_width",
+            "signature": "void line_width(float)",
+            "signature_with_names": "void line_width(float w)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "measure_text": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "utf8",
+                "type": "std::string_view"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::canvas::text_metrics measure_text(std::string_view)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "cycfi::artist::canvas::text_metrics cycfi::artist::canvas::measure_text(std::string_view)",
+            "return_type": "cycfi::artist::canvas::text_metrics",
+            "short_name": "measure_text",
+            "signature": "cycfi::artist::canvas::text_metrics measure_text(std::string_view)",
+            "signature_with_names": "cycfi::artist::canvas::text_metrics measure_text(std::string_view utf8)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "miter_limit": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "limit",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void miter_limit(float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::miter_limit(float)",
+            "return_type": "void",
+            "short_name": "miter_limit",
+            "signature": "void miter_limit(float)",
+            "signature_with_names": "void miter_limit(float limit)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "move_to": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void move_to(cycfi::artist::point)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::move_to(cycfi::artist::point)",
+            "return_type": "void",
+            "short_name": "move_to",
+            "signature": "void move_to(cycfi::artist::point)",
+            "signature_with_names": "void move_to(cycfi::artist::point p)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void move_to(float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::move_to(float, float)",
+            "return_type": "void",
+            "short_name": "move_to",
+            "signature": "void move_to(float, float)",
+            "signature_with_names": "void move_to(float x, float y)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "new_state": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::canvas::state new_state()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "cycfi::artist::canvas::state cycfi::artist::canvas::new_state()",
+            "return_type": "cycfi::artist::canvas::state",
+            "short_name": "new_state",
+            "signature": "cycfi::artist::canvas::state new_state()",
+            "signature_with_names": "cycfi::artist::canvas::state new_state()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator bool": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "explicit": true,
+            "name": "explicit operator bool() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "explicit cycfi::artist::canvas::operator bool() const",
+            "return_type": "bool",
+            "short_name": "operator bool",
+            "signature": "explicit operator bool() const",
+            "signature_with_names": "explicit operator bool() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator!": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "bool operator!() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "bool cycfi::artist::canvas::operator!() const",
+            "return_type": "bool",
+            "short_name": "operator!",
+            "signature": "bool operator!() const",
+            "signature_with_names": "bool operator!() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rhs",
+                "type": "const cycfi::artist::canvas &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "delete": true,
+            "deprecated": false,
+            "name": "cycfi::artist::canvas & operator=(const cycfi::artist::canvas &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "cycfi::artist::canvas & cycfi::artist::canvas::operator=(const cycfi::artist::canvas &)",
+            "return_type": "cycfi::artist::canvas &",
+            "short_name": "operator=",
+            "signature": "cycfi::artist::canvas & operator=(const cycfi::artist::canvas &)",
+            "signature_with_names": "cycfi::artist::canvas & operator=(const cycfi::artist::canvas & rhs)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "point_in_path": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "bool point_in_path(cycfi::artist::point) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "bool cycfi::artist::canvas::point_in_path(cycfi::artist::point) const",
+            "return_type": "bool",
+            "short_name": "point_in_path",
+            "signature": "bool point_in_path(cycfi::artist::point) const",
+            "signature_with_names": "bool point_in_path(cycfi::artist::point p) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "bool point_in_path(float, float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "bool cycfi::artist::canvas::point_in_path(float, float) const",
+            "return_type": "bool",
+            "short_name": "point_in_path",
+            "signature": "bool point_in_path(float, float) const",
+            "signature_with_names": "bool point_in_path(float x, float y) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "pre_scale": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "sc",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void pre_scale(float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::pre_scale(float)",
+            "return_type": "void",
+            "short_name": "pre_scale",
+            "signature": "void pre_scale(float)",
+            "signature_with_names": "void pre_scale(float sc)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "float pre_scale() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "float cycfi::artist::canvas::pre_scale() const",
+            "return_type": "float",
+            "short_name": "pre_scale",
+            "signature": "float pre_scale() const",
+            "signature_with_names": "float pre_scale() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "quadratic_curve_to": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "cp",
+                "type": "cycfi::artist::point"
+              },
+              {
+                "name": "end",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void quadratic_curve_to(cycfi::artist::point, cycfi::artist::point)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::quadratic_curve_to(cycfi::artist::point, cycfi::artist::point)",
+            "return_type": "void",
+            "short_name": "quadratic_curve_to",
+            "signature": "void quadratic_curve_to(cycfi::artist::point, cycfi::artist::point)",
+            "signature_with_names": "void quadratic_curve_to(cycfi::artist::point cp, cycfi::artist::point end)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "cpx",
+                "type": "float"
+              },
+              {
+                "name": "cpy",
+                "type": "float"
+              },
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void quadratic_curve_to(float, float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::quadratic_curve_to(float, float, float, float)",
+            "return_type": "void",
+            "short_name": "quadratic_curve_to",
+            "signature": "void quadratic_curve_to(float, float, float, float)",
+            "signature_with_names": "void quadratic_curve_to(float cpx, float cpy, float x, float y)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "restore": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void restore()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::restore()",
+            "return_type": "void",
+            "short_name": "restore",
+            "signature": "void restore()",
+            "signature_with_names": "void restore()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "rotate": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rad",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void rotate(float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::rotate(float)",
+            "return_type": "void",
+            "short_name": "rotate",
+            "signature": "void rotate(float)",
+            "signature_with_names": "void rotate(float rad)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "save": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void save()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::save()",
+            "return_type": "void",
+            "short_name": "save",
+            "signature": "void save()",
+            "signature_with_names": "void save()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "scale": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void scale(cycfi::artist::point)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::scale(cycfi::artist::point)",
+            "return_type": "void",
+            "short_name": "scale",
+            "signature": "void scale(cycfi::artist::point)",
+            "signature_with_names": "void scale(cycfi::artist::point p)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "xy",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void scale(float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::scale(float)",
+            "return_type": "void",
+            "short_name": "scale",
+            "signature": "void scale(float)",
+            "signature_with_names": "void scale(float xy)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void scale(float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::scale(float, float)",
+            "return_type": "void",
+            "short_name": "scale",
+            "signature": "void scale(float, float)",
+            "signature_with_names": "void scale(float x, float y)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "shadow_style": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "offset",
+                "type": "cycfi::artist::point"
+              },
+              {
+                "name": "blur",
+                "type": "float"
+              },
+              {
+                "name": "c",
+                "type": "cycfi::artist::color"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void shadow_style(cycfi::artist::point, float, cycfi::artist::color)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::shadow_style(cycfi::artist::point, float, cycfi::artist::color)",
+            "return_type": "void",
+            "short_name": "shadow_style",
+            "signature": "void shadow_style(cycfi::artist::point, float, cycfi::artist::color)",
+            "signature_with_names": "void shadow_style(cycfi::artist::point offset, float blur, cycfi::artist::color c)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "offsetx",
+                "type": "float"
+              },
+              {
+                "name": "offsety",
+                "type": "float"
+              },
+              {
+                "name": "blur",
+                "type": "float"
+              },
+              {
+                "name": "c",
+                "type": "cycfi::artist::color"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void shadow_style(float, float, float, cycfi::artist::color)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::shadow_style(float, float, float, cycfi::artist::color)",
+            "return_type": "void",
+            "short_name": "shadow_style",
+            "signature": "void shadow_style(float, float, float, cycfi::artist::color)",
+            "signature_with_names": "void shadow_style(float offsetx, float offsety, float blur, cycfi::artist::color c)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "blur",
+                "type": "float"
+              },
+              {
+                "name": "c",
+                "type": "cycfi::artist::color"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void shadow_style(float, cycfi::artist::color)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::shadow_style(float, cycfi::artist::color)",
+            "return_type": "void",
+            "short_name": "shadow_style",
+            "signature": "void shadow_style(float, cycfi::artist::color)",
+            "signature_with_names": "void shadow_style(float blur, cycfi::artist::color c)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "skew": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "sx",
+                "type": "double"
+              },
+              {
+                "name": "sy",
+                "type": "double"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void skew(double, double)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::skew(double, double)",
+            "return_type": "void",
+            "short_name": "skew",
+            "signature": "void skew(double, double)",
+            "signature_with_names": "void skew(double sx, double sy)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "stroke": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void stroke()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::stroke()",
+            "return_type": "void",
+            "short_name": "stroke",
+            "signature": "void stroke()",
+            "signature_with_names": "void stroke()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "stroke_color": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "c",
+                "type": "cycfi::artist::color"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void stroke_color(cycfi::artist::color)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::stroke_color(cycfi::artist::color)",
+            "return_type": "void",
+            "short_name": "stroke_color",
+            "signature": "void stroke_color(cycfi::artist::color)",
+            "signature_with_names": "void stroke_color(cycfi::artist::color c)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "stroke_preserve": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void stroke_preserve()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::stroke_preserve()",
+            "return_type": "void",
+            "short_name": "stroke_preserve",
+            "signature": "void stroke_preserve()",
+            "signature_with_names": "void stroke_preserve()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "stroke_rect": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "r",
+                "type": "const cycfi::artist::rect &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void stroke_rect(const cycfi::artist::rect &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::stroke_rect(const cycfi::artist::rect &)",
+            "return_type": "void",
+            "short_name": "stroke_rect",
+            "signature": "void stroke_rect(const cycfi::artist::rect &)",
+            "signature_with_names": "void stroke_rect(const cycfi::artist::rect & r)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              },
+              {
+                "name": "width",
+                "type": "float"
+              },
+              {
+                "name": "height",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void stroke_rect(float, float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::stroke_rect(float, float, float, float)",
+            "return_type": "void",
+            "short_name": "stroke_rect",
+            "signature": "void stroke_rect(float, float, float, float)",
+            "signature_with_names": "void stroke_rect(float x, float y, float width, float height)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "stroke_round_rect": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "r",
+                "type": "const cycfi::artist::rect &"
+              },
+              {
+                "name": "radius",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void stroke_round_rect(const cycfi::artist::rect &, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::stroke_round_rect(const cycfi::artist::rect &, float)",
+            "return_type": "void",
+            "short_name": "stroke_round_rect",
+            "signature": "void stroke_round_rect(const cycfi::artist::rect &, float)",
+            "signature_with_names": "void stroke_round_rect(const cycfi::artist::rect & r, float radius)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              },
+              {
+                "name": "width",
+                "type": "float"
+              },
+              {
+                "name": "height",
+                "type": "float"
+              },
+              {
+                "name": "radius",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void stroke_round_rect(float, float, float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::stroke_round_rect(float, float, float, float, float)",
+            "return_type": "void",
+            "short_name": "stroke_round_rect",
+            "signature": "void stroke_round_rect(float, float, float, float, float)",
+            "signature_with_names": "void stroke_round_rect(float x, float y, float width, float height, float radius)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "stroke_style": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "c",
+                "type": "cycfi::artist::color"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void stroke_style(cycfi::artist::color)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::stroke_style(cycfi::artist::color)",
+            "return_type": "void",
+            "short_name": "stroke_style",
+            "signature": "void stroke_style(cycfi::artist::color)",
+            "signature_with_names": "void stroke_style(cycfi::artist::color c)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "gr",
+                "type": "const cycfi::artist::canvas::linear_gradient &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void stroke_style(const cycfi::artist::canvas::linear_gradient &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::stroke_style(const cycfi::artist::canvas::linear_gradient &)",
+            "return_type": "void",
+            "short_name": "stroke_style",
+            "signature": "void stroke_style(const cycfi::artist::canvas::linear_gradient &)",
+            "signature_with_names": "void stroke_style(const cycfi::artist::canvas::linear_gradient & gr)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "gr",
+                "type": "const cycfi::artist::canvas::radial_gradient &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void stroke_style(const cycfi::artist::canvas::radial_gradient &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::stroke_style(const cycfi::artist::canvas::radial_gradient &)",
+            "return_type": "void",
+            "short_name": "stroke_style",
+            "signature": "void stroke_style(const cycfi::artist::canvas::radial_gradient &)",
+            "signature_with_names": "void stroke_style(const cycfi::artist::canvas::radial_gradient & gr)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "stroke_text": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "utf8",
+                "type": "std::string_view"
+              },
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void stroke_text(std::string_view, cycfi::artist::point)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::stroke_text(std::string_view, cycfi::artist::point)",
+            "return_type": "void",
+            "short_name": "stroke_text",
+            "signature": "void stroke_text(std::string_view, cycfi::artist::point)",
+            "signature_with_names": "void stroke_text(std::string_view utf8, cycfi::artist::point p)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "utf8",
+                "type": "std::string_view"
+              },
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void stroke_text(std::string_view, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::stroke_text(std::string_view, float, float)",
+            "return_type": "void",
+            "short_name": "stroke_text",
+            "signature": "void stroke_text(std::string_view, float, float)",
+            "signature_with_names": "void stroke_text(std::string_view utf8, float x, float y)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "text_align": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "align",
+                "type": "int"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void text_align(int)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::text_align(int)",
+            "return_type": "void",
+            "short_name": "text_align",
+            "signature": "void text_align(int)",
+            "signature_with_names": "void text_align(int align)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "align",
+                "type": "cycfi::artist::canvas::text_halign"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void text_align(cycfi::artist::canvas::text_halign)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::text_align(cycfi::artist::canvas::text_halign)",
+            "return_type": "void",
+            "short_name": "text_align",
+            "signature": "void text_align(cycfi::artist::canvas::text_halign)",
+            "signature_with_names": "void text_align(cycfi::artist::canvas::text_halign align)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "text_baseline": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "align",
+                "type": "cycfi::artist::canvas::text_valign"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void text_baseline(cycfi::artist::canvas::text_valign)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::text_baseline(cycfi::artist::canvas::text_valign)",
+            "return_type": "void",
+            "short_name": "text_baseline",
+            "signature": "void text_baseline(cycfi::artist::canvas::text_valign)",
+            "signature_with_names": "void text_baseline(cycfi::artist::canvas::text_valign align)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "transform": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::affine_transform transform() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "cycfi::artist::affine_transform cycfi::artist::canvas::transform() const",
+            "return_type": "cycfi::artist::affine_transform",
+            "short_name": "transform",
+            "signature": "cycfi::artist::affine_transform transform() const",
+            "signature_with_names": "cycfi::artist::affine_transform transform() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "mat",
+                "type": "const cycfi::artist::affine_transform &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void transform(const cycfi::artist::affine_transform &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::transform(const cycfi::artist::affine_transform &)",
+            "return_type": "void",
+            "short_name": "transform",
+            "signature": "void transform(const cycfi::artist::affine_transform &)",
+            "signature_with_names": "void transform(const cycfi::artist::affine_transform & mat)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "a",
+                "type": "double"
+              },
+              {
+                "name": "b",
+                "type": "double"
+              },
+              {
+                "name": "c",
+                "type": "double"
+              },
+              {
+                "name": "d",
+                "type": "double"
+              },
+              {
+                "name": "tx",
+                "type": "double"
+              },
+              {
+                "name": "ty",
+                "type": "double"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void transform(double, double, double, double, double, double)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::transform(double, double, double, double, double, double)",
+            "return_type": "void",
+            "short_name": "transform",
+            "signature": "void transform(double, double, double, double, double, double)",
+            "signature_with_names": "void transform(double a, double b, double c, double d, double tx, double ty)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "translate": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void translate(cycfi::artist::point)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::translate(cycfi::artist::point)",
+            "return_type": "void",
+            "short_name": "translate",
+            "signature": "void translate(cycfi::artist::point)",
+            "signature_with_names": "void translate(cycfi::artist::point p)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void translate(float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::translate(float, float)",
+            "return_type": "void",
+            "short_name": "translate",
+            "signature": "void translate(float, float)",
+            "signature_with_names": "void translate(float x, float y)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "user_to_device": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::point user_to_device(cycfi::artist::point)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "cycfi::artist::point cycfi::artist::canvas::user_to_device(cycfi::artist::point)",
+            "return_type": "cycfi::artist::point",
+            "short_name": "user_to_device",
+            "signature": "cycfi::artist::point user_to_device(cycfi::artist::point)",
+            "signature_with_names": "cycfi::artist::point user_to_device(cycfi::artist::point p)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::point user_to_device(float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "cycfi::artist::point cycfi::artist::canvas::user_to_device(float, float)",
+            "return_type": "cycfi::artist::point",
+            "short_name": "user_to_device",
+            "signature": "cycfi::artist::point user_to_device(float, float)",
+            "signature_with_names": "cycfi::artist::point user_to_device(float x, float y)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "~canvas": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_dtor": true,
+            "name": "~canvas()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas"
+            ],
+            "qualified_name": "cycfi::artist::canvas::~canvas()",
+            "return_type": "void",
+            "short_name": "~canvas",
+            "signature": "~canvas()",
+            "signature_with_names": "~canvas()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "canvas",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::canvas",
+      "typealiases": [
+        {
+          "access": "public",
+          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "deprecated": false,
+          "name": "canvas_state_ptr",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "canvas"
+          ],
+          "qualified_name": "cycfi::artist::canvas::canvas_state_ptr",
+          "type": "std::unique_ptr<canvas_state>"
+        }
+      ]
+    },
+    {
+      "access": "public",
+      "ctor": "unspecified",
+      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "deprecated": false,
+      "dtor": "unspecified",
+      "fields": {
+        "cycfi::artist::canvas::color_stop::color": {
+          "access": "public",
+          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "deprecated": false,
+          "name": "color",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "canvas",
+            "color_stop"
+          ],
+          "qualified_name": "cycfi::artist::canvas::color_stop::color",
+          "type": "struct color"
+        },
+        "cycfi::artist::canvas::color_stop::offset": {
+          "access": "public",
+          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "deprecated": false,
+          "name": "offset",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "canvas",
+            "color_stop"
+          ],
+          "qualified_name": "cycfi::artist::canvas::color_stop::offset",
+          "type": "float"
+        }
+      },
+      "kind": "struct",
+      "methods": {
+        "color_stop": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "color_stop()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "color_stop"
+            ],
+            "qualified_name": "cycfi::artist::canvas::color_stop::color_stop()",
+            "return_type": "void",
+            "short_name": "color_stop",
+            "signature": "color_stop()",
+            "signature_with_names": "color_stop()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::canvas::color_stop &"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "color_stop(const cycfi::artist::canvas::color_stop &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "color_stop"
+            ],
+            "qualified_name": "cycfi::artist::canvas::color_stop::color_stop(const cycfi::artist::canvas::color_stop &)",
+            "return_type": "void",
+            "short_name": "color_stop",
+            "signature": "color_stop(const cycfi::artist::canvas::color_stop &)",
+            "signature_with_names": "color_stop(const cycfi::artist::canvas::color_stop &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "cycfi::artist::canvas::color_stop &&"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "color_stop(cycfi::artist::canvas::color_stop &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "color_stop"
+            ],
+            "qualified_name": "cycfi::artist::canvas::color_stop::color_stop(cycfi::artist::canvas::color_stop &&)",
+            "return_type": "void",
+            "short_name": "color_stop",
+            "signature": "color_stop(cycfi::artist::canvas::color_stop &&)",
+            "signature_with_names": "color_stop(cycfi::artist::canvas::color_stop &&)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "~color_stop": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_dtor": true,
+            "name": "~color_stop()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "color_stop"
+            ],
+            "qualified_name": "cycfi::artist::canvas::color_stop::~color_stop()",
+            "return_type": "void",
+            "short_name": "~color_stop",
+            "signature": "~color_stop()",
+            "signature_with_names": "~color_stop()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "color_stop",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [
+        "canvas"
+      ],
+      "qualified_name": "cycfi::artist::canvas::color_stop"
+    },
+    {
+      "access": "public",
+      "ctor": "unspecified",
+      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "deprecated": false,
+      "dtor": "unspecified",
+      "fields": {
+        "cycfi::artist::canvas::gradient::color_space": {
+          "access": "public",
+          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "deprecated": false,
+          "name": "color_space",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "canvas",
+            "gradient"
+          ],
+          "qualified_name": "cycfi::artist::canvas::gradient::color_space",
+          "type": "std::vector<color_stop>"
+        }
+      },
+      "kind": "struct",
+      "methods": {
+        "add_color_stop": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "cs",
+                "type": "cycfi::artist::canvas::color_stop"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void add_color_stop(cycfi::artist::canvas::color_stop)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "gradient"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::gradient::add_color_stop(cycfi::artist::canvas::color_stop)",
+            "return_type": "void",
+            "short_name": "add_color_stop",
+            "signature": "void add_color_stop(cycfi::artist::canvas::color_stop)",
+            "signature_with_names": "void add_color_stop(cycfi::artist::canvas::color_stop cs)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "offset",
+                "type": "float"
+              },
+              {
+                "name": "color_",
+                "type": "struct color"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "void add_color_stop(float, struct color)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "gradient"
+            ],
+            "qualified_name": "void cycfi::artist::canvas::gradient::add_color_stop(float, struct color)",
+            "return_type": "void",
+            "short_name": "add_color_stop",
+            "signature": "void add_color_stop(float, struct color)",
+            "signature_with_names": "void add_color_stop(float offset, struct color color_)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "gradient": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::canvas::gradient &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "gradient(const cycfi::artist::canvas::gradient &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "gradient"
+            ],
+            "qualified_name": "cycfi::artist::canvas::gradient::gradient(const cycfi::artist::canvas::gradient &)",
+            "return_type": "void",
+            "short_name": "gradient",
+            "signature": "gradient(const cycfi::artist::canvas::gradient &)",
+            "signature_with_names": "gradient(const cycfi::artist::canvas::gradient &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "cycfi::artist::canvas::gradient &&"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "gradient(cycfi::artist::canvas::gradient &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "gradient"
+            ],
+            "qualified_name": "cycfi::artist::canvas::gradient::gradient(cycfi::artist::canvas::gradient &&)",
+            "return_type": "void",
+            "short_name": "gradient",
+            "signature": "gradient(cycfi::artist::canvas::gradient &&)",
+            "signature_with_names": "gradient(cycfi::artist::canvas::gradient &&)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [],
+            "constexpr": true,
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "gradient()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "gradient"
+            ],
+            "qualified_name": "cycfi::artist::canvas::gradient::gradient()",
+            "return_type": "void",
+            "short_name": "gradient",
+            "signature": "gradient()",
+            "signature_with_names": "gradient()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "cycfi::artist::canvas::gradient &&"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::canvas::gradient & operator=(cycfi::artist::canvas::gradient &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "gradient"
+            ],
+            "qualified_name": "cycfi::artist::canvas::gradient & cycfi::artist::canvas::gradient::operator=(cycfi::artist::canvas::gradient &&)",
+            "return_type": "cycfi::artist::canvas::gradient &",
+            "short_name": "operator=",
+            "signature": "cycfi::artist::canvas::gradient & operator=(cycfi::artist::canvas::gradient &&)",
+            "signature_with_names": "cycfi::artist::canvas::gradient & operator=(cycfi::artist::canvas::gradient &&)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::canvas::gradient &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::canvas::gradient & operator=(const cycfi::artist::canvas::gradient &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "gradient"
+            ],
+            "qualified_name": "cycfi::artist::canvas::gradient & cycfi::artist::canvas::gradient::operator=(const cycfi::artist::canvas::gradient &)",
+            "return_type": "cycfi::artist::canvas::gradient &",
+            "short_name": "operator=",
+            "signature": "cycfi::artist::canvas::gradient & operator=(const cycfi::artist::canvas::gradient &)",
+            "signature_with_names": "cycfi::artist::canvas::gradient & operator=(const cycfi::artist::canvas::gradient &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "~gradient": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_dtor": true,
+            "name": "~gradient()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "gradient"
+            ],
+            "qualified_name": "cycfi::artist::canvas::gradient::~gradient()",
+            "return_type": "void",
+            "short_name": "~gradient",
+            "signature": "~gradient()",
+            "signature_with_names": "~gradient()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "gradient",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [
+        "canvas"
+      ],
+      "qualified_name": "cycfi::artist::canvas::gradient"
+    },
+    {
+      "access": "public",
+      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "deprecated": false,
+      "dtor": "unspecified",
+      "fields": {
+        "cycfi::artist::canvas::linear_gradient::end": {
+          "access": "public",
+          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "deprecated": false,
+          "name": "end",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "canvas",
+            "linear_gradient"
+          ],
+          "qualified_name": "cycfi::artist::canvas::linear_gradient::end",
+          "type": "cycfi::artist::point"
+        },
+        "cycfi::artist::canvas::linear_gradient::start": {
+          "access": "public",
+          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "deprecated": false,
+          "name": "start",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "canvas",
+            "linear_gradient"
+          ],
+          "qualified_name": "cycfi::artist::canvas::linear_gradient::start",
+          "type": "cycfi::artist::point"
+        }
+      },
+      "kind": "struct",
+      "methods": {
+        "linear_gradient": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "startx",
+                "type": "float"
+              },
+              {
+                "name": "starty",
+                "type": "float"
+              },
+              {
+                "name": "endx",
+                "type": "float"
+              },
+              {
+                "name": "endy",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "linear_gradient(float, float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "linear_gradient"
+            ],
+            "qualified_name": "cycfi::artist::canvas::linear_gradient::linear_gradient(float, float, float, float)",
+            "return_type": "void",
+            "short_name": "linear_gradient",
+            "signature": "linear_gradient(float, float, float, float)",
+            "signature_with_names": "linear_gradient(float startx, float starty, float endx, float endy)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "start",
+                "type": "cycfi::artist::point"
+              },
+              {
+                "name": "end",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "linear_gradient(cycfi::artist::point, cycfi::artist::point)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "linear_gradient"
+            ],
+            "qualified_name": "cycfi::artist::canvas::linear_gradient::linear_gradient(cycfi::artist::point, cycfi::artist::point)",
+            "return_type": "void",
+            "short_name": "linear_gradient",
+            "signature": "linear_gradient(cycfi::artist::point, cycfi::artist::point)",
+            "signature_with_names": "linear_gradient(cycfi::artist::point start, cycfi::artist::point end)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::canvas::linear_gradient &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "linear_gradient(const cycfi::artist::canvas::linear_gradient &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "linear_gradient"
+            ],
+            "qualified_name": "cycfi::artist::canvas::linear_gradient::linear_gradient(const cycfi::artist::canvas::linear_gradient &)",
+            "return_type": "void",
+            "short_name": "linear_gradient",
+            "signature": "linear_gradient(const cycfi::artist::canvas::linear_gradient &)",
+            "signature_with_names": "linear_gradient(const cycfi::artist::canvas::linear_gradient &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "cycfi::artist::canvas::linear_gradient &&"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "linear_gradient(cycfi::artist::canvas::linear_gradient &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "linear_gradient"
+            ],
+            "qualified_name": "cycfi::artist::canvas::linear_gradient::linear_gradient(cycfi::artist::canvas::linear_gradient &&)",
+            "return_type": "void",
+            "short_name": "linear_gradient",
+            "signature": "linear_gradient(cycfi::artist::canvas::linear_gradient &&)",
+            "signature_with_names": "linear_gradient(cycfi::artist::canvas::linear_gradient &&)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "cycfi::artist::canvas::linear_gradient &&"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::canvas::linear_gradient & operator=(cycfi::artist::canvas::linear_gradient &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "linear_gradient"
+            ],
+            "qualified_name": "cycfi::artist::canvas::linear_gradient & cycfi::artist::canvas::linear_gradient::operator=(cycfi::artist::canvas::linear_gradient &&)",
+            "return_type": "cycfi::artist::canvas::linear_gradient &",
+            "short_name": "operator=",
+            "signature": "cycfi::artist::canvas::linear_gradient & operator=(cycfi::artist::canvas::linear_gradient &&)",
+            "signature_with_names": "cycfi::artist::canvas::linear_gradient & operator=(cycfi::artist::canvas::linear_gradient &&)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "linear_gradient",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [
+        "canvas"
+      ],
+      "qualified_name": "cycfi::artist::canvas::linear_gradient"
+    },
+    {
+      "access": "public",
+      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "deprecated": false,
+      "dtor": "unspecified",
+      "fields": {
+        "cycfi::artist::canvas::radial_gradient::c1": {
+          "access": "public",
+          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "deprecated": false,
+          "name": "c1",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "canvas",
+            "radial_gradient"
+          ],
+          "qualified_name": "cycfi::artist::canvas::radial_gradient::c1",
+          "type": "cycfi::artist::point"
+        },
+        "cycfi::artist::canvas::radial_gradient::c1_radius": {
+          "access": "public",
+          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "deprecated": false,
+          "name": "c1_radius",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "canvas",
+            "radial_gradient"
+          ],
+          "qualified_name": "cycfi::artist::canvas::radial_gradient::c1_radius",
+          "type": "float"
+        },
+        "cycfi::artist::canvas::radial_gradient::c2": {
+          "access": "public",
+          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "deprecated": false,
+          "name": "c2",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "canvas",
+            "radial_gradient"
+          ],
+          "qualified_name": "cycfi::artist::canvas::radial_gradient::c2",
+          "type": "cycfi::artist::point"
+        },
+        "cycfi::artist::canvas::radial_gradient::c2_radius": {
+          "access": "public",
+          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "deprecated": false,
+          "name": "c2_radius",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "canvas",
+            "radial_gradient"
+          ],
+          "qualified_name": "cycfi::artist::canvas::radial_gradient::c2_radius",
+          "type": "float"
+        }
+      },
+      "kind": "struct",
+      "methods": {
+        "operator=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "cycfi::artist::canvas::radial_gradient &&"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::canvas::radial_gradient & operator=(cycfi::artist::canvas::radial_gradient &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "radial_gradient"
+            ],
+            "qualified_name": "cycfi::artist::canvas::radial_gradient & cycfi::artist::canvas::radial_gradient::operator=(cycfi::artist::canvas::radial_gradient &&)",
+            "return_type": "cycfi::artist::canvas::radial_gradient &",
+            "short_name": "operator=",
+            "signature": "cycfi::artist::canvas::radial_gradient & operator=(cycfi::artist::canvas::radial_gradient &&)",
+            "signature_with_names": "cycfi::artist::canvas::radial_gradient & operator=(cycfi::artist::canvas::radial_gradient &&)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "radial_gradient": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "c1x",
+                "type": "float"
+              },
+              {
+                "name": "c1y",
+                "type": "float"
+              },
+              {
+                "name": "c1r",
+                "type": "float"
+              },
+              {
+                "name": "c2x",
+                "type": "float"
+              },
+              {
+                "name": "c2y",
+                "type": "float"
+              },
+              {
+                "name": "c2r",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "radial_gradient(float, float, float, float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "radial_gradient"
+            ],
+            "qualified_name": "cycfi::artist::canvas::radial_gradient::radial_gradient(float, float, float, float, float, float)",
+            "return_type": "void",
+            "short_name": "radial_gradient",
+            "signature": "radial_gradient(float, float, float, float, float, float)",
+            "signature_with_names": "radial_gradient(float c1x, float c1y, float c1r, float c2x, float c2y, float c2r)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "c1",
+                "type": "cycfi::artist::point"
+              },
+              {
+                "name": "c1r",
+                "type": "float"
+              },
+              {
+                "name": "c2",
+                "type": "cycfi::artist::point"
+              },
+              {
+                "name": "c2r",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "radial_gradient(cycfi::artist::point, float, cycfi::artist::point, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "radial_gradient"
+            ],
+            "qualified_name": "cycfi::artist::canvas::radial_gradient::radial_gradient(cycfi::artist::point, float, cycfi::artist::point, float)",
+            "return_type": "void",
+            "short_name": "radial_gradient",
+            "signature": "radial_gradient(cycfi::artist::point, float, cycfi::artist::point, float)",
+            "signature_with_names": "radial_gradient(cycfi::artist::point c1, float c1r, cycfi::artist::point c2, float c2r)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::canvas::radial_gradient &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "radial_gradient(const cycfi::artist::canvas::radial_gradient &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "radial_gradient"
+            ],
+            "qualified_name": "cycfi::artist::canvas::radial_gradient::radial_gradient(const cycfi::artist::canvas::radial_gradient &)",
+            "return_type": "void",
+            "short_name": "radial_gradient",
+            "signature": "radial_gradient(const cycfi::artist::canvas::radial_gradient &)",
+            "signature_with_names": "radial_gradient(const cycfi::artist::canvas::radial_gradient &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "cycfi::artist::canvas::radial_gradient &&"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "radial_gradient(cycfi::artist::canvas::radial_gradient &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "radial_gradient"
+            ],
+            "qualified_name": "cycfi::artist::canvas::radial_gradient::radial_gradient(cycfi::artist::canvas::radial_gradient &&)",
+            "return_type": "void",
+            "short_name": "radial_gradient",
+            "signature": "radial_gradient(cycfi::artist::canvas::radial_gradient &&)",
+            "signature_with_names": "radial_gradient(cycfi::artist::canvas::radial_gradient &&)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "radial_gradient",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [
+        "canvas"
+      ],
+      "qualified_name": "cycfi::artist::canvas::radial_gradient"
+    },
+    {
+      "access": "public",
+      "ctor": "unspecified",
+      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "deprecated": false,
+      "dtor": "unspecified",
+      "fields": {
+        "cycfi::artist::canvas::text_metrics::ascent": {
+          "access": "public",
+          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "deprecated": false,
+          "name": "ascent",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "canvas",
+            "text_metrics"
+          ],
+          "qualified_name": "cycfi::artist::canvas::text_metrics::ascent",
+          "type": "float"
+        },
+        "cycfi::artist::canvas::text_metrics::descent": {
+          "access": "public",
+          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "deprecated": false,
+          "name": "descent",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "canvas",
+            "text_metrics"
+          ],
+          "qualified_name": "cycfi::artist::canvas::text_metrics::descent",
+          "type": "float"
+        },
+        "cycfi::artist::canvas::text_metrics::leading": {
+          "access": "public",
+          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "deprecated": false,
+          "name": "leading",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "canvas",
+            "text_metrics"
+          ],
+          "qualified_name": "cycfi::artist::canvas::text_metrics::leading",
+          "type": "float"
+        },
+        "cycfi::artist::canvas::text_metrics::size": {
+          "access": "public",
+          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "deprecated": false,
+          "name": "size",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "canvas",
+            "text_metrics"
+          ],
+          "qualified_name": "cycfi::artist::canvas::text_metrics::size",
+          "type": "cycfi::artist::point"
+        }
+      },
+      "kind": "struct",
+      "methods": {
+        "operator=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "cycfi::artist::canvas::text_metrics &&"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::canvas::text_metrics & operator=(cycfi::artist::canvas::text_metrics &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "text_metrics"
+            ],
+            "qualified_name": "constexpr cycfi::artist::canvas::text_metrics & cycfi::artist::canvas::text_metrics::operator=(cycfi::artist::canvas::text_metrics &&)",
+            "return_type": "cycfi::artist::canvas::text_metrics &",
+            "short_name": "operator=",
+            "signature": "constexpr cycfi::artist::canvas::text_metrics & operator=(cycfi::artist::canvas::text_metrics &&)",
+            "signature_with_names": "constexpr cycfi::artist::canvas::text_metrics & operator=(cycfi::artist::canvas::text_metrics &&)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "text_metrics": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::canvas::text_metrics &"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "text_metrics(const cycfi::artist::canvas::text_metrics &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "text_metrics"
+            ],
+            "qualified_name": "cycfi::artist::canvas::text_metrics::text_metrics(const cycfi::artist::canvas::text_metrics &)",
+            "return_type": "void",
+            "short_name": "text_metrics",
+            "signature": "text_metrics(const cycfi::artist::canvas::text_metrics &)",
+            "signature_with_names": "text_metrics(const cycfi::artist::canvas::text_metrics &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "cycfi::artist::canvas::text_metrics &&"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "text_metrics(cycfi::artist::canvas::text_metrics &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "text_metrics"
+            ],
+            "qualified_name": "cycfi::artist::canvas::text_metrics::text_metrics(cycfi::artist::canvas::text_metrics &&)",
+            "return_type": "void",
+            "short_name": "text_metrics",
+            "signature": "text_metrics(cycfi::artist::canvas::text_metrics &&)",
+            "signature_with_names": "text_metrics(cycfi::artist::canvas::text_metrics &&)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "text_metrics",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [
+        "canvas"
+      ],
+      "qualified_name": "cycfi::artist::canvas::text_metrics"
+    },
+    {
+      "access": "public",
+      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "deprecated": false,
+      "kind": "class",
+      "methods": {
+        "operator=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::canvas::state &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "delete": true,
+            "deprecated": false,
+            "name": "cycfi::artist::canvas::state & operator=(const cycfi::artist::canvas::state &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "state"
+            ],
+            "qualified_name": "cycfi::artist::canvas::state & cycfi::artist::canvas::state::operator=(const cycfi::artist::canvas::state &)",
+            "return_type": "cycfi::artist::canvas::state &",
+            "short_name": "operator=",
+            "signature": "cycfi::artist::canvas::state & operator=(const cycfi::artist::canvas::state &)",
+            "signature_with_names": "cycfi::artist::canvas::state & operator=(const cycfi::artist::canvas::state &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rhs",
+                "type": "cycfi::artist::canvas::state &&"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::canvas::state & operator=(cycfi::artist::canvas::state &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "state"
+            ],
+            "qualified_name": "cycfi::artist::canvas::state & cycfi::artist::canvas::state::operator=(cycfi::artist::canvas::state &&)",
+            "return_type": "cycfi::artist::canvas::state &",
+            "short_name": "operator=",
+            "signature": "cycfi::artist::canvas::state & operator=(cycfi::artist::canvas::state &&)",
+            "signature_with_names": "cycfi::artist::canvas::state & operator=(cycfi::artist::canvas::state && rhs)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "state": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "cnv_",
+                "type": "cycfi::artist::canvas &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "state(cycfi::artist::canvas &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "state"
+            ],
+            "qualified_name": "cycfi::artist::canvas::state::state(cycfi::artist::canvas &)",
+            "return_type": "void",
+            "short_name": "state",
+            "signature": "state(cycfi::artist::canvas &)",
+            "signature_with_names": "state(cycfi::artist::canvas & cnv_)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rhs",
+                "type": "cycfi::artist::canvas::state &&"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "state(cycfi::artist::canvas::state &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "state"
+            ],
+            "qualified_name": "cycfi::artist::canvas::state::state(cycfi::artist::canvas::state &&)",
+            "return_type": "void",
+            "short_name": "state",
+            "signature": "state(cycfi::artist::canvas::state &&)",
+            "signature_with_names": "state(cycfi::artist::canvas::state && rhs)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::canvas::state &"
+              }
+            ],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "delete": true,
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "state(const cycfi::artist::canvas::state &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "state"
+            ],
+            "qualified_name": "cycfi::artist::canvas::state::state(const cycfi::artist::canvas::state &)",
+            "return_type": "void",
+            "short_name": "state",
+            "signature": "state(const cycfi::artist::canvas::state &)",
+            "signature_with_names": "state(const cycfi::artist::canvas::state &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "~state": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "deprecated": false,
+            "is_dtor": true,
+            "name": "~state()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "canvas",
+              "state"
+            ],
+            "qualified_name": "cycfi::artist::canvas::state::~state()",
+            "return_type": "void",
+            "short_name": "~state",
+            "signature": "~state()",
+            "signature_with_names": "~state()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "state",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [
+        "canvas"
+      ],
+      "qualified_name": "cycfi::artist::canvas::state"
+    }
+  ],
+  "enums": [
+    {
+      "access": "public",
+      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "deprecated": false,
+      "name": "line_cap_enum",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [
+        "canvas"
+      ],
+      "qualified_name": "cycfi::artist::canvas::line_cap_enum",
+      "type": "unsigned int",
+      "values": [
+        {
+          "name": "butt"
+        },
+        {
+          "name": "round"
+        },
+        {
+          "name": "square"
+        }
+      ]
+    },
+    {
+      "access": "public",
+      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "deprecated": false,
+      "name": "join_enum",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [
+        "canvas"
+      ],
+      "qualified_name": "cycfi::artist::canvas::join_enum",
+      "type": "unsigned int",
+      "values": [
+        {
+          "name": "bevel_join"
+        },
+        {
+          "name": "round_join"
+        },
+        {
+          "name": "miter_join"
+        }
+      ]
+    },
+    {
+      "access": "public",
+      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "deprecated": false,
+      "name": "composite_op_enum",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [
+        "canvas"
+      ],
+      "qualified_name": "cycfi::artist::canvas::composite_op_enum",
+      "type": "unsigned int",
+      "values": [
+        {
+          "name": "source_over"
+        },
+        {
+          "name": "source_atop"
+        },
+        {
+          "name": "source_in"
+        },
+        {
+          "name": "source_out"
+        },
+        {
+          "name": "destination_over"
+        },
+        {
+          "name": "destination_atop"
+        },
+        {
+          "name": "destination_in"
+        },
+        {
+          "name": "destination_out"
+        },
+        {
+          "name": "lighter"
+        },
+        {
+          "name": "darker"
+        },
+        {
+          "name": "copy"
+        },
+        {
+          "name": "xor_"
+        },
+        {
+          "name": "difference"
+        },
+        {
+          "name": "exclusion"
+        },
+        {
+          "name": "multiply"
+        },
+        {
+          "name": "screen"
+        },
+        {
+          "name": "color_dodge"
+        },
+        {
+          "name": "color_burn"
+        },
+        {
+          "name": "soft_light"
+        },
+        {
+          "name": "hard_light"
+        },
+        {
+          "name": "hue"
+        },
+        {
+          "name": "saturation"
+        },
+        {
+          "name": "color_op"
+        },
+        {
+          "name": "luminosity"
+        }
+      ]
+    },
+    {
+      "access": "public",
+      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "deprecated": false,
+      "name": "text_halign",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [
+        "canvas"
+      ],
+      "qualified_name": "cycfi::artist::canvas::text_halign",
+      "type": "unsigned int",
+      "values": [
+        {
+          "name": "left"
+        },
+        {
+          "name": "center"
+        },
+        {
+          "name": "right"
+        }
+      ]
+    },
+    {
+      "access": "public",
+      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "deprecated": false,
+      "name": "text_valign",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [
+        "canvas"
+      ],
+      "qualified_name": "cycfi::artist::canvas::text_valign",
+      "type": "unsigned int",
+      "values": [
+        {
+          "name": "baseline"
+        },
+        {
+          "name": "top"
+        },
+        {
+          "name": "middle"
+        },
+        {
+          "name": "bottom"
+        }
+      ]
+    }
+  ],
+  "functions": {},
+  "namespaces": [
+    {
+      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "deprecated": false,
+      "name": "cycfi",
+      "namespaces": [],
+      "parents": [],
+      "qualified_name": "cycfi"
+    },
+    {
+      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "deprecated": false,
+      "name": "artist",
+      "namespaces": [
+        "cycfi"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist"
+    }
+  ],
+  "paths": {
+    "src_path": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+    "src_root": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include"
+  },
+  "typealiases": [
+    {
+      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "deprecated": false,
+      "name": "canvas_impl",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::canvas_impl",
+      "type": "SkCanvas"
+    }
+  ],
+  "typedefs": []
+}

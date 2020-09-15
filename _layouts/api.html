@@ -1,0 +1,92 @@
+---
+layout: "default"
+---
+<link href="{{ '/assets/css/api.min.css' | relative_url }}" rel="stylesheet">
+
+{%-assign cls_name  = page.title-%}
+{%-assign yaml_data = site.data.api[cls_name]-%}
+{%-assign json_data = "hyde-" | append: cls_name-%}
+{%-assign json_data = site.data.api[json_data]-%}
+{%-assign src_path  = json_data.paths.src_path-%}
+{%-assign src_root  = json_data.paths.src_root-%}
+{%-assign inc_path  = src_path | replace: src_root, '' | replace_first: '/', ''-%}
+{%-assign cls_json  = json_data.classes | where: "name", cls_name | first-%}
+{%-assign cls_yaml  = yaml_data.classes | where: "name", cls_name | first-%}
+
+<h1>{{ cls_name }}</h1>
+
+<hr/><code>#include &lt;{{ inc_path }}&gt;</code>
+<hr/><p>{{ cls_yaml.description | markdownify }}</p>
+{{ content }}
+{%-assign declaration=cls_json.kind | append: ' ' | append: cls_json.qualified_name | append: ';'-%}
+{% highlight c++ %}{{ declaration }}{% endhighlight %}
+
+{%-assign enums_json = json_data.enums-%}
+{%-assign enums_yaml = yaml_data.enums-%}
+{%-if enums_json.size-%}
+<h2>Enumerations</h2>
+  <table class="associated-table">
+    <tbody>
+      {%-for enum_json in enums_json-%}
+      <tr>
+        <td class="name">
+          <a href="{{ enum_json.name }}">{{ enum_json.name }}</a>
+        </td>
+        <td class="brief">
+          {%-assign enum_yaml = enums_yaml | where: "name", enum_json.name | first-%}
+          {{ enum_yaml.description | markdownify }}
+        </td>
+      </tr>
+      {%-endfor-%}
+    </tbody>
+  </table>
+{%-endif-%}
+
+{%-assign types_json = json_data.typealiases-%}
+{%-assign types_yaml = yaml_data.types-%}
+{%-if types_json.size-%}
+<h2>Types</h2>
+  <table class="definition-table">
+    <tbody>
+      <tr class="headers">
+        <th>Type</th>
+        <th>Definition</th>
+        <th>Notes</th>
+      </tr>
+      {%-for type_json in types_json-%}
+      <tr>
+        <td class="type">
+          {%-highlight-c++ %}{{ type_json.name }}{% endhighlight %}
+        </td>
+        <td class="decl">{{ type_json.type }}</td>
+        <td class="defn">
+          {%-assign type_yaml = types_yaml | where: "name", type_json.name | first-%}
+          {{ type_yaml.description | markdownify }}
+        </td>
+      </tr>
+      {%-endfor-%}
+    </tbody>
+  </table>
+{%-endif-%}
+
+{%-assign methods_json = cls_json.methods-%}
+{%-assign methods_yaml = cls_yaml.methods-%}
+{%-if methods_json.size-%}
+<h2>Member Functions</h2>
+  <table class="associated-table">
+    <tbody>
+      {%-for method_yaml in methods_yaml-%}
+        {%-assign method_item = method_yaml | first-%}
+      <tr>
+        <td class="name">
+          <a href="{{ method_item[0] }}">{{ method_item[0] }}</a>
+        </td>
+        <td class="brief">
+          {{ method_yaml.description | markdownify }}
+        </td>
+      </tr>
+      {%-endfor-%}
+    </tbody>
+  </table>
+{%-endif-%}
+

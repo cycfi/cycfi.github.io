@@ -1,0 +1,86 @@
+$body-bg: white;
+@import "variables";
+$table-separator-color: $header-border-color;
+/**
+  Definition tables are indented on the left, and have horizontal lines between
+  every row.
+*/
+.definition-table {
+    margin-left: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 2;
+    border-bottom: 1px solid $table-separator-color;
+    border-top: 1px solid $table-separator-color;
+    width: 100%;
+
+    > tbody {
+        > tr {
+            border-top: 1px solid $table-separator-color;
+
+            > th {
+                text-align: left;
+            }
+            > td {
+                > p {
+                    margin: 0;
+                    display: inline;
+                }
+                padding-right: 1.5em;
+                vertical-align: top;
+            }
+            > td.type {
+                font-family: $code-font-family;
+                white-space: nowrap;
+                vertical-align: top;
+            }
+            > td.field {
+                font-family: $code-font-family;
+                white-space: nowrap;
+                vertical-align: top;
+            }
+            > td.decl {
+                text-indent: -3em;
+                padding-left: 3em;
+                font-family: $code-font-family;
+                vertical-align: top;
+            }
+            > td.defn {
+                padding-right: 0;
+            }
+        }
+    }
+}
+/*
+  Associated tables are those that enumerate library subcomponents and
+  associated elements.
+ */
+ .associated-table {
+    margin-left: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 2;
+    border-bottom: 1px solid $table-separator-color;
+    border-top: 1px solid $table-separator-color;
+    width: 100%;
+
+    > tbody {
+        > tr {
+            border-top: 1px solid $table-separator-color;
+
+            > th {
+                text-align: left;
+            }
+            > td {
+                > p {
+                    margin: 0;
+                    display: inline;
+                }
+            }
+            > td.name {
+                text-indent: -3em;
+                padding-left: 3em;
+                font-family: $code-font-family;
+                // white-space: nowrap;
+                vertical-align: top;
+                padding-right: 1.5em;
+            }
+        }
+    }
+}

@@ -1,0 +1,1068 @@
+classes:
+- name: canvas
+  description: __MISSING__
+  methods:
+  - add_circle:
+    - name: void add_circle(const cycfi::artist::circle &)
+      description: __MISSING__
+      arguments:
+      - name: c
+        description: __MISSING__
+    - name: void add_circle(float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: cx
+        description: __MISSING__
+      - name: cy
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    description: __MISSING__
+  - add_path:
+    - name: void add_path(const cycfi::artist::path &)
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    description: __MISSING__
+  - add_rect:
+    - name: void add_rect(const cycfi::artist::rect &)
+      description: __MISSING__
+      arguments:
+      - name: r
+        description: __MISSING__
+    - name: void add_rect(float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+      - name: width
+        description: __MISSING__
+      - name: height
+        description: __MISSING__
+    description: __MISSING__
+  - add_round_rect:
+    - name: void add_round_rect(const cycfi::artist::rect &, float)
+      description: __MISSING__
+      arguments:
+      - name: r
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    - name: void add_round_rect(float, float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+      - name: width
+        description: __MISSING__
+      - name: height
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    description: __MISSING__
+  - arc:
+    - name: void arc(cycfi::artist::point, float, float, float, bool)
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+      - name: start_angle
+        description: __MISSING__
+      - name: end_angle
+        description: __MISSING__
+      - name: ccw
+        description: __MISSING__
+    - name: void arc(float, float, float, float, float, bool)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+      - name: start_angle
+        description: __MISSING__
+      - name: end_angle
+        description: __MISSING__
+      - name: ccw
+        description: __MISSING__
+    description: __MISSING__
+  - arc_to:
+    - name: void arc_to(cycfi::artist::point, cycfi::artist::point, float)
+      description: __MISSING__
+      arguments:
+      - name: p1
+        description: __MISSING__
+      - name: p2
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    - name: void arc_to(float, float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: x1
+        description: __MISSING__
+      - name: y1
+        description: __MISSING__
+      - name: x2
+        description: __MISSING__
+      - name: y2
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    description: __MISSING__
+  - begin_path:
+    - name: void begin_path()
+      description: __MISSING__
+    description: __MISSING__
+  - bezier_curve_to:
+    - name: void bezier_curve_to(cycfi::artist::point, cycfi::artist::point, cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: cp1
+        description: __MISSING__
+      - name: cp2
+        description: __MISSING__
+      - name: end
+        description: __MISSING__
+    - name: void bezier_curve_to(float, float, float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: cp1x
+        description: __MISSING__
+      - name: cp1y
+        description: __MISSING__
+      - name: cp2x
+        description: __MISSING__
+      - name: cp2y
+        description: __MISSING__
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - canvas:
+    - name: explicit canvas(cycfi::artist::canvas_impl *)
+      description: __MISSING__
+      arguments:
+      - name: context_
+        description: __MISSING__
+    - name: canvas(const cycfi::artist::canvas &)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    - name: canvas(cycfi::artist::canvas &&)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    description: __MISSING__
+  - clear_rect:
+    - name: void clear_rect(const cycfi::artist::rect &)
+      description: __MISSING__
+      arguments:
+      - name: r
+        description: __MISSING__
+    - name: void clear_rect(float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+      - name: width
+        description: __MISSING__
+      - name: height
+        description: __MISSING__
+    description: __MISSING__
+  - clip:
+    - name: void clip()
+      description: __MISSING__
+    - name: void clip(const cycfi::artist::path &)
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    description: __MISSING__
+  - close_path:
+    - name: void close_path()
+      description: __MISSING__
+    description: __MISSING__
+  - composite_op:
+    - name: void composite_op(cycfi::artist::canvas::composite_op_enum)
+      description: __MISSING__
+      arguments:
+      - name: mode
+        description: __MISSING__
+    description: __MISSING__
+  - device_to_user:
+    - name: cycfi::artist::point device_to_user(cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    - name: cycfi::artist::point device_to_user(float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - draw:
+    - name: void draw(const cycfi::artist::image &, const cycfi::artist::rect &, const
+        cycfi::artist::rect &)
+      description: __MISSING__
+      arguments:
+      - name: pic
+        description: __MISSING__
+      - name: src
+        description: __MISSING__
+      - name: dest
+        description: __MISSING__
+    - name: void draw(const cycfi::artist::image &, const cycfi::artist::rect &)
+      description: __MISSING__
+      arguments:
+      - name: pic
+        description: __MISSING__
+      - name: dest
+        description: __MISSING__
+    - name: void draw(const cycfi::artist::image &, cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: pic
+        description: __MISSING__
+      - name: pos
+        description: __MISSING__
+    - name: void draw(const cycfi::artist::image &, cycfi::artist::point, float)
+      description: __MISSING__
+      arguments:
+      - name: pic
+        description: __MISSING__
+      - name: pos
+        description: __MISSING__
+      - name: scale
+        description: __MISSING__
+    - name: void draw(const cycfi::artist::image &, float, float)
+      description: __MISSING__
+      arguments:
+      - name: pic
+        description: __MISSING__
+      - name: posx
+        description: __MISSING__
+      - name: posy
+        description: __MISSING__
+    - name: void draw(const cycfi::artist::image &, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: pic
+        description: __MISSING__
+      - name: posx
+        description: __MISSING__
+      - name: posy
+        description: __MISSING__
+      - name: scale
+        description: __MISSING__
+    description: __MISSING__
+  - fill:
+    - name: void fill()
+      description: __MISSING__
+    description: __MISSING__
+  - fill_color:
+    - name: void fill_color(cycfi::artist::color)
+      description: __MISSING__
+      arguments:
+      - name: c
+        description: __MISSING__
+    description: __MISSING__
+  - fill_extent:
+    - name: cycfi::artist::rect fill_extent() const
+      description: __MISSING__
+    description: __MISSING__
+  - fill_preserve:
+    - name: void fill_preserve()
+      description: __MISSING__
+    description: __MISSING__
+  - fill_rect:
+    - name: void fill_rect(const cycfi::artist::rect &)
+      description: __MISSING__
+      arguments:
+      - name: r
+        description: __MISSING__
+    - name: void fill_rect(float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+      - name: width
+        description: __MISSING__
+      - name: height
+        description: __MISSING__
+    description: __MISSING__
+  - fill_round_rect:
+    - name: void fill_round_rect(const cycfi::artist::rect &, float)
+      description: __MISSING__
+      arguments:
+      - name: r
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    - name: void fill_round_rect(float, float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+      - name: width
+        description: __MISSING__
+      - name: height
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    description: __MISSING__
+  - fill_rule:
+    - name: void fill_rule(path::fill_rule_enum)
+      description: __MISSING__
+      arguments:
+      - name: rule
+        description: __MISSING__
+    description: __MISSING__
+  - fill_style:
+    - name: void fill_style(cycfi::artist::color)
+      description: __MISSING__
+      arguments:
+      - name: c
+        description: __MISSING__
+    - name: void fill_style(const cycfi::artist::canvas::linear_gradient &)
+      description: __MISSING__
+      arguments:
+      - name: gr
+        description: __MISSING__
+    - name: void fill_style(const cycfi::artist::canvas::radial_gradient &)
+      description: __MISSING__
+      arguments:
+      - name: gr
+        description: __MISSING__
+    description: __MISSING__
+  - fill_text:
+    - name: void fill_text(std::string_view, cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: utf8
+        description: __MISSING__
+      - name: p
+        description: __MISSING__
+    - name: void fill_text(std::string_view, float, float)
+      description: __MISSING__
+      arguments:
+      - name: utf8
+        description: __MISSING__
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - font:
+    - name: void font(const class font &)
+      description: __MISSING__
+      arguments:
+      - name: font_
+        description: __MISSING__
+    description: __MISSING__
+  - global_composite_operation:
+    - name: void global_composite_operation(cycfi::artist::canvas::composite_op_enum)
+      description: __MISSING__
+      arguments:
+      - name: mode
+        description: __MISSING__
+    description: __MISSING__
+  - impl:
+    - name: cycfi::artist::canvas_impl * impl() const
+      description: __MISSING__
+    description: __MISSING__
+  - line_cap:
+    - name: void line_cap(cycfi::artist::canvas::line_cap_enum)
+      description: __MISSING__
+      arguments:
+      - name: cap
+        description: __MISSING__
+    description: __MISSING__
+  - line_join:
+    - name: void line_join(cycfi::artist::canvas::join_enum)
+      description: __MISSING__
+      arguments:
+      - name: join
+        description: __MISSING__
+    description: __MISSING__
+  - line_to:
+    - name: void line_to(cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    - name: void line_to(float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - line_width:
+    - name: void line_width(float)
+      description: __MISSING__
+      arguments:
+      - name: w
+        description: __MISSING__
+    description: __MISSING__
+  - measure_text:
+    - name: cycfi::artist::canvas::text_metrics measure_text(std::string_view)
+      description: __MISSING__
+      arguments:
+      - name: utf8
+        description: __MISSING__
+    description: __MISSING__
+  - miter_limit:
+    - name: void miter_limit(float)
+      description: __MISSING__
+      arguments:
+      - name: limit
+        description: __MISSING__
+    description: __MISSING__
+  - move_to:
+    - name: void move_to(cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    - name: void move_to(float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - new_state:
+    - name: cycfi::artist::canvas::state new_state()
+      description: __MISSING__
+    description: __MISSING__
+  - operator bool:
+    - name: explicit operator bool() const
+      description: __MISSING__
+    description: __MISSING__
+  - operator!:
+    - name: bool operator!() const
+      description: __MISSING__
+    description: __MISSING__
+  - operator=:
+    - name: cycfi::artist::canvas & operator=(const cycfi::artist::canvas &)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    description: __MISSING__
+  - point_in_path:
+    - name: bool point_in_path(cycfi::artist::point) const
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    - name: bool point_in_path(float, float) const
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - pre_scale:
+    - name: void pre_scale(float)
+      description: __MISSING__
+      arguments:
+      - name: sc
+        description: __MISSING__
+    - name: float pre_scale() const
+      description: __MISSING__
+    description: __MISSING__
+  - quadratic_curve_to:
+    - name: void quadratic_curve_to(cycfi::artist::point, cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: cp
+        description: __MISSING__
+      - name: end
+        description: __MISSING__
+    - name: void quadratic_curve_to(float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: cpx
+        description: __MISSING__
+      - name: cpy
+        description: __MISSING__
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - restore:
+    - name: void restore()
+      description: __MISSING__
+    description: __MISSING__
+  - rotate:
+    - name: void rotate(float)
+      description: __MISSING__
+      arguments:
+      - name: rad
+        description: __MISSING__
+    description: __MISSING__
+  - save:
+    - name: void save()
+      description: __MISSING__
+    description: __MISSING__
+  - scale:
+    - name: void scale(cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    - name: void scale(float)
+      description: __MISSING__
+      arguments:
+      - name: xy
+        description: __MISSING__
+    - name: void scale(float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - shadow_style:
+    - name: void shadow_style(cycfi::artist::point, float, cycfi::artist::color)
+      description: __MISSING__
+      arguments:
+      - name: offset
+        description: __MISSING__
+      - name: blur
+        description: __MISSING__
+      - name: c
+        description: __MISSING__
+    - name: void shadow_style(float, float, float, cycfi::artist::color)
+      description: __MISSING__
+      arguments:
+      - name: offsetx
+        description: __MISSING__
+      - name: offsety
+        description: __MISSING__
+      - name: blur
+        description: __MISSING__
+      - name: c
+        description: __MISSING__
+    - name: void shadow_style(float, cycfi::artist::color)
+      description: __MISSING__
+      arguments:
+      - name: blur
+        description: __MISSING__
+      - name: c
+        description: __MISSING__
+    description: __MISSING__
+  - skew:
+    - name: void skew(double, double)
+      description: __MISSING__
+      arguments:
+      - name: sx
+        description: __MISSING__
+      - name: sy
+        description: __MISSING__
+    description: __MISSING__
+  - stroke:
+    - name: void stroke()
+      description: __MISSING__
+    description: __MISSING__
+  - stroke_color:
+    - name: void stroke_color(cycfi::artist::color)
+      description: __MISSING__
+      arguments:
+      - name: c
+        description: __MISSING__
+    description: __MISSING__
+  - stroke_preserve:
+    - name: void stroke_preserve()
+      description: __MISSING__
+    description: __MISSING__
+  - stroke_rect:
+    - name: void stroke_rect(const cycfi::artist::rect &)
+      description: __MISSING__
+      arguments:
+      - name: r
+        description: __MISSING__
+    - name: void stroke_rect(float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+      - name: width
+        description: __MISSING__
+      - name: height
+        description: __MISSING__
+    description: __MISSING__
+  - stroke_round_rect:
+    - name: void stroke_round_rect(const cycfi::artist::rect &, float)
+      description: __MISSING__
+      arguments:
+      - name: r
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    - name: void stroke_round_rect(float, float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+      - name: width
+        description: __MISSING__
+      - name: height
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    description: __MISSING__
+  - stroke_style:
+    - name: void stroke_style(cycfi::artist::color)
+      description: __MISSING__
+      arguments:
+      - name: c
+        description: __MISSING__
+    - name: void stroke_style(const cycfi::artist::canvas::linear_gradient &)
+      description: __MISSING__
+      arguments:
+      - name: gr
+        description: __MISSING__
+    - name: void stroke_style(const cycfi::artist::canvas::radial_gradient &)
+      description: __MISSING__
+      arguments:
+      - name: gr
+        description: __MISSING__
+    description: __MISSING__
+  - stroke_text:
+    - name: void stroke_text(std::string_view, cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: utf8
+        description: __MISSING__
+      - name: p
+        description: __MISSING__
+    - name: void stroke_text(std::string_view, float, float)
+      description: __MISSING__
+      arguments:
+      - name: utf8
+        description: __MISSING__
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - text_align:
+    - name: void text_align(int)
+      description: __MISSING__
+      arguments:
+      - name: align
+        description: __MISSING__
+    - name: void text_align(cycfi::artist::canvas::text_halign)
+      description: __MISSING__
+      arguments:
+      - name: align
+        description: __MISSING__
+    description: __MISSING__
+  - text_baseline:
+    - name: void text_baseline(cycfi::artist::canvas::text_valign)
+      description: __MISSING__
+      arguments:
+      - name: align
+        description: __MISSING__
+    description: __MISSING__
+  - transform:
+    - name: cycfi::artist::affine_transform transform() const
+      description: __MISSING__
+    - name: void transform(const cycfi::artist::affine_transform &)
+      description: __MISSING__
+      arguments:
+      - name: mat
+        description: __MISSING__
+    - name: void transform(double, double, double, double, double, double)
+      description: __MISSING__
+      arguments:
+      - name: a
+        description: __MISSING__
+      - name: b
+        description: __MISSING__
+      - name: c
+        description: __MISSING__
+      - name: d
+        description: __MISSING__
+      - name: tx
+        description: __MISSING__
+      - name: ty
+        description: __MISSING__
+    description: __MISSING__
+  - translate:
+    - name: void translate(cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    - name: void translate(float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - user_to_device:
+    - name: cycfi::artist::point user_to_device(cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    - name: cycfi::artist::point user_to_device(float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - ~canvas:
+    - name: ~canvas()
+      description: __MISSING__
+    description: __MISSING__
+- name: color_stop
+  description: __MISSING__
+  methods:
+  - color_stop:
+    - name: color_stop()
+      description: __MISSING__
+    - name: color_stop(const cycfi::artist::canvas::color_stop &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    - name: color_stop(cycfi::artist::canvas::color_stop &&)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - ~color_stop:
+    - name: ~color_stop()
+      description: __MISSING__
+    description: __MISSING__
+- name: gradient
+  description: __MISSING__
+  methods:
+  - add_color_stop:
+    - name: void add_color_stop(cycfi::artist::canvas::color_stop)
+      description: __MISSING__
+      arguments:
+      - name: cs
+        description: __MISSING__
+    - name: void add_color_stop(float, struct color)
+      description: __MISSING__
+      arguments:
+      - name: offset
+        description: __MISSING__
+      - name: color_
+        description: __MISSING__
+    description: __MISSING__
+  - gradient:
+    - name: gradient(const cycfi::artist::canvas::gradient &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    - name: gradient(cycfi::artist::canvas::gradient &&)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    - name: gradient()
+      description: __MISSING__
+    description: __MISSING__
+  - operator=:
+    - name: cycfi::artist::canvas::gradient & operator=(cycfi::artist::canvas::gradient
+        &&)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    - name: cycfi::artist::canvas::gradient & operator=(const cycfi::artist::canvas::gradient
+        &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - ~gradient:
+    - name: ~gradient()
+      description: __MISSING__
+    description: __MISSING__
+- name: linear_gradient
+  description: __MISSING__
+  methods:
+  - linear_gradient:
+    - name: linear_gradient(float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: startx
+        description: __MISSING__
+      - name: starty
+        description: __MISSING__
+      - name: endx
+        description: __MISSING__
+      - name: endy
+        description: __MISSING__
+    - name: linear_gradient(cycfi::artist::point, cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: start
+        description: __MISSING__
+      - name: end
+        description: __MISSING__
+    - name: linear_gradient(const cycfi::artist::canvas::linear_gradient &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    - name: linear_gradient(cycfi::artist::canvas::linear_gradient &&)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - operator=:
+    - name: cycfi::artist::canvas::linear_gradient & operator=(cycfi::artist::canvas::linear_gradient
+        &&)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+- name: radial_gradient
+  description: __MISSING__
+  methods:
+  - operator=:
+    - name: cycfi::artist::canvas::radial_gradient & operator=(cycfi::artist::canvas::radial_gradient
+        &&)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - radial_gradient:
+    - name: radial_gradient(float, float, float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: c1x
+        description: __MISSING__
+      - name: c1y
+        description: __MISSING__
+      - name: c1r
+        description: __MISSING__
+      - name: c2x
+        description: __MISSING__
+      - name: c2y
+        description: __MISSING__
+      - name: c2r
+        description: __MISSING__
+    - name: radial_gradient(cycfi::artist::point, float, cycfi::artist::point, float)
+      description: __MISSING__
+      arguments:
+      - name: c1
+        description: __MISSING__
+      - name: c1r
+        description: __MISSING__
+      - name: c2
+        description: __MISSING__
+      - name: c2r
+        description: __MISSING__
+    - name: radial_gradient(const cycfi::artist::canvas::radial_gradient &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    - name: radial_gradient(cycfi::artist::canvas::radial_gradient &&)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+- name: text_metrics
+  description: __MISSING__
+  methods:
+  - operator=:
+    - name: constexpr cycfi::artist::canvas::text_metrics & operator=(cycfi::artist::canvas::text_metrics
+        &&)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - text_metrics:
+    - name: text_metrics(const cycfi::artist::canvas::text_metrics &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    - name: text_metrics(cycfi::artist::canvas::text_metrics &&)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+- name: state
+  description: __MISSING__
+  methods:
+  - operator=:
+    - name: cycfi::artist::canvas::state & operator=(const cycfi::artist::canvas::state
+        &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    - name: cycfi::artist::canvas::state & operator=(cycfi::artist::canvas::state
+        &&)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    description: __MISSING__
+  - state:
+    - name: state(cycfi::artist::canvas &)
+      description: __MISSING__
+      arguments:
+      - name: cnv_
+        description: __MISSING__
+    - name: state(cycfi::artist::canvas::state &&)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    - name: state(const cycfi::artist::canvas::state &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - ~state:
+    - name: ~state()
+      description: __MISSING__
+    description: __MISSING__
+enums:
+- name: line_cap_enum
+  description: __MISSING__
+  values:
+  - name: butt
+    description: __MISSING__
+  - name: round
+    description: __MISSING__
+  - name: square
+    description: __MISSING__
+- name: join_enum
+  description: __MISSING__
+  values:
+  - name: bevel_join
+    description: __MISSING__
+  - name: round_join
+    description: __MISSING__
+  - name: miter_join
+    description: __MISSING__
+- name: composite_op_enum
+  description: __MISSING__
+  values:
+  - name: source_over
+    description: __MISSING__
+  - name: source_atop
+    description: __MISSING__
+  - name: source_in
+    description: __MISSING__
+  - name: source_out
+    description: __MISSING__
+  - name: destination_over
+    description: __MISSING__
+  - name: destination_atop
+    description: __MISSING__
+  - name: destination_in
+    description: __MISSING__
+  - name: destination_out
+    description: __MISSING__
+  - name: lighter
+    description: __MISSING__
+  - name: darker
+    description: __MISSING__
+  - name: copy
+    description: __MISSING__
+  - name: xor_
+    description: __MISSING__
+  - name: difference
+    description: __MISSING__
+  - name: exclusion
+    description: __MISSING__
+  - name: multiply
+    description: __MISSING__
+  - name: screen
+    description: __MISSING__
+  - name: color_dodge
+    description: __MISSING__
+  - name: color_burn
+    description: __MISSING__
+  - name: soft_light
+    description: __MISSING__
+  - name: hard_light
+    description: __MISSING__
+  - name: hue
+    description: __MISSING__
+  - name: saturation
+    description: __MISSING__
+  - name: color_op
+    description: __MISSING__
+  - name: luminosity
+    description: __MISSING__
+- name: text_halign
+  description: __MISSING__
+  values:
+  - name: left
+    description: __MISSING__
+  - name: center
+    description: __MISSING__
+  - name: right
+    description: __MISSING__
+- name: text_valign
+  description: __MISSING__
+  values:
+  - name: baseline
+    description: __MISSING__
+  - name: top
+    description: __MISSING__
+  - name: middle
+    description: __MISSING__
+  - name: bottom
+    description: __MISSING__
+

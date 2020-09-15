@@ -1,0 +1,63 @@
+navigation:
+- label: "Artist"
+  pages:
+  - label: "Home"
+    url: "artist/"
+
+  - label: "API"
+    url: "artist/api/"
+
+  - label: "Backends"
+    url: "artist/backends"
+
+  - label: "Canvas"
+    url: "artist/canvas"
+
+  - label: "Foundation"
+    url: "artist/foundation"
+
+  - label: "Gallery"
+    url: "artist/gallery"
+
+  - label: "Setup"
+    url: "artist/setup"
+
+- label: "Elements"
+  pages:
+  - label: "Home"
+    url: "elements/"
+
+  - label: "About"
+    url: "elements/about"
+
+  - label: "Gallery"
+    url: "elements/gallery"
+
+  - label: "Aspects"
+    url: "elements/aspects"
+
+  - label: "Context"
+    url: "elements/context"
+
+  - label: "Layout"
+    url: "elements/layout"
+
+  - label: "Setup"
+    url: "elements/setup"
+
+- label: "Follow Us"
+  pages:
+  - label: "Discord Chat"
+    url: "https://discord.gg/NJkadSx"
+    icon_type: "discord"
+    icon_category: "fab"
+
+  - label: "GitHub"
+    url: "https://github.com/cycfi/"
+    icon_type: "github"
+    icon_category: "fab"
+
+  - label: "News Atom Feed"
+    url: "/atom.xml"
+    icon_type: "rss"
+    icon_category: "fas"

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+{% include head.html %}
+  </head>
+{% if page.classes %} <body class="{{ page.classes | join: ' ' }}">
+{% else %}  <body>{% endif %}
+    <button onclick="topFunction()" id="scrollButton" title="Go to top">Top</button>
+    <a href="#content" class="sr-only">Skip to content</a>
+    <div class="container">
+{% include header.html %}
+      <div id="content">
+        <article>
+          {{ content }}
+        </article>
+      </div>
+{% include footer.html %}
+    </div>
+{% include scripts.html %}
+  </body>
+</html>
