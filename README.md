@@ -16,7 +16,7 @@ the current directory, using the `-a` parameter if it is also necessary
 to rebuild the style and script assets.
 
 It requires [Ruby] to be installed; [RVM] is the preferred choice for this.
-Other dependecies like [Bundler] and [Yarn] will be installed locally
+Other dependecies like Bundler and Yarn will be installed locally
 respectively in the `.bundle` and `node_modules` directories.
 
 The current Gemfile configuration is set to use the same Jekyll and related
@@ -24,6 +24,7 @@ gem versions as in [GitHub pages].
 
 The website will be available at <http://localhost:4000/>.
 
+[Bootstrap]:    https://getbootstrap.com/
 [Bundler]:      https://bundler.io/
 [Cycfi]:        https://cycfi.github.io/
 [GitHub pages]: https://pages.github.com/versions/
