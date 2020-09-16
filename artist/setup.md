@@ -1,8 +1,6 @@
 ---
-title: Setup
+title: Setup and Installation
 ---
-# Setup and Installation
-
 ## Table of Contents
 * [Requirements](#requirements)
 * [MacOS Installation](#macos)

@@ -45,6 +45,37 @@ navigation:
   - label: "Setup"
     url: "elements/setup"
 
+- label: "Q"
+  pages:
+  - label: "Home"
+    url: "q/"
+
+  - label: "API"
+    url: "q/api/"
+
+  - label: "Design"
+    url: "q/design"
+
+  - label: "Fundamentals"
+    url: "q/fundamentals"
+
+  - label: "Hello Universe"
+    url: "q/hello_universe"
+
+  - label: "Hello World"
+    url: "q/hello_world"
+
+  - label: "Setup"
+    url: "q/setup"
+
+- label: "QPlug"
+  pages:
+  - label: "Home"
+    url: "qplug/"
+
+  - label: "Setup"
+    url: "qplug/setup"
+
 - label: "Follow Us"
   pages:
   - label: "Discord Chat"

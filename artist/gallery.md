@@ -1,12 +1,10 @@
 ---
 title: Gallery
 ---
-
 It’s always a nice to have some pretty pictures.
 Click to zoom into high-resolution (HiDPI) img or play the video clips.
 
-<a href="/assets/img/artist/shapes.png"
-  data-toggle="lightbox" data-gallery="gallery">
+<a href="/assets/img/artist/shapes.png" data-toggle="lightbox" data-gallery="gallery">
   <img src="/assets/img/artist/shapes.jpg" class="img-fluid" style="width:150px">
 </a>
 <a href="/assets/img/artist/tauri.png" data-toggle="lightbox" data-gallery="gallery">
