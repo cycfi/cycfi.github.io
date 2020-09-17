@@ -1,0 +1,107 @@
+{
+  "classes": null,
+  "enums": [],
+  "functions": {
+    "add_search_path": [
+      {
+        "arguments": [
+          {
+            "name": "path",
+            "type": "const fs::path &"
+          },
+          {
+            "name": "search_first",
+            "type": "bool"
+          }
+        ],
+        "defined_in_file": "artist/resources.hpp",
+        "deprecated": false,
+        "name": "void add_search_path(const fs::path &, bool)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "void cycfi::artist::add_search_path(const fs::path &, bool)",
+        "return_type": "void",
+        "short_name": "add_search_path",
+        "signature": "void add_search_path(const fs::path &, bool)",
+        "signature_with_names": "void add_search_path(const fs::path & path, bool search_first)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "find_file": [
+      {
+        "arguments": [
+          {
+            "name": "file",
+            "type": "const fs::path &"
+          }
+        ],
+        "defined_in_file": "artist/resources.hpp",
+        "deprecated": false,
+        "name": "fs::path find_file(const fs::path &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "fs::path cycfi::artist::find_file(const fs::path &)",
+        "return_type": "fs::path",
+        "short_name": "find_file",
+        "signature": "fs::path find_file(const fs::path &)",
+        "signature_with_names": "fs::path find_file(const fs::path & file)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "init_paths": [
+      {
+        "arguments": [],
+        "defined_in_file": "artist/resources.hpp",
+        "deprecated": false,
+        "extern": true,
+        "name": "extern void init_paths()",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "extern void cycfi::artist::init_paths()",
+        "return_type": "void",
+        "short_name": "init_paths",
+        "signature": "extern void init_paths()",
+        "signature_with_names": "extern void init_paths()",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ]
+  },
+  "namespaces": [
+    {
+      "defined_in_file": "artist/resources.hpp",
+      "deprecated": false,
+      "name": "cycfi",
+      "namespaces": [],
+      "parents": [],
+      "qualified_name": "cycfi"
+    },
+    {
+      "defined_in_file": "artist/resources.hpp",
+      "deprecated": false,
+      "name": "artist",
+      "namespaces": [
+        "cycfi"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist"
+    }
+  ],
+  "paths": {
+    "src_path": "artist/resources.hpp",
+    "src_root": ""
+  },
+  "typealiases": [],
+  "typedefs": []
+}

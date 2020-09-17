@@ -1,7 +1,7 @@
 {
   "classes": [
     {
-      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "defined_in_file": "artist/canvas.hpp",
       "deprecated": false,
       "kind": "class",
       "methods": {
@@ -14,7 +14,7 @@
                 "type": "const cycfi::artist::circle &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void add_circle(const cycfi::artist::circle &)",
             "namespaces": [
@@ -48,7 +48,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void add_circle(float, float, float)",
             "namespaces": [
@@ -76,7 +76,7 @@
                 "type": "const cycfi::artist::path &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void add_path(const cycfi::artist::path &)",
             "namespaces": [
@@ -104,7 +104,7 @@
                 "type": "const cycfi::artist::rect &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void add_rect(const cycfi::artist::rect &)",
             "namespaces": [
@@ -142,7 +142,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void add_rect(float, float, float, float)",
             "namespaces": [
@@ -174,7 +174,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void add_round_rect(const cycfi::artist::rect &, float)",
             "namespaces": [
@@ -216,7 +216,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void add_round_rect(float, float, float, float, float)",
             "namespaces": [
@@ -260,7 +260,7 @@
                 "type": "bool"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void arc(cycfi::artist::point, float, float, float, bool)",
             "namespaces": [
@@ -306,7 +306,7 @@
                 "type": "bool"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void arc(float, float, float, float, float, bool)",
             "namespaces": [
@@ -342,7 +342,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void arc_to(cycfi::artist::point, cycfi::artist::point, float)",
             "namespaces": [
@@ -384,7 +384,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void arc_to(float, float, float, float, float)",
             "namespaces": [
@@ -407,7 +407,7 @@
           {
             "access": "public",
             "arguments": [],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void begin_path()",
             "namespaces": [
@@ -443,7 +443,7 @@
                 "type": "cycfi::artist::point"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void bezier_curve_to(cycfi::artist::point, cycfi::artist::point, cycfi::artist::point)",
             "namespaces": [
@@ -489,7 +489,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void bezier_curve_to(float, float, float, float, float, float)",
             "namespaces": [
@@ -517,7 +517,7 @@
                 "type": "cycfi::artist::canvas_impl *"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "explicit": true,
             "is_ctor": true,
@@ -545,7 +545,7 @@
                 "type": "const cycfi::artist::canvas &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "delete": true,
             "deprecated": false,
             "is_ctor": true,
@@ -573,7 +573,7 @@
                 "type": "cycfi::artist::canvas &&"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "delete": true,
             "deprecated": false,
             "is_ctor": true,
@@ -603,7 +603,7 @@
                 "type": "const cycfi::artist::rect &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void clear_rect(const cycfi::artist::rect &)",
             "namespaces": [
@@ -641,7 +641,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void clear_rect(float, float, float, float)",
             "namespaces": [
@@ -664,7 +664,7 @@
           {
             "access": "public",
             "arguments": [],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void clip()",
             "namespaces": [
@@ -690,7 +690,7 @@
                 "type": "const cycfi::artist::path &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void clip(const cycfi::artist::path &)",
             "namespaces": [
@@ -713,7 +713,7 @@
           {
             "access": "public",
             "arguments": [],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void close_path()",
             "namespaces": [
@@ -741,7 +741,7 @@
                 "type": "cycfi::artist::canvas::composite_op_enum"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void composite_op(cycfi::artist::canvas::composite_op_enum)",
             "namespaces": [
@@ -769,7 +769,7 @@
                 "type": "cycfi::artist::point"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "cycfi::artist::point device_to_user(cycfi::artist::point)",
             "namespaces": [
@@ -799,7 +799,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "cycfi::artist::point device_to_user(float, float)",
             "namespaces": [
@@ -835,7 +835,7 @@
                 "type": "const cycfi::artist::rect &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void draw(const cycfi::artist::image &, const cycfi::artist::rect &, const cycfi::artist::rect &)",
             "namespaces": [
@@ -865,7 +865,7 @@
                 "type": "const cycfi::artist::rect &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void draw(const cycfi::artist::image &, const cycfi::artist::rect &)",
             "namespaces": [
@@ -895,7 +895,7 @@
                 "type": "cycfi::artist::point"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void draw(const cycfi::artist::image &, cycfi::artist::point)",
             "namespaces": [
@@ -929,7 +929,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void draw(const cycfi::artist::image &, cycfi::artist::point, float)",
             "namespaces": [
@@ -963,7 +963,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void draw(const cycfi::artist::image &, float, float)",
             "namespaces": [
@@ -1001,7 +1001,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void draw(const cycfi::artist::image &, float, float, float)",
             "namespaces": [
@@ -1024,7 +1024,7 @@
           {
             "access": "public",
             "arguments": [],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void fill()",
             "namespaces": [
@@ -1052,7 +1052,7 @@
                 "type": "cycfi::artist::color"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void fill_color(cycfi::artist::color)",
             "namespaces": [
@@ -1076,7 +1076,7 @@
             "access": "public",
             "arguments": [],
             "const": true,
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "cycfi::artist::rect fill_extent() const",
             "namespaces": [
@@ -1099,7 +1099,7 @@
           {
             "access": "public",
             "arguments": [],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void fill_preserve()",
             "namespaces": [
@@ -1127,7 +1127,7 @@
                 "type": "const cycfi::artist::rect &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void fill_rect(const cycfi::artist::rect &)",
             "namespaces": [
@@ -1165,7 +1165,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void fill_rect(float, float, float, float)",
             "namespaces": [
@@ -1197,7 +1197,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void fill_round_rect(const cycfi::artist::rect &, float)",
             "namespaces": [
@@ -1239,7 +1239,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void fill_round_rect(float, float, float, float, float)",
             "namespaces": [
@@ -1267,7 +1267,7 @@
                 "type": "path::fill_rule_enum"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void fill_rule(path::fill_rule_enum)",
             "namespaces": [
@@ -1295,7 +1295,7 @@
                 "type": "cycfi::artist::color"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void fill_style(cycfi::artist::color)",
             "namespaces": [
@@ -1321,7 +1321,7 @@
                 "type": "const cycfi::artist::canvas::linear_gradient &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void fill_style(const cycfi::artist::canvas::linear_gradient &)",
             "namespaces": [
@@ -1347,7 +1347,7 @@
                 "type": "const cycfi::artist::canvas::radial_gradient &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void fill_style(const cycfi::artist::canvas::radial_gradient &)",
             "namespaces": [
@@ -1379,7 +1379,7 @@
                 "type": "cycfi::artist::point"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void fill_text(std::string_view, cycfi::artist::point)",
             "namespaces": [
@@ -1413,7 +1413,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void fill_text(std::string_view, float, float)",
             "namespaces": [
@@ -1441,7 +1441,7 @@
                 "type": "const class font &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void font(const class font &)",
             "namespaces": [
@@ -1469,7 +1469,7 @@
                 "type": "cycfi::artist::canvas::composite_op_enum"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void global_composite_operation(cycfi::artist::canvas::composite_op_enum)",
             "namespaces": [
@@ -1493,7 +1493,7 @@
             "access": "public",
             "arguments": [],
             "const": true,
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "cycfi::artist::canvas_impl * impl() const",
             "namespaces": [
@@ -1521,7 +1521,7 @@
                 "type": "cycfi::artist::canvas::line_cap_enum"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void line_cap(cycfi::artist::canvas::line_cap_enum)",
             "namespaces": [
@@ -1549,7 +1549,7 @@
                 "type": "cycfi::artist::canvas::join_enum"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void line_join(cycfi::artist::canvas::join_enum)",
             "namespaces": [
@@ -1577,7 +1577,7 @@
                 "type": "cycfi::artist::point"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void line_to(cycfi::artist::point)",
             "namespaces": [
@@ -1607,7 +1607,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void line_to(float, float)",
             "namespaces": [
@@ -1635,7 +1635,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void line_width(float)",
             "namespaces": [
@@ -1663,7 +1663,7 @@
                 "type": "std::string_view"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "cycfi::artist::canvas::text_metrics measure_text(std::string_view)",
             "namespaces": [
@@ -1691,7 +1691,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void miter_limit(float)",
             "namespaces": [
@@ -1719,7 +1719,7 @@
                 "type": "cycfi::artist::point"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void move_to(cycfi::artist::point)",
             "namespaces": [
@@ -1749,7 +1749,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void move_to(float, float)",
             "namespaces": [
@@ -1772,7 +1772,7 @@
           {
             "access": "public",
             "arguments": [],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "cycfi::artist::canvas::state new_state()",
             "namespaces": [
@@ -1796,7 +1796,7 @@
             "access": "public",
             "arguments": [],
             "const": true,
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "explicit": true,
             "name": "explicit operator bool() const",
@@ -1821,7 +1821,7 @@
             "access": "public",
             "arguments": [],
             "const": true,
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "bool operator!() const",
             "namespaces": [
@@ -1849,7 +1849,7 @@
                 "type": "const cycfi::artist::canvas &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "delete": true,
             "deprecated": false,
             "name": "cycfi::artist::canvas & operator=(const cycfi::artist::canvas &)",
@@ -1879,7 +1879,7 @@
               }
             ],
             "const": true,
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "bool point_in_path(cycfi::artist::point) const",
             "namespaces": [
@@ -1910,7 +1910,7 @@
               }
             ],
             "const": true,
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "bool point_in_path(float, float) const",
             "namespaces": [
@@ -1938,7 +1938,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void pre_scale(float)",
             "namespaces": [
@@ -1960,7 +1960,7 @@
             "access": "public",
             "arguments": [],
             "const": true,
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "float pre_scale() const",
             "namespaces": [
@@ -1992,7 +1992,7 @@
                 "type": "cycfi::artist::point"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void quadratic_curve_to(cycfi::artist::point, cycfi::artist::point)",
             "namespaces": [
@@ -2030,7 +2030,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void quadratic_curve_to(float, float, float, float)",
             "namespaces": [
@@ -2053,7 +2053,7 @@
           {
             "access": "public",
             "arguments": [],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void restore()",
             "namespaces": [
@@ -2081,7 +2081,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void rotate(float)",
             "namespaces": [
@@ -2104,7 +2104,7 @@
           {
             "access": "public",
             "arguments": [],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void save()",
             "namespaces": [
@@ -2132,7 +2132,7 @@
                 "type": "cycfi::artist::point"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void scale(cycfi::artist::point)",
             "namespaces": [
@@ -2158,7 +2158,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void scale(float)",
             "namespaces": [
@@ -2188,7 +2188,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void scale(float, float)",
             "namespaces": [
@@ -2224,7 +2224,7 @@
                 "type": "cycfi::artist::color"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void shadow_style(cycfi::artist::point, float, cycfi::artist::color)",
             "namespaces": [
@@ -2262,7 +2262,7 @@
                 "type": "cycfi::artist::color"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void shadow_style(float, float, float, cycfi::artist::color)",
             "namespaces": [
@@ -2292,7 +2292,7 @@
                 "type": "cycfi::artist::color"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void shadow_style(float, cycfi::artist::color)",
             "namespaces": [
@@ -2324,7 +2324,7 @@
                 "type": "double"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void skew(double, double)",
             "namespaces": [
@@ -2347,7 +2347,7 @@
           {
             "access": "public",
             "arguments": [],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void stroke()",
             "namespaces": [
@@ -2375,7 +2375,7 @@
                 "type": "cycfi::artist::color"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void stroke_color(cycfi::artist::color)",
             "namespaces": [
@@ -2398,7 +2398,7 @@
           {
             "access": "public",
             "arguments": [],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void stroke_preserve()",
             "namespaces": [
@@ -2426,7 +2426,7 @@
                 "type": "const cycfi::artist::rect &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void stroke_rect(const cycfi::artist::rect &)",
             "namespaces": [
@@ -2464,7 +2464,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void stroke_rect(float, float, float, float)",
             "namespaces": [
@@ -2496,7 +2496,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void stroke_round_rect(const cycfi::artist::rect &, float)",
             "namespaces": [
@@ -2538,7 +2538,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void stroke_round_rect(float, float, float, float, float)",
             "namespaces": [
@@ -2566,7 +2566,7 @@
                 "type": "cycfi::artist::color"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void stroke_style(cycfi::artist::color)",
             "namespaces": [
@@ -2592,7 +2592,7 @@
                 "type": "const cycfi::artist::canvas::linear_gradient &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void stroke_style(const cycfi::artist::canvas::linear_gradient &)",
             "namespaces": [
@@ -2618,7 +2618,7 @@
                 "type": "const cycfi::artist::canvas::radial_gradient &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void stroke_style(const cycfi::artist::canvas::radial_gradient &)",
             "namespaces": [
@@ -2650,7 +2650,7 @@
                 "type": "cycfi::artist::point"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void stroke_text(std::string_view, cycfi::artist::point)",
             "namespaces": [
@@ -2684,7 +2684,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void stroke_text(std::string_view, float, float)",
             "namespaces": [
@@ -2712,7 +2712,7 @@
                 "type": "int"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void text_align(int)",
             "namespaces": [
@@ -2738,7 +2738,7 @@
                 "type": "cycfi::artist::canvas::text_halign"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void text_align(cycfi::artist::canvas::text_halign)",
             "namespaces": [
@@ -2766,7 +2766,7 @@
                 "type": "cycfi::artist::canvas::text_valign"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void text_baseline(cycfi::artist::canvas::text_valign)",
             "namespaces": [
@@ -2790,7 +2790,7 @@
             "access": "public",
             "arguments": [],
             "const": true,
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "cycfi::artist::affine_transform transform() const",
             "namespaces": [
@@ -2816,7 +2816,7 @@
                 "type": "const cycfi::artist::affine_transform &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void transform(const cycfi::artist::affine_transform &)",
             "namespaces": [
@@ -2862,7 +2862,7 @@
                 "type": "double"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void transform(double, double, double, double, double, double)",
             "namespaces": [
@@ -2890,7 +2890,7 @@
                 "type": "cycfi::artist::point"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void translate(cycfi::artist::point)",
             "namespaces": [
@@ -2920,7 +2920,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void translate(float, float)",
             "namespaces": [
@@ -2948,7 +2948,7 @@
                 "type": "cycfi::artist::point"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "cycfi::artist::point user_to_device(cycfi::artist::point)",
             "namespaces": [
@@ -2978,7 +2978,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "cycfi::artist::point user_to_device(float, float)",
             "namespaces": [
@@ -3001,7 +3001,7 @@
           {
             "access": "public",
             "arguments": [],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_dtor": true,
             "name": "~canvas()",
@@ -3032,7 +3032,7 @@
       "typealiases": [
         {
           "access": "public",
-          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "defined_in_file": "artist/canvas.hpp",
           "deprecated": false,
           "name": "canvas_state_ptr",
           "namespaces": [
@@ -3050,13 +3050,13 @@
     {
       "access": "public",
       "ctor": "unspecified",
-      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "defined_in_file": "artist/canvas.hpp",
       "deprecated": false,
       "dtor": "unspecified",
       "fields": {
         "cycfi::artist::canvas::color_stop::color": {
           "access": "public",
-          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "defined_in_file": "artist/canvas.hpp",
           "deprecated": false,
           "name": "color",
           "namespaces": [
@@ -3072,7 +3072,7 @@
         },
         "cycfi::artist::canvas::color_stop::offset": {
           "access": "public",
-          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "defined_in_file": "artist/canvas.hpp",
           "deprecated": false,
           "name": "offset",
           "namespaces": [
@@ -3093,7 +3093,7 @@
           {
             "access": "public",
             "arguments": [],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "color_stop()",
@@ -3122,7 +3122,7 @@
               }
             ],
             "constexpr": true,
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "color_stop(const cycfi::artist::canvas::color_stop &)",
@@ -3151,7 +3151,7 @@
               }
             ],
             "constexpr": true,
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "color_stop(cycfi::artist::canvas::color_stop &&)",
@@ -3176,7 +3176,7 @@
           {
             "access": "public",
             "arguments": [],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_dtor": true,
             "name": "~color_stop()",
@@ -3211,13 +3211,13 @@
     {
       "access": "public",
       "ctor": "unspecified",
-      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "defined_in_file": "artist/canvas.hpp",
       "deprecated": false,
       "dtor": "unspecified",
       "fields": {
         "cycfi::artist::canvas::gradient::color_space": {
           "access": "public",
-          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "defined_in_file": "artist/canvas.hpp",
           "deprecated": false,
           "name": "color_space",
           "namespaces": [
@@ -3243,7 +3243,7 @@
                 "type": "cycfi::artist::canvas::color_stop"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void add_color_stop(cycfi::artist::canvas::color_stop)",
             "namespaces": [
@@ -3274,7 +3274,7 @@
                 "type": "struct color"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "void add_color_stop(float, struct color)",
             "namespaces": [
@@ -3303,7 +3303,7 @@
                 "type": "const cycfi::artist::canvas::gradient &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "gradient(const cycfi::artist::canvas::gradient &)",
@@ -3331,7 +3331,7 @@
                 "type": "cycfi::artist::canvas::gradient &&"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "gradient(cycfi::artist::canvas::gradient &&)",
@@ -3355,7 +3355,7 @@
             "access": "public",
             "arguments": [],
             "constexpr": true,
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "gradient()",
@@ -3385,7 +3385,7 @@
                 "type": "cycfi::artist::canvas::gradient &&"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "cycfi::artist::canvas::gradient & operator=(cycfi::artist::canvas::gradient &&)",
             "namespaces": [
@@ -3412,7 +3412,7 @@
                 "type": "const cycfi::artist::canvas::gradient &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "cycfi::artist::canvas::gradient & operator=(const cycfi::artist::canvas::gradient &)",
             "namespaces": [
@@ -3436,7 +3436,7 @@
           {
             "access": "public",
             "arguments": [],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_dtor": true,
             "name": "~gradient()",
@@ -3470,13 +3470,13 @@
     },
     {
       "access": "public",
-      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "defined_in_file": "artist/canvas.hpp",
       "deprecated": false,
       "dtor": "unspecified",
       "fields": {
         "cycfi::artist::canvas::linear_gradient::end": {
           "access": "public",
-          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "defined_in_file": "artist/canvas.hpp",
           "deprecated": false,
           "name": "end",
           "namespaces": [
@@ -3492,7 +3492,7 @@
         },
         "cycfi::artist::canvas::linear_gradient::start": {
           "access": "public",
-          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "defined_in_file": "artist/canvas.hpp",
           "deprecated": false,
           "name": "start",
           "namespaces": [
@@ -3530,7 +3530,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "linear_gradient(float, float, float, float)",
@@ -3562,7 +3562,7 @@
                 "type": "cycfi::artist::point"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "linear_gradient(cycfi::artist::point, cycfi::artist::point)",
@@ -3590,7 +3590,7 @@
                 "type": "const cycfi::artist::canvas::linear_gradient &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "linear_gradient(const cycfi::artist::canvas::linear_gradient &)",
@@ -3618,7 +3618,7 @@
                 "type": "cycfi::artist::canvas::linear_gradient &&"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "linear_gradient(cycfi::artist::canvas::linear_gradient &&)",
@@ -3648,7 +3648,7 @@
                 "type": "cycfi::artist::canvas::linear_gradient &&"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "cycfi::artist::canvas::linear_gradient & operator=(cycfi::artist::canvas::linear_gradient &&)",
             "namespaces": [
@@ -3681,13 +3681,13 @@
     },
     {
       "access": "public",
-      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "defined_in_file": "artist/canvas.hpp",
       "deprecated": false,
       "dtor": "unspecified",
       "fields": {
         "cycfi::artist::canvas::radial_gradient::c1": {
           "access": "public",
-          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "defined_in_file": "artist/canvas.hpp",
           "deprecated": false,
           "name": "c1",
           "namespaces": [
@@ -3703,7 +3703,7 @@
         },
         "cycfi::artist::canvas::radial_gradient::c1_radius": {
           "access": "public",
-          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "defined_in_file": "artist/canvas.hpp",
           "deprecated": false,
           "name": "c1_radius",
           "namespaces": [
@@ -3719,7 +3719,7 @@
         },
         "cycfi::artist::canvas::radial_gradient::c2": {
           "access": "public",
-          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "defined_in_file": "artist/canvas.hpp",
           "deprecated": false,
           "name": "c2",
           "namespaces": [
@@ -3735,7 +3735,7 @@
         },
         "cycfi::artist::canvas::radial_gradient::c2_radius": {
           "access": "public",
-          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "defined_in_file": "artist/canvas.hpp",
           "deprecated": false,
           "name": "c2_radius",
           "namespaces": [
@@ -3761,7 +3761,7 @@
                 "type": "cycfi::artist::canvas::radial_gradient &&"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "cycfi::artist::canvas::radial_gradient & operator=(cycfi::artist::canvas::radial_gradient &&)",
             "namespaces": [
@@ -3810,7 +3810,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "radial_gradient(float, float, float, float, float, float)",
@@ -3850,7 +3850,7 @@
                 "type": "float"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "radial_gradient(cycfi::artist::point, float, cycfi::artist::point, float)",
@@ -3878,7 +3878,7 @@
                 "type": "const cycfi::artist::canvas::radial_gradient &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "radial_gradient(const cycfi::artist::canvas::radial_gradient &)",
@@ -3906,7 +3906,7 @@
                 "type": "cycfi::artist::canvas::radial_gradient &&"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "radial_gradient(cycfi::artist::canvas::radial_gradient &&)",
@@ -3941,13 +3941,13 @@
     {
       "access": "public",
       "ctor": "unspecified",
-      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "defined_in_file": "artist/canvas.hpp",
       "deprecated": false,
       "dtor": "unspecified",
       "fields": {
         "cycfi::artist::canvas::text_metrics::ascent": {
           "access": "public",
-          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "defined_in_file": "artist/canvas.hpp",
           "deprecated": false,
           "name": "ascent",
           "namespaces": [
@@ -3963,7 +3963,7 @@
         },
         "cycfi::artist::canvas::text_metrics::descent": {
           "access": "public",
-          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "defined_in_file": "artist/canvas.hpp",
           "deprecated": false,
           "name": "descent",
           "namespaces": [
@@ -3979,7 +3979,7 @@
         },
         "cycfi::artist::canvas::text_metrics::leading": {
           "access": "public",
-          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "defined_in_file": "artist/canvas.hpp",
           "deprecated": false,
           "name": "leading",
           "namespaces": [
@@ -3995,7 +3995,7 @@
         },
         "cycfi::artist::canvas::text_metrics::size": {
           "access": "public",
-          "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+          "defined_in_file": "artist/canvas.hpp",
           "deprecated": false,
           "name": "size",
           "namespaces": [
@@ -4022,7 +4022,7 @@
               }
             ],
             "constexpr": true,
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "constexpr cycfi::artist::canvas::text_metrics & operator=(cycfi::artist::canvas::text_metrics &&)",
             "namespaces": [
@@ -4052,7 +4052,7 @@
               }
             ],
             "constexpr": true,
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "text_metrics(const cycfi::artist::canvas::text_metrics &)",
@@ -4081,7 +4081,7 @@
               }
             ],
             "constexpr": true,
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "text_metrics(cycfi::artist::canvas::text_metrics &&)",
@@ -4115,7 +4115,7 @@
     },
     {
       "access": "public",
-      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "defined_in_file": "artist/canvas.hpp",
       "deprecated": false,
       "kind": "class",
       "methods": {
@@ -4128,7 +4128,7 @@
                 "type": "const cycfi::artist::canvas::state &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "delete": true,
             "deprecated": false,
             "name": "cycfi::artist::canvas::state & operator=(const cycfi::artist::canvas::state &)",
@@ -4156,7 +4156,7 @@
                 "type": "cycfi::artist::canvas::state &&"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "name": "cycfi::artist::canvas::state & operator=(cycfi::artist::canvas::state &&)",
             "namespaces": [
@@ -4185,7 +4185,7 @@
                 "type": "cycfi::artist::canvas &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "state(cycfi::artist::canvas &)",
@@ -4213,7 +4213,7 @@
                 "type": "cycfi::artist::canvas::state &&"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_ctor": true,
             "name": "state(cycfi::artist::canvas::state &&)",
@@ -4241,7 +4241,7 @@
                 "type": "const cycfi::artist::canvas::state &"
               }
             ],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "delete": true,
             "deprecated": false,
             "is_ctor": true,
@@ -4267,7 +4267,7 @@
           {
             "access": "public",
             "arguments": [],
-            "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+            "defined_in_file": "artist/canvas.hpp",
             "deprecated": false,
             "is_dtor": true,
             "name": "~state()",
@@ -4303,7 +4303,7 @@
   "enums": [
     {
       "access": "public",
-      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "defined_in_file": "artist/canvas.hpp",
       "deprecated": false,
       "name": "line_cap_enum",
       "namespaces": [
@@ -4329,7 +4329,7 @@
     },
     {
       "access": "public",
-      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "defined_in_file": "artist/canvas.hpp",
       "deprecated": false,
       "name": "join_enum",
       "namespaces": [
@@ -4355,7 +4355,7 @@
     },
     {
       "access": "public",
-      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "defined_in_file": "artist/canvas.hpp",
       "deprecated": false,
       "name": "composite_op_enum",
       "namespaces": [
@@ -4444,7 +4444,7 @@
     },
     {
       "access": "public",
-      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "defined_in_file": "artist/canvas.hpp",
       "deprecated": false,
       "name": "text_halign",
       "namespaces": [
@@ -4470,7 +4470,7 @@
     },
     {
       "access": "public",
-      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "defined_in_file": "artist/canvas.hpp",
       "deprecated": false,
       "name": "text_valign",
       "namespaces": [
@@ -4501,7 +4501,7 @@
   "functions": {},
   "namespaces": [
     {
-      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "defined_in_file": "artist/canvas.hpp",
       "deprecated": false,
       "name": "cycfi",
       "namespaces": [],
@@ -4509,7 +4509,7 @@
       "qualified_name": "cycfi"
     },
     {
-      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "defined_in_file": "artist/canvas.hpp",
       "deprecated": false,
       "name": "artist",
       "namespaces": [
@@ -4520,12 +4520,12 @@
     }
   ],
   "paths": {
-    "src_path": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
-    "src_root": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include"
+    "src_path": "artist/canvas.hpp",
+    "src_root": ""
   },
   "typealiases": [
     {
-      "defined_in_file": "/home/redtide/Documenti/Sviluppo/UI/Artist/artist/lib/include/artist/canvas.hpp",
+      "defined_in_file": "artist/canvas.hpp",
       "deprecated": false,
       "name": "canvas_impl",
       "namespaces": [

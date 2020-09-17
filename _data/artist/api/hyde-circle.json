@@ -1,0 +1,499 @@
+{
+  "classes": [
+    {
+      "defined_in_file": "artist/circle.hpp",
+      "deprecated": false,
+      "dtor": "unspecified",
+      "fields": {
+        "cycfi::artist::circle::cx": {
+          "access": "public",
+          "defined_in_file": "artist/circle.hpp",
+          "deprecated": false,
+          "name": "cx",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "circle"
+          ],
+          "qualified_name": "cycfi::artist::circle::cx",
+          "type": "float"
+        },
+        "cycfi::artist::circle::cy": {
+          "access": "public",
+          "defined_in_file": "artist/circle.hpp",
+          "deprecated": false,
+          "name": "cy",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "circle"
+          ],
+          "qualified_name": "cycfi::artist::circle::cy",
+          "type": "float"
+        },
+        "cycfi::artist::circle::radius": {
+          "access": "public",
+          "defined_in_file": "artist/circle.hpp",
+          "deprecated": false,
+          "name": "radius",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "circle"
+          ],
+          "qualified_name": "cycfi::artist::circle::radius",
+          "type": "float"
+        }
+      },
+      "kind": "struct",
+      "methods": {
+        "bounds": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/circle.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::rect bounds() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "circle"
+            ],
+            "qualified_name": "cycfi::artist::rect cycfi::artist::circle::bounds() const",
+            "return_type": "cycfi::artist::rect",
+            "short_name": "bounds",
+            "signature": "cycfi::artist::rect bounds() const",
+            "signature_with_names": "cycfi::artist::rect bounds() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "center": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/circle.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::point center() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "circle"
+            ],
+            "qualified_name": "cycfi::artist::point cycfi::artist::circle::center() const",
+            "return_type": "cycfi::artist::point",
+            "short_name": "center",
+            "signature": "cycfi::artist::point center() const",
+            "signature_with_names": "cycfi::artist::point center() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "circle": [
+          {
+            "access": "public",
+            "arguments": [],
+            "constexpr": true,
+            "defined_in_file": "artist/circle.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "circle()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "circle"
+            ],
+            "qualified_name": "cycfi::artist::circle::circle()",
+            "return_type": "void",
+            "short_name": "circle",
+            "signature": "circle()",
+            "signature_with_names": "circle()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "cx",
+                "type": "float"
+              },
+              {
+                "name": "cy",
+                "type": "float"
+              },
+              {
+                "name": "radius",
+                "type": "float"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/circle.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "circle(float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "circle"
+            ],
+            "qualified_name": "cycfi::artist::circle::circle(float, float, float)",
+            "return_type": "void",
+            "short_name": "circle",
+            "signature": "circle(float, float, float)",
+            "signature_with_names": "circle(float cx, float cy, float radius)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "c",
+                "type": "cycfi::artist::point"
+              },
+              {
+                "name": "radius",
+                "type": "float"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/circle.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "circle(cycfi::artist::point, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "circle"
+            ],
+            "qualified_name": "cycfi::artist::circle::circle(cycfi::artist::point, float)",
+            "return_type": "void",
+            "short_name": "circle",
+            "signature": "circle(cycfi::artist::point, float)",
+            "signature_with_names": "circle(cycfi::artist::point c, float radius)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "r",
+                "type": "const cycfi::artist::rect &"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/circle.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "circle(const cycfi::artist::rect &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "circle"
+            ],
+            "qualified_name": "cycfi::artist::circle::circle(const cycfi::artist::rect &)",
+            "return_type": "void",
+            "short_name": "circle",
+            "signature": "circle(const cycfi::artist::rect &)",
+            "signature_with_names": "circle(const cycfi::artist::rect & r)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::circle &"
+              }
+            ],
+            "constexpr": true,
+            "default": true,
+            "defined_in_file": "artist/circle.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "circle(const cycfi::artist::circle &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "circle"
+            ],
+            "qualified_name": "cycfi::artist::circle::circle(const cycfi::artist::circle &)",
+            "return_type": "void",
+            "short_name": "circle",
+            "signature": "circle(const cycfi::artist::circle &)",
+            "signature_with_names": "circle(const cycfi::artist::circle &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "inset": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/circle.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::circle inset(float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "circle"
+            ],
+            "qualified_name": "cycfi::artist::circle cycfi::artist::circle::inset(float) const",
+            "return_type": "cycfi::artist::circle",
+            "short_name": "inset",
+            "signature": "cycfi::artist::circle inset(float) const",
+            "signature_with_names": "cycfi::artist::circle inset(float x) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "move": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "dx",
+                "type": "float"
+              },
+              {
+                "name": "dy",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/circle.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::circle move(float, float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "circle"
+            ],
+            "qualified_name": "cycfi::artist::circle cycfi::artist::circle::move(float, float) const",
+            "return_type": "cycfi::artist::circle",
+            "short_name": "move",
+            "signature": "cycfi::artist::circle move(float, float) const",
+            "signature_with_names": "cycfi::artist::circle move(float dx, float dy) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "move_to": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/circle.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::circle move_to(float, float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "circle"
+            ],
+            "qualified_name": "cycfi::artist::circle cycfi::artist::circle::move_to(float, float) const",
+            "return_type": "cycfi::artist::circle",
+            "short_name": "move_to",
+            "signature": "cycfi::artist::circle move_to(float, float) const",
+            "signature_with_names": "cycfi::artist::circle move_to(float x, float y) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator!=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "other",
+                "type": "const cycfi::artist::circle &"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/circle.hpp",
+            "deprecated": false,
+            "name": "bool operator!=(const cycfi::artist::circle &) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "circle"
+            ],
+            "qualified_name": "bool cycfi::artist::circle::operator!=(const cycfi::artist::circle &) const",
+            "return_type": "bool",
+            "short_name": "operator!=",
+            "signature": "bool operator!=(const cycfi::artist::circle &) const",
+            "signature_with_names": "bool operator!=(const cycfi::artist::circle & other) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::circle &"
+              }
+            ],
+            "constexpr": true,
+            "default": true,
+            "defined_in_file": "artist/circle.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::circle & operator=(const cycfi::artist::circle &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "circle"
+            ],
+            "qualified_name": "constexpr cycfi::artist::circle & cycfi::artist::circle::operator=(const cycfi::artist::circle &)",
+            "return_type": "cycfi::artist::circle &",
+            "short_name": "operator=",
+            "signature": "constexpr cycfi::artist::circle & operator=(const cycfi::artist::circle &)",
+            "signature_with_names": "constexpr cycfi::artist::circle & operator=(const cycfi::artist::circle &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator==": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "other",
+                "type": "const cycfi::artist::circle &"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/circle.hpp",
+            "deprecated": false,
+            "name": "bool operator==(const cycfi::artist::circle &) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "circle"
+            ],
+            "qualified_name": "bool cycfi::artist::circle::operator==(const cycfi::artist::circle &) const",
+            "return_type": "bool",
+            "short_name": "operator==",
+            "signature": "bool operator==(const cycfi::artist::circle &) const",
+            "signature_with_names": "bool operator==(const cycfi::artist::circle & other) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "~circle": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "artist/circle.hpp",
+            "deprecated": false,
+            "is_dtor": true,
+            "name": "~circle()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "circle"
+            ],
+            "qualified_name": "cycfi::artist::circle::~circle()",
+            "return_type": "void",
+            "short_name": "~circle",
+            "signature": "~circle()",
+            "signature_with_names": "~circle()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "circle",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::circle"
+    }
+  ],
+  "enums": [],
+  "functions": {},
+  "namespaces": [
+    {
+      "defined_in_file": "artist/circle.hpp",
+      "deprecated": false,
+      "name": "cycfi",
+      "namespaces": [],
+      "parents": [],
+      "qualified_name": "cycfi"
+    },
+    {
+      "defined_in_file": "artist/circle.hpp",
+      "deprecated": false,
+      "name": "artist",
+      "namespaces": [
+        "cycfi"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist"
+    }
+  ],
+  "paths": {
+    "src_path": "artist/circle.hpp",
+    "src_root": ""
+  },
+  "typealiases": [],
+  "typedefs": []
+}

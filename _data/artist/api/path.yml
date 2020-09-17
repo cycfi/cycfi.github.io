@@ -1,0 +1,302 @@
+classes:
+- name: path
+  description: __MISSING__
+  methods:
+  - add_circle:
+    - name: void add_circle(const cycfi::artist::circle &)
+      description: __MISSING__
+      arguments:
+      - name: c
+        description: __MISSING__
+    - name: void add_circle(float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: cx
+        description: __MISSING__
+      - name: cy
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    description: __MISSING__
+  - add_rect:
+    - name: void add_rect(const cycfi::artist::rect &)
+      description: __MISSING__
+      arguments:
+      - name: r
+        description: __MISSING__
+    - name: void add_rect(float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+      - name: width
+        description: __MISSING__
+      - name: height
+        description: __MISSING__
+    description: __MISSING__
+  - add_round_rect:
+    - name: void add_round_rect(const cycfi::artist::rect &, float)
+      description: __MISSING__
+      arguments:
+      - name: r
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    - name: void add_round_rect(float, float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+      - name: width
+        description: __MISSING__
+      - name: height
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    description: __MISSING__
+  - arc:
+    - name: void arc(cycfi::artist::point, float, float, float, bool)
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+      - name: start_angle
+        description: __MISSING__
+      - name: end_angle
+        description: __MISSING__
+      - name: ccw
+        description: __MISSING__
+    - name: void arc(float, float, float, float, float, bool)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+      - name: start_angle
+        description: __MISSING__
+      - name: end_angle
+        description: __MISSING__
+      - name: ccw
+        description: __MISSING__
+    description: __MISSING__
+  - arc_to:
+    - name: void arc_to(cycfi::artist::point, cycfi::artist::point, float)
+      description: __MISSING__
+      arguments:
+      - name: p1
+        description: __MISSING__
+      - name: p2
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    - name: void arc_to(float, float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: x1
+        description: __MISSING__
+      - name: y1
+        description: __MISSING__
+      - name: x2
+        description: __MISSING__
+      - name: y2
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    description: __MISSING__
+  - bezier_curve_to:
+    - name: void bezier_curve_to(cycfi::artist::point, cycfi::artist::point, cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: cp1
+        description: __MISSING__
+      - name: cp2
+        description: __MISSING__
+      - name: end
+        description: __MISSING__
+    - name: void bezier_curve_to(float, float, float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: cp1x
+        description: __MISSING__
+      - name: cp1y
+        description: __MISSING__
+      - name: cp2x
+        description: __MISSING__
+      - name: cp2y
+        description: __MISSING__
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - bounds:
+    - name: cycfi::artist::rect bounds() const
+      description: __MISSING__
+    description: __MISSING__
+  - close:
+    - name: void close()
+      description: __MISSING__
+    description: __MISSING__
+  - fill_rule:
+    - name: void fill_rule(cycfi::artist::path::fill_rule_enum)
+      description: __MISSING__
+      arguments:
+      - name: rule
+        description: __MISSING__
+    description: __MISSING__
+  - impl:
+    - name: path_impl * impl()
+      description: __MISSING__
+    - name: const path_impl * impl() const
+      description: __MISSING__
+    description: __MISSING__
+  - includes:
+    - name: bool includes(cycfi::artist::point) const
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    - name: bool includes(float, float) const
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - is_empty:
+    - name: bool is_empty() const
+      description: __MISSING__
+    description: __MISSING__
+  - line_to:
+    - name: void line_to(cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    - name: void line_to(float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - move_to:
+    - name: void move_to(cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    - name: void move_to(float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - operator!=:
+    - name: bool operator!=(const cycfi::artist::path &) const
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    description: __MISSING__
+  - operator=:
+    - name: cycfi::artist::path & operator=(const cycfi::artist::path &)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    - name: cycfi::artist::path & operator=(cycfi::artist::path &&)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    description: __MISSING__
+  - operator==:
+    - name: bool operator==(const cycfi::artist::path &) const
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    description: __MISSING__
+  - path:
+    - name: path()
+      description: __MISSING__
+    - name: path(const cycfi::artist::rect &)
+      description: __MISSING__
+      arguments:
+      - name: r
+        description: __MISSING__
+    - name: path(const cycfi::artist::rect &, float)
+      description: __MISSING__
+      arguments:
+      - name: r
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    - name: path(const cycfi::artist::circle &)
+      description: __MISSING__
+      arguments:
+      - name: c
+        description: __MISSING__
+    - name: path(std::string_view)
+      description: __MISSING__
+      arguments:
+      - name: svg_def
+        description: __MISSING__
+    - name: path(const cycfi::artist::path &)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    - name: path(cycfi::artist::path &&)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    description: __MISSING__
+  - quadratic_curve_to:
+    - name: void quadratic_curve_to(cycfi::artist::point, cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: cp
+        description: __MISSING__
+      - name: end
+        description: __MISSING__
+    - name: void quadratic_curve_to(float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: cpx
+        description: __MISSING__
+      - name: cpy
+        description: __MISSING__
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - ~path:
+    - name: ~path()
+      description: __MISSING__
+    description: __MISSING__
+enums:
+- name: fill_rule_enum
+  description: __MISSING__
+  values:
+  - name: fill_winding
+    description: __MISSING__
+  - name: fill_odd_even
+    description: __MISSING__
+

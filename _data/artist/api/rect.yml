@@ -1,0 +1,174 @@
+classes:
+- name: rect
+  description: __MISSING__
+  methods:
+  - bottom_left:
+    - name: constexpr cycfi::artist::point bottom_left() const
+      description: __MISSING__
+    description: __MISSING__
+  - bottom_right:
+    - name: constexpr cycfi::artist::point bottom_right() const
+      description: __MISSING__
+    description: __MISSING__
+  - height:
+    - name: constexpr float height() const
+      description: __MISSING__
+    - name: constexpr void height(float)
+      description: __MISSING__
+      arguments:
+      - name: height_
+        description: __MISSING__
+    description: __MISSING__
+  - includes:
+    - name: constexpr bool includes(cycfi::artist::point) const
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    - name: constexpr bool includes(const cycfi::artist::rect &) const
+      description: __MISSING__
+      arguments:
+      - name: other
+        description: __MISSING__
+    description: __MISSING__
+  - inset:
+    - name: constexpr cycfi::artist::rect inset(float, float) const
+      description: __MISSING__
+      arguments:
+      - name: x_inset
+        description: __MISSING__
+      - name: y_inset
+        description: __MISSING__
+    - name: constexpr cycfi::artist::rect inset(float) const
+      description: __MISSING__
+      arguments:
+      - name: xy_inset
+        description: __MISSING__
+    description: __MISSING__
+  - is_empty:
+    - name: constexpr bool is_empty() const
+      description: __MISSING__
+    description: __MISSING__
+  - move:
+    - name: constexpr cycfi::artist::rect move(float, float) const
+      description: __MISSING__
+      arguments:
+      - name: dx
+        description: __MISSING__
+      - name: dy
+        description: __MISSING__
+    description: __MISSING__
+  - move_to:
+    - name: constexpr cycfi::artist::rect move_to(float, float) const
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - operator!=:
+    - name: constexpr bool operator!=(const cycfi::artist::rect &) const
+      description: __MISSING__
+      arguments:
+      - name: other
+        description: __MISSING__
+    description: __MISSING__
+  - operator=:
+    - name: constexpr cycfi::artist::rect & operator=(const cycfi::artist::rect &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - operator==:
+    - name: constexpr bool operator==(const cycfi::artist::rect &) const
+      description: __MISSING__
+      arguments:
+      - name: other
+        description: __MISSING__
+    description: __MISSING__
+  - rect:
+    - name: rect()
+      description: __MISSING__
+    - name: rect(float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: left
+        description: __MISSING__
+      - name: top
+        description: __MISSING__
+      - name: right
+        description: __MISSING__
+      - name: bottom
+        description: __MISSING__
+    - name: rect(cycfi::artist::point, float, float)
+      description: __MISSING__
+      arguments:
+      - name: origin
+        description: __MISSING__
+      - name: right
+        description: __MISSING__
+      - name: bottom
+        description: __MISSING__
+    - name: rect(cycfi::artist::point, cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: top_left
+        description: __MISSING__
+      - name: bottom_right
+        description: __MISSING__
+    - name: rect(float, float, cycfi::artist::extent)
+      description: __MISSING__
+      arguments:
+      - name: left
+        description: __MISSING__
+      - name: top
+        description: __MISSING__
+      - name: size
+        description: __MISSING__
+    - name: rect(cycfi::artist::point, cycfi::artist::extent)
+      description: __MISSING__
+      arguments:
+      - name: origin
+        description: __MISSING__
+      - name: size
+        description: __MISSING__
+    - name: rect(const cycfi::artist::rect &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - size:
+    - name: constexpr cycfi::artist::extent size() const
+      description: __MISSING__
+    - name: constexpr void size(cycfi::artist::extent)
+      description: __MISSING__
+      arguments:
+      - name: size_
+        description: __MISSING__
+    description: __MISSING__
+  - top_left:
+    - name: constexpr cycfi::artist::point top_left() const
+      description: __MISSING__
+    description: __MISSING__
+  - top_right:
+    - name: constexpr cycfi::artist::point top_right() const
+      description: __MISSING__
+    description: __MISSING__
+  - width:
+    - name: constexpr float width() const
+      description: __MISSING__
+    - name: constexpr void width(float)
+      description: __MISSING__
+      arguments:
+      - name: width_
+        description: __MISSING__
+    description: __MISSING__
+  - ~rect:
+    - name: ~rect()
+      description: __MISSING__
+    description: __MISSING__
+enums: []
+

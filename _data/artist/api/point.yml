@@ -1,0 +1,125 @@
+classes:
+- name: point
+  description: __MISSING__
+  methods:
+  - move:
+    - name: constexpr cycfi::artist::point move(float, float) const
+      description: __MISSING__
+      arguments:
+      - name: dx
+        description: __MISSING__
+      - name: dy
+        description: __MISSING__
+    description: __MISSING__
+  - move_to:
+    - name: constexpr cycfi::artist::point move_to(float, float) const
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - operator!=:
+    - name: constexpr bool operator!=(const cycfi::artist::point &) const
+      description: __MISSING__
+      arguments:
+      - name: other
+        description: __MISSING__
+    description: __MISSING__
+  - operator=:
+    - name: constexpr cycfi::artist::point & operator=(const cycfi::artist::point
+        &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - operator==:
+    - name: constexpr bool operator==(const cycfi::artist::point &) const
+      description: __MISSING__
+      arguments:
+      - name: other
+        description: __MISSING__
+    description: __MISSING__
+  - point:
+    - name: point()
+      description: __MISSING__
+    - name: point(float, float)
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    - name: point(const cycfi::artist::point &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - reflect:
+    - name: constexpr cycfi::artist::point reflect(cycfi::artist::point) const
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    description: __MISSING__
+  - ~point:
+    - name: ~point()
+      description: __MISSING__
+    description: __MISSING__
+- name: extent
+  description: __MISSING__
+  methods:
+  - extent:
+    - name: extent(cycfi::artist::point)
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    - name: extent(const cycfi::artist::extent &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    - name: extent(cycfi::artist::extent &&)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - move:
+    - name: cycfi::artist::point move(float, float) const
+      description: __MISSING__
+      arguments:
+      - name: dx
+        description: __MISSING__
+      - name: dy
+        description: __MISSING__
+    description: __MISSING__
+  - move_to:
+    - name: cycfi::artist::point move_to(float, float) const
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - operator=:
+    - name: constexpr cycfi::artist::extent & operator=(cycfi::artist::extent &&)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - reflect:
+    - name: cycfi::artist::point reflect(cycfi::artist::point) const
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    description: __MISSING__
+enums: []
+

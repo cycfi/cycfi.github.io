@@ -1,0 +1,571 @@
+{
+  "classes": [
+    {
+      "defined_in_file": "artist/image.hpp",
+      "deprecated": false,
+      "kind": "class",
+      "methods": {
+        "bitmap_size": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/image.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::extent bitmap_size() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "image"
+            ],
+            "qualified_name": "cycfi::artist::extent cycfi::artist::image::bitmap_size() const",
+            "return_type": "cycfi::artist::extent",
+            "short_name": "bitmap_size",
+            "signature": "cycfi::artist::extent bitmap_size() const",
+            "signature_with_names": "cycfi::artist::extent bitmap_size() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "image": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "sizex",
+                "type": "float"
+              },
+              {
+                "name": "sizey",
+                "type": "float"
+              }
+            ],
+            "defined_in_file": "artist/image.hpp",
+            "deprecated": false,
+            "explicit": true,
+            "is_ctor": true,
+            "name": "explicit image(float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "image"
+            ],
+            "qualified_name": "explicit cycfi::artist::image::image(float, float)",
+            "return_type": "void",
+            "short_name": "image",
+            "signature": "explicit image(float, float)",
+            "signature_with_names": "explicit image(float sizex, float sizey)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "size",
+                "type": "cycfi::artist::extent"
+              }
+            ],
+            "defined_in_file": "artist/image.hpp",
+            "deprecated": false,
+            "explicit": true,
+            "is_ctor": true,
+            "name": "explicit image(cycfi::artist::extent)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "image"
+            ],
+            "qualified_name": "explicit cycfi::artist::image::image(cycfi::artist::extent)",
+            "return_type": "void",
+            "short_name": "image",
+            "signature": "explicit image(cycfi::artist::extent)",
+            "signature_with_names": "explicit image(cycfi::artist::extent size)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "path_",
+                "type": "const fs::path &"
+              }
+            ],
+            "defined_in_file": "artist/image.hpp",
+            "deprecated": false,
+            "explicit": true,
+            "is_ctor": true,
+            "name": "explicit image(const fs::path &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "image"
+            ],
+            "qualified_name": "explicit cycfi::artist::image::image(const fs::path &)",
+            "return_type": "void",
+            "short_name": "image",
+            "signature": "explicit image(const fs::path &)",
+            "signature_with_names": "explicit image(const fs::path & path_)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rhs",
+                "type": "const cycfi::artist::image &"
+              }
+            ],
+            "defined_in_file": "artist/image.hpp",
+            "delete": true,
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "image(const cycfi::artist::image &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "image"
+            ],
+            "qualified_name": "cycfi::artist::image::image(const cycfi::artist::image &)",
+            "return_type": "void",
+            "short_name": "image",
+            "signature": "image(const cycfi::artist::image &)",
+            "signature_with_names": "image(const cycfi::artist::image & rhs)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rhs",
+                "type": "cycfi::artist::image &&"
+              }
+            ],
+            "defined_in_file": "artist/image.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "image(cycfi::artist::image &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "image"
+            ],
+            "qualified_name": "cycfi::artist::image::image(cycfi::artist::image &&)",
+            "return_type": "void",
+            "short_name": "image",
+            "signature": "image(cycfi::artist::image &&)",
+            "signature_with_names": "image(cycfi::artist::image && rhs)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "impl": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/image.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::image_impl_ptr impl() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "image"
+            ],
+            "qualified_name": "cycfi::artist::image_impl_ptr cycfi::artist::image::impl() const",
+            "return_type": "cycfi::artist::image_impl_ptr",
+            "short_name": "impl",
+            "signature": "cycfi::artist::image_impl_ptr impl() const",
+            "signature_with_names": "cycfi::artist::image_impl_ptr impl() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rhs",
+                "type": "const cycfi::artist::image &"
+              }
+            ],
+            "defined_in_file": "artist/image.hpp",
+            "delete": true,
+            "deprecated": false,
+            "name": "cycfi::artist::image & operator=(const cycfi::artist::image &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "image"
+            ],
+            "qualified_name": "cycfi::artist::image & cycfi::artist::image::operator=(const cycfi::artist::image &)",
+            "return_type": "cycfi::artist::image &",
+            "short_name": "operator=",
+            "signature": "cycfi::artist::image & operator=(const cycfi::artist::image &)",
+            "signature_with_names": "cycfi::artist::image & operator=(const cycfi::artist::image & rhs)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rhs",
+                "type": "cycfi::artist::image &&"
+              }
+            ],
+            "defined_in_file": "artist/image.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::image & operator=(cycfi::artist::image &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "image"
+            ],
+            "qualified_name": "cycfi::artist::image & cycfi::artist::image::operator=(cycfi::artist::image &&)",
+            "return_type": "cycfi::artist::image &",
+            "short_name": "operator=",
+            "signature": "cycfi::artist::image & operator=(cycfi::artist::image &&)",
+            "signature_with_names": "cycfi::artist::image & operator=(cycfi::artist::image && rhs)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "pixels": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "artist/image.hpp",
+            "deprecated": false,
+            "name": "uint32_t * pixels()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "image"
+            ],
+            "qualified_name": "uint32_t * cycfi::artist::image::pixels()",
+            "return_type": "uint32_t *",
+            "short_name": "pixels",
+            "signature": "uint32_t * pixels()",
+            "signature_with_names": "uint32_t * pixels()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/image.hpp",
+            "deprecated": false,
+            "name": "const uint32_t * pixels() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "image"
+            ],
+            "qualified_name": "const uint32_t * cycfi::artist::image::pixels() const",
+            "return_type": "const uint32_t *",
+            "short_name": "pixels",
+            "signature": "const uint32_t * pixels() const",
+            "signature_with_names": "const uint32_t * pixels() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "save_png": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "path",
+                "type": "std::string_view"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/image.hpp",
+            "deprecated": false,
+            "name": "void save_png(std::string_view) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "image"
+            ],
+            "qualified_name": "void cycfi::artist::image::save_png(std::string_view) const",
+            "return_type": "void",
+            "short_name": "save_png",
+            "signature": "void save_png(std::string_view) const",
+            "signature_with_names": "void save_png(std::string_view path) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "size": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/image.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::extent size() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "image"
+            ],
+            "qualified_name": "cycfi::artist::extent cycfi::artist::image::size() const",
+            "return_type": "cycfi::artist::extent",
+            "short_name": "size",
+            "signature": "cycfi::artist::extent size() const",
+            "signature_with_names": "cycfi::artist::extent size() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "~image": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "artist/image.hpp",
+            "deprecated": false,
+            "is_dtor": true,
+            "name": "~image()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "image"
+            ],
+            "qualified_name": "cycfi::artist::image::~image()",
+            "return_type": "void",
+            "short_name": "~image",
+            "signature": "~image()",
+            "signature_with_names": "~image()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "image",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::image"
+    },
+    {
+      "defined_in_file": "artist/image.hpp",
+      "deprecated": false,
+      "kind": "class",
+      "methods": {
+        "context": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/image.hpp",
+            "deprecated": false,
+            "name": "canvas_impl * context() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "offscreen_image"
+            ],
+            "qualified_name": "canvas_impl * cycfi::artist::offscreen_image::context() const",
+            "return_type": "canvas_impl *",
+            "short_name": "context",
+            "signature": "canvas_impl * context() const",
+            "signature_with_names": "canvas_impl * context() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "offscreen_image": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "img",
+                "type": "cycfi::artist::image &"
+              }
+            ],
+            "defined_in_file": "artist/image.hpp",
+            "deprecated": false,
+            "explicit": true,
+            "is_ctor": true,
+            "name": "explicit offscreen_image(cycfi::artist::image &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "offscreen_image"
+            ],
+            "qualified_name": "explicit cycfi::artist::offscreen_image::offscreen_image(cycfi::artist::image &)",
+            "return_type": "void",
+            "short_name": "offscreen_image",
+            "signature": "explicit offscreen_image(cycfi::artist::image &)",
+            "signature_with_names": "explicit offscreen_image(cycfi::artist::image & img)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rhs",
+                "type": "const cycfi::artist::offscreen_image &"
+              }
+            ],
+            "defined_in_file": "artist/image.hpp",
+            "delete": true,
+            "deprecated": false,
+            "name": "cycfi::artist::offscreen_image & operator=(const cycfi::artist::offscreen_image &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "offscreen_image"
+            ],
+            "qualified_name": "cycfi::artist::offscreen_image & cycfi::artist::offscreen_image::operator=(const cycfi::artist::offscreen_image &)",
+            "return_type": "cycfi::artist::offscreen_image &",
+            "short_name": "operator=",
+            "signature": "cycfi::artist::offscreen_image & operator=(const cycfi::artist::offscreen_image &)",
+            "signature_with_names": "cycfi::artist::offscreen_image & operator=(const cycfi::artist::offscreen_image & rhs)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "~offscreen_image": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "artist/image.hpp",
+            "deprecated": false,
+            "is_dtor": true,
+            "name": "~offscreen_image()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "offscreen_image"
+            ],
+            "qualified_name": "cycfi::artist::offscreen_image::~offscreen_image()",
+            "return_type": "void",
+            "short_name": "~offscreen_image",
+            "signature": "~offscreen_image()",
+            "signature_with_names": "~offscreen_image()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "offscreen_image",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::offscreen_image"
+    }
+  ],
+  "enums": [],
+  "functions": {},
+  "namespaces": [
+    {
+      "defined_in_file": "artist/image.hpp",
+      "deprecated": false,
+      "name": "cycfi",
+      "namespaces": [],
+      "parents": [],
+      "qualified_name": "cycfi"
+    },
+    {
+      "defined_in_file": "artist/image.hpp",
+      "deprecated": false,
+      "name": "artist",
+      "namespaces": [
+        "cycfi"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist"
+    }
+  ],
+  "paths": {
+    "src_path": "artist/image.hpp",
+    "src_root": ""
+  },
+  "typealiases": [
+    {
+      "defined_in_file": "artist/image.hpp",
+      "deprecated": false,
+      "name": "canvas_impl",
+      "namespaces": [],
+      "parents": [],
+      "qualified_name": "canvas_impl",
+      "type": "SkCanvas"
+    },
+    {
+      "defined_in_file": "artist/image.hpp",
+      "deprecated": false,
+      "name": "image_impl_ptr",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::image_impl_ptr",
+      "type": "cycfi::artist::image_impl *"
+    },
+    {
+      "defined_in_file": "artist/image.hpp",
+      "deprecated": false,
+      "name": "image_ptr",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::image_ptr",
+      "type": "std::shared_ptr<image>"
+    }
+  ],
+  "typedefs": []
+}

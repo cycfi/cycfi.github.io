@@ -1,0 +1,146 @@
+classes:
+- name: text_layout
+  description: __MISSING__
+  methods:
+  - caret_index:
+    - name: std::size_t caret_index(float, float) const
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    - name: std::size_t caret_index(cycfi::artist::point) const
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    description: __MISSING__
+  - caret_point:
+    - name: cycfi::artist::point caret_point(std::size_t) const
+      description: __MISSING__
+      arguments:
+      - name: index
+        description: __MISSING__
+    description: __MISSING__
+  - draw:
+    - name: void draw(cycfi::artist::canvas &, cycfi::artist::point, cycfi::artist::color)
+        const
+      description: __MISSING__
+      arguments:
+      - name: cnv
+        description: __MISSING__
+      - name: p
+        description: __MISSING__
+      - name: c
+        description: __MISSING__
+    - name: void draw(cycfi::artist::canvas &, float, float, cycfi::artist::color)
+        const
+      description: __MISSING__
+      arguments:
+      - name: cnv
+        description: __MISSING__
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+      - name: c
+        description: __MISSING__
+    description: __MISSING__
+  - flow:
+    - name: void flow(float, bool)
+      description: __MISSING__
+      arguments:
+      - name: width
+        description: __MISSING__
+      - name: justify
+        description: __MISSING__
+    - name: void flow(const cycfi::artist::text_layout::get_line_info &, cycfi::artist::text_layout::flow_info)
+      description: __MISSING__
+      arguments:
+      - name: glf
+        description: __MISSING__
+      - name: finfo
+        description: __MISSING__
+    description: __MISSING__
+  - line_break:
+    - name: cycfi::artist::text_layout::break_enum line_break(std::size_t) const
+      description: __MISSING__
+      arguments:
+      - name: index
+        description: __MISSING__
+    description: __MISSING__
+  - num_lines:
+    - name: std::size_t num_lines() const
+      description: __MISSING__
+    description: __MISSING__
+  - text:
+    - name: void text(std::string_view)
+      description: __MISSING__
+      arguments:
+      - name: utf8
+        description: __MISSING__
+    - name: void text(std::u32string_view)
+      description: __MISSING__
+      arguments:
+      - name: utf32
+        description: __MISSING__
+    - name: std::u32string_view text() const
+      description: __MISSING__
+    description: __MISSING__
+  - text_layout:
+    - name: text_layout(cycfi::artist::font_descr, std::string_view)
+      description: __MISSING__
+      arguments:
+      - name: font_
+        description: __MISSING__
+      - name: utf8
+        description: __MISSING__
+    - name: text_layout(cycfi::artist::font_descr, std::u32string_view)
+      description: __MISSING__
+      arguments:
+      - name: font_
+        description: __MISSING__
+      - name: utf32
+        description: __MISSING__
+    - name: text_layout(cycfi::artist::text_layout &&)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    - name: text_layout(const cycfi::artist::text_layout &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - word_break:
+    - name: cycfi::artist::text_layout::break_enum word_break(std::size_t) const
+      description: __MISSING__
+      arguments:
+      - name: index
+        description: __MISSING__
+    description: __MISSING__
+  - ~text_layout:
+    - name: ~text_layout()
+      description: __MISSING__
+    description: __MISSING__
+- name: line_info
+  description: __MISSING__
+  methods: []
+- name: flow_info
+  description: __MISSING__
+  methods: []
+enums:
+- name: break_enum
+  description: __MISSING__
+  values:
+  - name: indeterminate
+    description: __MISSING__
+  - name: must_break
+    description: __MISSING__
+  - name: allow_break
+    description: __MISSING__
+  - name: no_break
+    description: __MISSING__
+

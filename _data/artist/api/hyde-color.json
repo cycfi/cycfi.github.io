@@ -1,0 +1,597 @@
+{
+  "classes": [
+    {
+      "defined_in_file": "artist/color.hpp",
+      "deprecated": false,
+      "dtor": "unspecified",
+      "fields": {
+        "cycfi::artist::color::alpha": {
+          "access": "public",
+          "defined_in_file": "artist/color.hpp",
+          "deprecated": false,
+          "name": "alpha",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "color"
+          ],
+          "qualified_name": "cycfi::artist::color::alpha",
+          "type": "float"
+        },
+        "cycfi::artist::color::blue": {
+          "access": "public",
+          "defined_in_file": "artist/color.hpp",
+          "deprecated": false,
+          "name": "blue",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "color"
+          ],
+          "qualified_name": "cycfi::artist::color::blue",
+          "type": "float"
+        },
+        "cycfi::artist::color::green": {
+          "access": "public",
+          "defined_in_file": "artist/color.hpp",
+          "deprecated": false,
+          "name": "green",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "color"
+          ],
+          "qualified_name": "cycfi::artist::color::green",
+          "type": "float"
+        },
+        "cycfi::artist::color::red": {
+          "access": "public",
+          "defined_in_file": "artist/color.hpp",
+          "deprecated": false,
+          "name": "red",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "color"
+          ],
+          "qualified_name": "cycfi::artist::color::red",
+          "type": "float"
+        }
+      },
+      "kind": "struct",
+      "methods": {
+        "color": [
+          {
+            "access": "public",
+            "arguments": [],
+            "constexpr": true,
+            "default": true,
+            "defined_in_file": "artist/color.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "color()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "color"
+            ],
+            "qualified_name": "cycfi::artist::color::color()",
+            "return_type": "void",
+            "short_name": "color",
+            "signature": "color()",
+            "signature_with_names": "color()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "red",
+                "type": "float"
+              },
+              {
+                "name": "green",
+                "type": "float"
+              },
+              {
+                "name": "blue",
+                "type": "float"
+              },
+              {
+                "name": "alpha",
+                "type": "float"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/color.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "color(float, float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "color"
+            ],
+            "qualified_name": "cycfi::artist::color::color(float, float, float, float)",
+            "return_type": "void",
+            "short_name": "color",
+            "signature": "color(float, float, float, float)",
+            "signature_with_names": "color(float red, float green, float blue, float alpha)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::color &"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/color.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "color(const cycfi::artist::color &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "color"
+            ],
+            "qualified_name": "cycfi::artist::color::color(const cycfi::artist::color &)",
+            "return_type": "void",
+            "short_name": "color",
+            "signature": "color(const cycfi::artist::color &)",
+            "signature_with_names": "color(const cycfi::artist::color &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "cycfi::artist::color &&"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/color.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "color(cycfi::artist::color &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "color"
+            ],
+            "qualified_name": "cycfi::artist::color::color(cycfi::artist::color &&)",
+            "return_type": "void",
+            "short_name": "color",
+            "signature": "color(cycfi::artist::color &&)",
+            "signature_with_names": "color(cycfi::artist::color &&)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "level": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "amount",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/color.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::color level(float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "color"
+            ],
+            "qualified_name": "constexpr cycfi::artist::color cycfi::artist::color::level(float) const",
+            "return_type": "cycfi::artist::color",
+            "short_name": "level",
+            "signature": "constexpr cycfi::artist::color level(float) const",
+            "signature_with_names": "constexpr cycfi::artist::color level(float amount) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "opacity": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "alpha_",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/color.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::color opacity(float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "color"
+            ],
+            "qualified_name": "constexpr cycfi::artist::color cycfi::artist::color::opacity(float) const",
+            "return_type": "cycfi::artist::color",
+            "short_name": "opacity",
+            "signature": "constexpr cycfi::artist::color opacity(float) const",
+            "signature_with_names": "constexpr cycfi::artist::color opacity(float alpha_) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "~color": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "artist/color.hpp",
+            "deprecated": false,
+            "is_dtor": true,
+            "name": "~color()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "color"
+            ],
+            "qualified_name": "cycfi::artist::color::~color()",
+            "return_type": "void",
+            "short_name": "~color",
+            "signature": "~color()",
+            "signature_with_names": "~color()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "color",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::color"
+    }
+  ],
+  "enums": [],
+  "functions": {
+    "hsl": [
+      {
+        "arguments": [
+          {
+            "name": "h",
+            "type": "float"
+          },
+          {
+            "name": "s",
+            "type": "float"
+          },
+          {
+            "name": "l",
+            "type": "float"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/color.hpp",
+        "deprecated": false,
+        "name": "constexpr cycfi::artist::color hsl(float, float, float)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr cycfi::artist::color cycfi::artist::hsl(float, float, float)",
+        "return_type": "cycfi::artist::color",
+        "short_name": "hsl",
+        "signature": "constexpr cycfi::artist::color hsl(float, float, float)",
+        "signature_with_names": "constexpr cycfi::artist::color hsl(float h, float s, float l)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "operator!=": [
+      {
+        "arguments": [
+          {
+            "name": "a",
+            "type": "const cycfi::artist::color &"
+          },
+          {
+            "name": "b",
+            "type": "const cycfi::artist::color &"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/color.hpp",
+        "deprecated": false,
+        "name": "constexpr bool operator!=(const cycfi::artist::color &, const cycfi::artist::color &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr bool cycfi::artist::operator!=(const cycfi::artist::color &, const cycfi::artist::color &)",
+        "return_type": "bool",
+        "short_name": "operator!=",
+        "signature": "constexpr bool operator!=(const cycfi::artist::color &, const cycfi::artist::color &)",
+        "signature_with_names": "constexpr bool operator!=(const cycfi::artist::color & a, const cycfi::artist::color & b)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      },
+      {
+        "arguments": [
+          {
+            "name": "a",
+            "type": "const cycfi::artist::color &"
+          },
+          {
+            "name": "b",
+            "type": "const cycfi::artist::color &"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/color.hpp",
+        "deprecated": false,
+        "name": "constexpr bool operator!=(const cycfi::artist::color &, const cycfi::artist::color &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr bool cycfi::artist::operator!=(const cycfi::artist::color &, const cycfi::artist::color &)",
+        "return_type": "bool",
+        "short_name": "operator!=",
+        "signature": "constexpr bool operator!=(const cycfi::artist::color &, const cycfi::artist::color &)",
+        "signature_with_names": "constexpr bool operator!=(const cycfi::artist::color & a, const cycfi::artist::color & b)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "operator==": [
+      {
+        "arguments": [
+          {
+            "name": "a",
+            "type": "const cycfi::artist::color &"
+          },
+          {
+            "name": "b",
+            "type": "const cycfi::artist::color &"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/color.hpp",
+        "deprecated": false,
+        "name": "constexpr bool operator==(const cycfi::artist::color &, const cycfi::artist::color &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr bool cycfi::artist::operator==(const cycfi::artist::color &, const cycfi::artist::color &)",
+        "return_type": "bool",
+        "short_name": "operator==",
+        "signature": "constexpr bool operator==(const cycfi::artist::color &, const cycfi::artist::color &)",
+        "signature_with_names": "constexpr bool operator==(const cycfi::artist::color & a, const cycfi::artist::color & b)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      },
+      {
+        "arguments": [
+          {
+            "name": "a",
+            "type": "const cycfi::artist::color &"
+          },
+          {
+            "name": "b",
+            "type": "const cycfi::artist::color &"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/color.hpp",
+        "deprecated": false,
+        "name": "constexpr bool operator==(const cycfi::artist::color &, const cycfi::artist::color &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr bool cycfi::artist::operator==(const cycfi::artist::color &, const cycfi::artist::color &)",
+        "return_type": "bool",
+        "short_name": "operator==",
+        "signature": "constexpr bool operator==(const cycfi::artist::color &, const cycfi::artist::color &)",
+        "signature_with_names": "constexpr bool operator==(const cycfi::artist::color & a, const cycfi::artist::color & b)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "rgb": [
+      {
+        "arguments": [
+          {
+            "name": "rgb",
+            "type": "std::uint32_t"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/color.hpp",
+        "deprecated": false,
+        "name": "constexpr cycfi::artist::color rgb(std::uint32_t)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr cycfi::artist::color cycfi::artist::rgb(std::uint32_t)",
+        "return_type": "cycfi::artist::color",
+        "short_name": "rgb",
+        "signature": "constexpr cycfi::artist::color rgb(std::uint32_t)",
+        "signature_with_names": "constexpr cycfi::artist::color rgb(std::uint32_t rgb)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      },
+      {
+        "arguments": [
+          {
+            "name": "r",
+            "type": "std::uint8_t"
+          },
+          {
+            "name": "g",
+            "type": "std::uint8_t"
+          },
+          {
+            "name": "b",
+            "type": "std::uint8_t"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/color.hpp",
+        "deprecated": false,
+        "name": "constexpr cycfi::artist::color rgb(std::uint8_t, std::uint8_t, std::uint8_t)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr cycfi::artist::color cycfi::artist::rgb(std::uint8_t, std::uint8_t, std::uint8_t)",
+        "return_type": "cycfi::artist::color",
+        "short_name": "rgb",
+        "signature": "constexpr cycfi::artist::color rgb(std::uint8_t, std::uint8_t, std::uint8_t)",
+        "signature_with_names": "constexpr cycfi::artist::color rgb(std::uint8_t r, std::uint8_t g, std::uint8_t b)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "rgba": [
+      {
+        "arguments": [
+          {
+            "name": "rgba",
+            "type": "std::uint32_t"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/color.hpp",
+        "deprecated": false,
+        "name": "constexpr cycfi::artist::color rgba(std::uint32_t)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr cycfi::artist::color cycfi::artist::rgba(std::uint32_t)",
+        "return_type": "cycfi::artist::color",
+        "short_name": "rgba",
+        "signature": "constexpr cycfi::artist::color rgba(std::uint32_t)",
+        "signature_with_names": "constexpr cycfi::artist::color rgba(std::uint32_t rgba)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      },
+      {
+        "arguments": [
+          {
+            "name": "r",
+            "type": "std::uint8_t"
+          },
+          {
+            "name": "g",
+            "type": "std::uint8_t"
+          },
+          {
+            "name": "b",
+            "type": "std::uint8_t"
+          },
+          {
+            "name": "a",
+            "type": "std::uint8_t"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/color.hpp",
+        "deprecated": false,
+        "name": "constexpr cycfi::artist::color rgba(std::uint8_t, std::uint8_t, std::uint8_t, std::uint8_t)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr cycfi::artist::color cycfi::artist::rgba(std::uint8_t, std::uint8_t, std::uint8_t, std::uint8_t)",
+        "return_type": "cycfi::artist::color",
+        "short_name": "rgba",
+        "signature": "constexpr cycfi::artist::color rgba(std::uint8_t, std::uint8_t, std::uint8_t, std::uint8_t)",
+        "signature_with_names": "constexpr cycfi::artist::color rgba(std::uint8_t r, std::uint8_t g, std::uint8_t b, std::uint8_t a)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ]
+  },
+  "namespaces": [
+    {
+      "defined_in_file": "artist/color.hpp",
+      "deprecated": false,
+      "name": "cycfi",
+      "namespaces": [],
+      "parents": [],
+      "qualified_name": "cycfi"
+    },
+    {
+      "defined_in_file": "artist/color.hpp",
+      "deprecated": false,
+      "name": "artist",
+      "namespaces": [
+        "cycfi"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist"
+    },
+    {
+      "defined_in_file": "artist/color.hpp",
+      "deprecated": false,
+      "name": "colors",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::colors"
+    }
+  ],
+  "paths": {
+    "src_path": "artist/color.hpp",
+    "src_root": ""
+  },
+  "typealiases": [],
+  "typedefs": []
+}

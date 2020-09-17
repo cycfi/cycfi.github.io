@@ -1,0 +1,49 @@
+classes:
+- name: color
+  description: __MISSING__
+  methods:
+  - color:
+    - name: color()
+      description: __MISSING__
+    - name: color(float, float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: red
+        description: __MISSING__
+      - name: green
+        description: __MISSING__
+      - name: blue
+        description: __MISSING__
+      - name: alpha
+        description: __MISSING__
+    - name: color(const cycfi::artist::color &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    - name: color(cycfi::artist::color &&)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - level:
+    - name: constexpr cycfi::artist::color level(float) const
+      description: __MISSING__
+      arguments:
+      - name: amount
+        description: __MISSING__
+    description: __MISSING__
+  - opacity:
+    - name: constexpr cycfi::artist::color opacity(float) const
+      description: __MISSING__
+      arguments:
+      - name: alpha_
+        description: __MISSING__
+    description: __MISSING__
+  - ~color:
+    - name: ~color()
+      description: __MISSING__
+    description: __MISSING__
+enums: []
+

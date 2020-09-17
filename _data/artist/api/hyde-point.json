@@ -1,0 +1,605 @@
+{
+  "classes": [
+    {
+      "defined_in_file": "artist/point.hpp",
+      "deprecated": false,
+      "dtor": "unspecified",
+      "fields": {
+        "cycfi::artist::point::x": {
+          "access": "public",
+          "defined_in_file": "artist/point.hpp",
+          "deprecated": false,
+          "name": "x",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "point"
+          ],
+          "qualified_name": "cycfi::artist::point::x",
+          "type": "float"
+        },
+        "cycfi::artist::point::y": {
+          "access": "public",
+          "defined_in_file": "artist/point.hpp",
+          "deprecated": false,
+          "name": "y",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "point"
+          ],
+          "qualified_name": "cycfi::artist::point::y",
+          "type": "float"
+        }
+      },
+      "kind": "struct",
+      "methods": {
+        "move": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "dx",
+                "type": "float"
+              },
+              {
+                "name": "dy",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/point.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::point move(float, float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "point"
+            ],
+            "qualified_name": "constexpr cycfi::artist::point cycfi::artist::point::move(float, float) const",
+            "return_type": "cycfi::artist::point",
+            "short_name": "move",
+            "signature": "constexpr cycfi::artist::point move(float, float) const",
+            "signature_with_names": "constexpr cycfi::artist::point move(float dx, float dy) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "move_to": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/point.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::point move_to(float, float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "point"
+            ],
+            "qualified_name": "constexpr cycfi::artist::point cycfi::artist::point::move_to(float, float) const",
+            "return_type": "cycfi::artist::point",
+            "short_name": "move_to",
+            "signature": "constexpr cycfi::artist::point move_to(float, float) const",
+            "signature_with_names": "constexpr cycfi::artist::point move_to(float x, float y) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator!=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "other",
+                "type": "const cycfi::artist::point &"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/point.hpp",
+            "deprecated": false,
+            "name": "constexpr bool operator!=(const cycfi::artist::point &) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "point"
+            ],
+            "qualified_name": "constexpr bool cycfi::artist::point::operator!=(const cycfi::artist::point &) const",
+            "return_type": "bool",
+            "short_name": "operator!=",
+            "signature": "constexpr bool operator!=(const cycfi::artist::point &) const",
+            "signature_with_names": "constexpr bool operator!=(const cycfi::artist::point & other) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::point &"
+              }
+            ],
+            "constexpr": true,
+            "default": true,
+            "defined_in_file": "artist/point.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::point & operator=(const cycfi::artist::point &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "point"
+            ],
+            "qualified_name": "constexpr cycfi::artist::point & cycfi::artist::point::operator=(const cycfi::artist::point &)",
+            "return_type": "cycfi::artist::point &",
+            "short_name": "operator=",
+            "signature": "constexpr cycfi::artist::point & operator=(const cycfi::artist::point &)",
+            "signature_with_names": "constexpr cycfi::artist::point & operator=(const cycfi::artist::point &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator==": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "other",
+                "type": "const cycfi::artist::point &"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/point.hpp",
+            "deprecated": false,
+            "name": "constexpr bool operator==(const cycfi::artist::point &) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "point"
+            ],
+            "qualified_name": "constexpr bool cycfi::artist::point::operator==(const cycfi::artist::point &) const",
+            "return_type": "bool",
+            "short_name": "operator==",
+            "signature": "constexpr bool operator==(const cycfi::artist::point &) const",
+            "signature_with_names": "constexpr bool operator==(const cycfi::artist::point & other) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "point": [
+          {
+            "access": "public",
+            "arguments": [],
+            "constexpr": true,
+            "defined_in_file": "artist/point.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "point()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "point"
+            ],
+            "qualified_name": "cycfi::artist::point::point()",
+            "return_type": "void",
+            "short_name": "point",
+            "signature": "point()",
+            "signature_with_names": "point()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/point.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "point(float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "point"
+            ],
+            "qualified_name": "cycfi::artist::point::point(float, float)",
+            "return_type": "void",
+            "short_name": "point",
+            "signature": "point(float, float)",
+            "signature_with_names": "point(float x, float y)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::point &"
+              }
+            ],
+            "constexpr": true,
+            "default": true,
+            "defined_in_file": "artist/point.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "point(const cycfi::artist::point &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "point"
+            ],
+            "qualified_name": "cycfi::artist::point::point(const cycfi::artist::point &)",
+            "return_type": "void",
+            "short_name": "point",
+            "signature": "point(const cycfi::artist::point &)",
+            "signature_with_names": "point(const cycfi::artist::point &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "reflect": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/point.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::point reflect(cycfi::artist::point) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "point"
+            ],
+            "qualified_name": "constexpr cycfi::artist::point cycfi::artist::point::reflect(cycfi::artist::point) const",
+            "return_type": "cycfi::artist::point",
+            "short_name": "reflect",
+            "signature": "constexpr cycfi::artist::point reflect(cycfi::artist::point) const",
+            "signature_with_names": "constexpr cycfi::artist::point reflect(cycfi::artist::point p) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "~point": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "artist/point.hpp",
+            "deprecated": false,
+            "is_dtor": true,
+            "name": "~point()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "point"
+            ],
+            "qualified_name": "cycfi::artist::point::~point()",
+            "return_type": "void",
+            "short_name": "~point",
+            "signature": "~point()",
+            "signature_with_names": "~point()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "point",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::point"
+    },
+    {
+      "defined_in_file": "artist/point.hpp",
+      "deprecated": false,
+      "dtor": "unspecified",
+      "kind": "struct",
+      "methods": {
+        "extent": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/point.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "extent(cycfi::artist::point)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "extent"
+            ],
+            "qualified_name": "cycfi::artist::extent::extent(cycfi::artist::point)",
+            "return_type": "void",
+            "short_name": "extent",
+            "signature": "extent(cycfi::artist::point)",
+            "signature_with_names": "extent(cycfi::artist::point p)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::extent &"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/point.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "extent(const cycfi::artist::extent &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "extent"
+            ],
+            "qualified_name": "cycfi::artist::extent::extent(const cycfi::artist::extent &)",
+            "return_type": "void",
+            "short_name": "extent",
+            "signature": "extent(const cycfi::artist::extent &)",
+            "signature_with_names": "extent(const cycfi::artist::extent &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "cycfi::artist::extent &&"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/point.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "extent(cycfi::artist::extent &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "extent"
+            ],
+            "qualified_name": "cycfi::artist::extent::extent(cycfi::artist::extent &&)",
+            "return_type": "void",
+            "short_name": "extent",
+            "signature": "extent(cycfi::artist::extent &&)",
+            "signature_with_names": "extent(cycfi::artist::extent &&)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "move": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "dx",
+                "type": "float"
+              },
+              {
+                "name": "dy",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/point.hpp",
+            "delete": true,
+            "deprecated": false,
+            "name": "cycfi::artist::point move(float, float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "extent"
+            ],
+            "qualified_name": "cycfi::artist::point cycfi::artist::extent::move(float, float) const",
+            "return_type": "cycfi::artist::point",
+            "short_name": "move",
+            "signature": "cycfi::artist::point move(float, float) const",
+            "signature_with_names": "cycfi::artist::point move(float dx, float dy) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "move_to": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/point.hpp",
+            "delete": true,
+            "deprecated": false,
+            "name": "cycfi::artist::point move_to(float, float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "extent"
+            ],
+            "qualified_name": "cycfi::artist::point cycfi::artist::extent::move_to(float, float) const",
+            "return_type": "cycfi::artist::point",
+            "short_name": "move_to",
+            "signature": "cycfi::artist::point move_to(float, float) const",
+            "signature_with_names": "cycfi::artist::point move_to(float x, float y) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "cycfi::artist::extent &&"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/point.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::extent & operator=(cycfi::artist::extent &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "extent"
+            ],
+            "qualified_name": "constexpr cycfi::artist::extent & cycfi::artist::extent::operator=(cycfi::artist::extent &&)",
+            "return_type": "cycfi::artist::extent &",
+            "short_name": "operator=",
+            "signature": "constexpr cycfi::artist::extent & operator=(cycfi::artist::extent &&)",
+            "signature_with_names": "constexpr cycfi::artist::extent & operator=(cycfi::artist::extent &&)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "reflect": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/point.hpp",
+            "delete": true,
+            "deprecated": false,
+            "name": "cycfi::artist::point reflect(cycfi::artist::point) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "extent"
+            ],
+            "qualified_name": "cycfi::artist::point cycfi::artist::extent::reflect(cycfi::artist::point) const",
+            "return_type": "cycfi::artist::point",
+            "short_name": "reflect",
+            "signature": "cycfi::artist::point reflect(cycfi::artist::point) const",
+            "signature_with_names": "cycfi::artist::point reflect(cycfi::artist::point p) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "extent",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::extent"
+    }
+  ],
+  "enums": [],
+  "functions": {},
+  "namespaces": [
+    {
+      "defined_in_file": "artist/point.hpp",
+      "deprecated": false,
+      "name": "cycfi",
+      "namespaces": [],
+      "parents": [],
+      "qualified_name": "cycfi"
+    },
+    {
+      "defined_in_file": "artist/point.hpp",
+      "deprecated": false,
+      "name": "artist",
+      "namespaces": [
+        "cycfi"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist"
+    }
+  ],
+  "paths": {
+    "src_path": "artist/point.hpp",
+    "src_root": ""
+  },
+  "typealiases": [],
+  "typedefs": []
+}

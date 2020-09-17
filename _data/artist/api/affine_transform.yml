@@ -1,0 +1,99 @@
+classes:
+- name: affine_transform
+  description: __MISSING__
+  methods:
+  - affine_transform:
+    - name: affine_transform()
+      description: __MISSING__
+    - name: affine_transform(const cycfi::artist::affine_transform &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    - name: affine_transform(cycfi::artist::affine_transform &&)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - apply:
+    - name: constexpr cycfi::artist::point apply(cycfi::artist::point) const
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    - name: constexpr cycfi::artist::point apply(float, float) const
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    - name: constexpr void apply(cycfi::artist::point *, std::size_t) const
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+      - name: n
+        description: __MISSING__
+    - name: 'template <std::size_t N>
+
+        constexpr void apply(cycfi::artist::point *) const'
+      description: __MISSING__
+      arguments:
+      - name: p
+        description: __MISSING__
+    description: __MISSING__
+  - invert:
+    - name: constexpr cycfi::artist::affine_transform invert() const
+      description: __MISSING__
+    description: __MISSING__
+  - is_identity:
+    - name: constexpr bool is_identity() const
+      description: __MISSING__
+    description: __MISSING__
+  - rotate:
+    - name: cycfi::artist::affine_transform rotate(double) const
+      description: __MISSING__
+      arguments:
+      - name: rad
+        description: __MISSING__
+    description: __MISSING__
+  - scale:
+    - name: constexpr cycfi::artist::affine_transform scale(double, double) const
+      description: __MISSING__
+      arguments:
+      - name: sx
+        description: __MISSING__
+      - name: sy
+        description: __MISSING__
+    - name: constexpr cycfi::artist::affine_transform scale(double) const
+      description: __MISSING__
+      arguments:
+      - name: sc
+        description: __MISSING__
+    description: __MISSING__
+  - skew:
+    - name: cycfi::artist::affine_transform skew(double, double) const
+      description: __MISSING__
+      arguments:
+      - name: sx
+        description: __MISSING__
+      - name: sy
+        description: __MISSING__
+    description: __MISSING__
+  - translate:
+    - name: constexpr cycfi::artist::affine_transform translate(double, double) const
+      description: __MISSING__
+      arguments:
+      - name: tx
+        description: __MISSING__
+      - name: ty
+        description: __MISSING__
+    description: __MISSING__
+  - ~affine_transform:
+    - name: ~affine_transform()
+      description: __MISSING__
+    description: __MISSING__
+enums: []
+

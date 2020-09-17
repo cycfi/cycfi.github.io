@@ -1,0 +1,1506 @@
+{
+  "classes": [
+    {
+      "ctor": "unspecified",
+      "defined_in_file": "artist/font.hpp",
+      "deprecated": false,
+      "dtor": "unspecified",
+      "fields": {
+        "cycfi::artist::font_descr::_families": {
+          "access": "public",
+          "defined_in_file": "artist/font.hpp",
+          "deprecated": false,
+          "name": "_families",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "font_descr"
+          ],
+          "qualified_name": "cycfi::artist::font_descr::_families",
+          "type": "std::string_view"
+        },
+        "cycfi::artist::font_descr::_size": {
+          "access": "public",
+          "defined_in_file": "artist/font.hpp",
+          "deprecated": false,
+          "name": "_size",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "font_descr"
+          ],
+          "qualified_name": "cycfi::artist::font_descr::_size",
+          "type": "float"
+        },
+        "cycfi::artist::font_descr::_slant": {
+          "access": "public",
+          "defined_in_file": "artist/font.hpp",
+          "deprecated": false,
+          "name": "_slant",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "font_descr"
+          ],
+          "qualified_name": "cycfi::artist::font_descr::_slant",
+          "type": "cycfi::artist::font_descr::slant_enum"
+        },
+        "cycfi::artist::font_descr::_stretch": {
+          "access": "public",
+          "defined_in_file": "artist/font.hpp",
+          "deprecated": false,
+          "name": "_stretch",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "font_descr"
+          ],
+          "qualified_name": "cycfi::artist::font_descr::_stretch",
+          "type": "uint8_t"
+        },
+        "cycfi::artist::font_descr::_weight": {
+          "access": "public",
+          "defined_in_file": "artist/font.hpp",
+          "deprecated": false,
+          "name": "_weight",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "font_descr"
+          ],
+          "qualified_name": "cycfi::artist::font_descr::_weight",
+          "type": "uint8_t"
+        }
+      },
+      "kind": "struct",
+      "methods": {
+        "black": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr black() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::black() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "black",
+            "signature": "cycfi::artist::font_descr black() const",
+            "signature_with_names": "cycfi::artist::font_descr black() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "bold": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr bold() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::bold() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "bold",
+            "signature": "cycfi::artist::font_descr bold() const",
+            "signature_with_names": "cycfi::artist::font_descr bold() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "condensed": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr condensed() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::condensed() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "condensed",
+            "signature": "cycfi::artist::font_descr condensed() const",
+            "signature_with_names": "cycfi::artist::font_descr condensed() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "expanded": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr expanded() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::expanded() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "expanded",
+            "signature": "cycfi::artist::font_descr expanded() const",
+            "signature_with_names": "cycfi::artist::font_descr expanded() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "extra_black": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr extra_black() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::extra_black() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "extra_black",
+            "signature": "cycfi::artist::font_descr extra_black() const",
+            "signature_with_names": "cycfi::artist::font_descr extra_black() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "extra_bold": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr extra_bold() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::extra_bold() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "extra_bold",
+            "signature": "cycfi::artist::font_descr extra_bold() const",
+            "signature_with_names": "cycfi::artist::font_descr extra_bold() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "extra_condensed": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr extra_condensed() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::extra_condensed() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "extra_condensed",
+            "signature": "cycfi::artist::font_descr extra_condensed() const",
+            "signature_with_names": "cycfi::artist::font_descr extra_condensed() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "extra_expanded": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr extra_expanded() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::extra_expanded() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "extra_expanded",
+            "signature": "cycfi::artist::font_descr extra_expanded() const",
+            "signature_with_names": "cycfi::artist::font_descr extra_expanded() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "extra_light": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr extra_light() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::extra_light() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "extra_light",
+            "signature": "cycfi::artist::font_descr extra_light() const",
+            "signature_with_names": "cycfi::artist::font_descr extra_light() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "font_descr": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::font_descr &"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "font_descr(const cycfi::artist::font_descr &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr::font_descr(const cycfi::artist::font_descr &)",
+            "return_type": "void",
+            "short_name": "font_descr",
+            "signature": "font_descr(const cycfi::artist::font_descr &)",
+            "signature_with_names": "font_descr(const cycfi::artist::font_descr &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "cycfi::artist::font_descr &&"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "font_descr(cycfi::artist::font_descr &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr::font_descr(cycfi::artist::font_descr &&)",
+            "return_type": "void",
+            "short_name": "font_descr",
+            "signature": "font_descr(cycfi::artist::font_descr &&)",
+            "signature_with_names": "font_descr(cycfi::artist::font_descr &&)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [],
+            "constexpr": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "font_descr()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr::font_descr()",
+            "return_type": "void",
+            "short_name": "font_descr",
+            "signature": "font_descr()",
+            "signature_with_names": "font_descr()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "italic": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr italic() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::italic() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "italic",
+            "signature": "cycfi::artist::font_descr italic() const",
+            "signature_with_names": "cycfi::artist::font_descr italic() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "light": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr light() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::light() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "light",
+            "signature": "cycfi::artist::font_descr light() const",
+            "signature_with_names": "cycfi::artist::font_descr light() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "medium": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr medium() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::medium() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "medium",
+            "signature": "cycfi::artist::font_descr medium() const",
+            "signature_with_names": "cycfi::artist::font_descr medium() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "normal": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr normal() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::normal() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "normal",
+            "signature": "cycfi::artist::font_descr normal() const",
+            "signature_with_names": "cycfi::artist::font_descr normal() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "oblique": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr oblique() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::oblique() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "oblique",
+            "signature": "cycfi::artist::font_descr oblique() const",
+            "signature_with_names": "cycfi::artist::font_descr oblique() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "cycfi::artist::font_descr &&"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::font_descr & operator=(cycfi::artist::font_descr &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "constexpr cycfi::artist::font_descr & cycfi::artist::font_descr::operator=(cycfi::artist::font_descr &&)",
+            "return_type": "cycfi::artist::font_descr &",
+            "short_name": "operator=",
+            "signature": "constexpr cycfi::artist::font_descr & operator=(cycfi::artist::font_descr &&)",
+            "signature_with_names": "constexpr cycfi::artist::font_descr & operator=(cycfi::artist::font_descr &&)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "semi_bold": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr semi_bold() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::semi_bold() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "semi_bold",
+            "signature": "cycfi::artist::font_descr semi_bold() const",
+            "signature_with_names": "cycfi::artist::font_descr semi_bold() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "semi_condensed": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr semi_condensed() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::semi_condensed() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "semi_condensed",
+            "signature": "cycfi::artist::font_descr semi_condensed() const",
+            "signature_with_names": "cycfi::artist::font_descr semi_condensed() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "semi_expanded": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr semi_expanded() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::semi_expanded() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "semi_expanded",
+            "signature": "cycfi::artist::font_descr semi_expanded() const",
+            "signature_with_names": "cycfi::artist::font_descr semi_expanded() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "size": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "size_",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr size(float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::size(float) const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "size",
+            "signature": "cycfi::artist::font_descr size(float) const",
+            "signature_with_names": "cycfi::artist::font_descr size(float size_) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "slant_normal": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr slant_normal() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::slant_normal() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "slant_normal",
+            "signature": "cycfi::artist::font_descr slant_normal() const",
+            "signature_with_names": "cycfi::artist::font_descr slant_normal() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "stretch": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "s",
+                "type": "font_constants::stretch_enum"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr stretch(font_constants::stretch_enum) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::stretch(font_constants::stretch_enum) const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "stretch",
+            "signature": "cycfi::artist::font_descr stretch(font_constants::stretch_enum) const",
+            "signature_with_names": "cycfi::artist::font_descr stretch(font_constants::stretch_enum s) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "stretch_normal": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr stretch_normal() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::stretch_normal() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "stretch_normal",
+            "signature": "cycfi::artist::font_descr stretch_normal() const",
+            "signature_with_names": "cycfi::artist::font_descr stretch_normal() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "style": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "s",
+                "type": "font_constants::slant_enum"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr style(font_constants::slant_enum) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::style(font_constants::slant_enum) const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "style",
+            "signature": "cycfi::artist::font_descr style(font_constants::slant_enum) const",
+            "signature_with_names": "cycfi::artist::font_descr style(font_constants::slant_enum s) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "thin": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr thin() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::thin() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "thin",
+            "signature": "cycfi::artist::font_descr thin() const",
+            "signature_with_names": "cycfi::artist::font_descr thin() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "ultra_condensed": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr ultra_condensed() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::ultra_condensed() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "ultra_condensed",
+            "signature": "cycfi::artist::font_descr ultra_condensed() const",
+            "signature_with_names": "cycfi::artist::font_descr ultra_condensed() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "ultra_expanded": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr ultra_expanded() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::ultra_expanded() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "ultra_expanded",
+            "signature": "cycfi::artist::font_descr ultra_expanded() const",
+            "signature_with_names": "cycfi::artist::font_descr ultra_expanded() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "weight": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "w",
+                "type": "font_constants::weight_enum"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr weight(font_constants::weight_enum) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::weight(font_constants::weight_enum) const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "weight",
+            "signature": "cycfi::artist::font_descr weight(font_constants::weight_enum) const",
+            "signature_with_names": "cycfi::artist::font_descr weight(font_constants::weight_enum w) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "weight_normal": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_descr weight_normal() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font_descr"
+            ],
+            "qualified_name": "cycfi::artist::font_descr cycfi::artist::font_descr::weight_normal() const",
+            "return_type": "cycfi::artist::font_descr",
+            "short_name": "weight_normal",
+            "signature": "cycfi::artist::font_descr weight_normal() const",
+            "signature_with_names": "cycfi::artist::font_descr weight_normal() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "font_descr",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::font_descr",
+      "typealiases": [
+        {
+          "access": "public",
+          "defined_in_file": "artist/font.hpp",
+          "deprecated": false,
+          "name": "slant_enum",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "font_descr"
+          ],
+          "qualified_name": "cycfi::artist::font_descr::slant_enum",
+          "type": "font_constants::slant_enum"
+        }
+      ]
+    },
+    {
+      "defined_in_file": "artist/font.hpp",
+      "deprecated": false,
+      "kind": "class",
+      "methods": {
+        "font": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "font()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font"
+            ],
+            "qualified_name": "cycfi::artist::font::font()",
+            "return_type": "void",
+            "short_name": "font",
+            "signature": "font()",
+            "signature_with_names": "font()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "descr",
+                "type": "cycfi::artist::font_descr"
+              }
+            ],
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "font(cycfi::artist::font_descr)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font"
+            ],
+            "qualified_name": "cycfi::artist::font::font(cycfi::artist::font_descr)",
+            "return_type": "void",
+            "short_name": "font",
+            "signature": "font(cycfi::artist::font_descr)",
+            "signature_with_names": "font(cycfi::artist::font_descr descr)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rhs",
+                "type": "const cycfi::artist::font &"
+              }
+            ],
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "font(const cycfi::artist::font &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font"
+            ],
+            "qualified_name": "cycfi::artist::font::font(const cycfi::artist::font &)",
+            "return_type": "void",
+            "short_name": "font",
+            "signature": "font(const cycfi::artist::font &)",
+            "signature_with_names": "font(const cycfi::artist::font & rhs)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rhs",
+                "type": "cycfi::artist::font &&"
+              }
+            ],
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "font(cycfi::artist::font &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font"
+            ],
+            "qualified_name": "cycfi::artist::font::font(cycfi::artist::font &&)",
+            "return_type": "void",
+            "short_name": "font",
+            "signature": "font(cycfi::artist::font &&)",
+            "signature_with_names": "font(cycfi::artist::font && rhs)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "impl": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font_impl_ptr impl() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font"
+            ],
+            "qualified_name": "cycfi::artist::font_impl_ptr cycfi::artist::font::impl() const",
+            "return_type": "cycfi::artist::font_impl_ptr",
+            "short_name": "impl",
+            "signature": "cycfi::artist::font_impl_ptr impl() const",
+            "signature_with_names": "cycfi::artist::font_impl_ptr impl() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "line_height": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "float line_height() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font"
+            ],
+            "qualified_name": "float cycfi::artist::font::line_height() const",
+            "return_type": "float",
+            "short_name": "line_height",
+            "signature": "float line_height() const",
+            "signature_with_names": "float line_height() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "measure_text": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "str",
+                "type": "std::string_view"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "float measure_text(std::string_view) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font"
+            ],
+            "qualified_name": "float cycfi::artist::font::measure_text(std::string_view) const",
+            "return_type": "float",
+            "short_name": "measure_text",
+            "signature": "float measure_text(std::string_view) const",
+            "signature_with_names": "float measure_text(std::string_view str) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "metrics": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font::metrics_info metrics() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font"
+            ],
+            "qualified_name": "cycfi::artist::font::metrics_info cycfi::artist::font::metrics() const",
+            "return_type": "cycfi::artist::font::metrics_info",
+            "short_name": "metrics",
+            "signature": "cycfi::artist::font::metrics_info metrics() const",
+            "signature_with_names": "cycfi::artist::font::metrics_info metrics() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator bool": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "explicit": true,
+            "name": "explicit operator bool() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font"
+            ],
+            "qualified_name": "explicit cycfi::artist::font::operator bool() const",
+            "return_type": "bool",
+            "short_name": "operator bool",
+            "signature": "explicit operator bool() const",
+            "signature_with_names": "explicit operator bool() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rhs",
+                "type": "const cycfi::artist::font &"
+              }
+            ],
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font & operator=(const cycfi::artist::font &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font"
+            ],
+            "qualified_name": "cycfi::artist::font & cycfi::artist::font::operator=(const cycfi::artist::font &)",
+            "return_type": "cycfi::artist::font &",
+            "short_name": "operator=",
+            "signature": "cycfi::artist::font & operator=(const cycfi::artist::font &)",
+            "signature_with_names": "cycfi::artist::font & operator=(const cycfi::artist::font & rhs)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rhs",
+                "type": "cycfi::artist::font &&"
+              }
+            ],
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::font & operator=(cycfi::artist::font &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font"
+            ],
+            "qualified_name": "cycfi::artist::font & cycfi::artist::font::operator=(cycfi::artist::font &&)",
+            "return_type": "cycfi::artist::font &",
+            "short_name": "operator=",
+            "signature": "cycfi::artist::font & operator=(cycfi::artist::font &&)",
+            "signature_with_names": "cycfi::artist::font & operator=(cycfi::artist::font && rhs)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "~font": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "is_dtor": true,
+            "name": "~font()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font"
+            ],
+            "qualified_name": "cycfi::artist::font::~font()",
+            "return_type": "void",
+            "short_name": "~font",
+            "signature": "~font()",
+            "signature_with_names": "~font()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "font",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::font"
+    },
+    {
+      "access": "public",
+      "ctor": "unspecified",
+      "defined_in_file": "artist/font.hpp",
+      "deprecated": false,
+      "dtor": "unspecified",
+      "fields": {
+        "cycfi::artist::font::metrics_info::ascent": {
+          "access": "public",
+          "defined_in_file": "artist/font.hpp",
+          "deprecated": false,
+          "name": "ascent",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "font",
+            "metrics_info"
+          ],
+          "qualified_name": "cycfi::artist::font::metrics_info::ascent",
+          "type": "float"
+        },
+        "cycfi::artist::font::metrics_info::descent": {
+          "access": "public",
+          "defined_in_file": "artist/font.hpp",
+          "deprecated": false,
+          "name": "descent",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "font",
+            "metrics_info"
+          ],
+          "qualified_name": "cycfi::artist::font::metrics_info::descent",
+          "type": "float"
+        },
+        "cycfi::artist::font::metrics_info::leading": {
+          "access": "public",
+          "defined_in_file": "artist/font.hpp",
+          "deprecated": false,
+          "name": "leading",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "font",
+            "metrics_info"
+          ],
+          "qualified_name": "cycfi::artist::font::metrics_info::leading",
+          "type": "float"
+        }
+      },
+      "kind": "struct",
+      "methods": {
+        "~metrics_info": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "artist/font.hpp",
+            "deprecated": false,
+            "is_dtor": true,
+            "name": "~metrics_info()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "font",
+              "metrics_info"
+            ],
+            "qualified_name": "cycfi::artist::font::metrics_info::~metrics_info()",
+            "return_type": "void",
+            "short_name": "~metrics_info",
+            "signature": "~metrics_info()",
+            "signature_with_names": "~metrics_info()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "metrics_info",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [
+        "font"
+      ],
+      "qualified_name": "cycfi::artist::font::metrics_info"
+    }
+  ],
+  "enums": [
+    {
+      "defined_in_file": "artist/font.hpp",
+      "deprecated": false,
+      "name": "weight_enum",
+      "namespaces": [
+        "cycfi",
+        "artist",
+        "font_constants"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::font_constants::weight_enum",
+      "type": "unsigned int",
+      "values": [
+        {
+          "name": "thin"
+        },
+        {
+          "name": "extra_light"
+        },
+        {
+          "name": "light"
+        },
+        {
+          "name": "weight_normal"
+        },
+        {
+          "name": "medium"
+        },
+        {
+          "name": "semi_bold"
+        },
+        {
+          "name": "bold"
+        },
+        {
+          "name": "extra_bold"
+        },
+        {
+          "name": "black"
+        },
+        {
+          "name": "extra_black"
+        }
+      ]
+    },
+    {
+      "defined_in_file": "artist/font.hpp",
+      "deprecated": false,
+      "name": "slant_enum",
+      "namespaces": [
+        "cycfi",
+        "artist",
+        "font_constants"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::font_constants::slant_enum",
+      "type": "unsigned int",
+      "values": [
+        {
+          "name": "slant_normal"
+        },
+        {
+          "name": "italic"
+        },
+        {
+          "name": "oblique"
+        }
+      ]
+    },
+    {
+      "defined_in_file": "artist/font.hpp",
+      "deprecated": false,
+      "name": "stretch_enum",
+      "namespaces": [
+        "cycfi",
+        "artist",
+        "font_constants"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::font_constants::stretch_enum",
+      "type": "unsigned int",
+      "values": [
+        {
+          "name": "ultra_condensed"
+        },
+        {
+          "name": "extra_condensed"
+        },
+        {
+          "name": "condensed"
+        },
+        {
+          "name": "semi_condensed"
+        },
+        {
+          "name": "stretch_normal"
+        },
+        {
+          "name": "semi_expanded"
+        },
+        {
+          "name": "expanded"
+        },
+        {
+          "name": "extra_expanded"
+        },
+        {
+          "name": "ultra_expanded"
+        }
+      ]
+    }
+  ],
+  "functions": {
+    "get_user_fonts_directory": [
+      {
+        "arguments": [],
+        "defined_in_file": "artist/font.hpp",
+        "deprecated": false,
+        "name": "fs::path get_user_fonts_directory()",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "fs::path cycfi::artist::get_user_fonts_directory()",
+        "return_type": "fs::path",
+        "short_name": "get_user_fonts_directory",
+        "signature": "fs::path get_user_fonts_directory()",
+        "signature_with_names": "fs::path get_user_fonts_directory()",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ]
+  },
+  "namespaces": [
+    {
+      "defined_in_file": "artist/font.hpp",
+      "deprecated": false,
+      "name": "cycfi",
+      "namespaces": [],
+      "parents": [],
+      "qualified_name": "cycfi"
+    },
+    {
+      "defined_in_file": "artist/font.hpp",
+      "deprecated": false,
+      "name": "artist",
+      "namespaces": [
+        "cycfi"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist"
+    },
+    {
+      "defined_in_file": "artist/font.hpp",
+      "deprecated": false,
+      "name": "font_constants",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::font_constants"
+    }
+  ],
+  "paths": {
+    "src_path": "artist/font.hpp",
+    "src_root": ""
+  },
+  "typealiases": [
+    {
+      "defined_in_file": "artist/font.hpp",
+      "deprecated": false,
+      "name": "font_impl",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::font_impl",
+      "type": "SkFont"
+    },
+    {
+      "defined_in_file": "artist/font.hpp",
+      "deprecated": false,
+      "name": "font_impl_ptr",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::font_impl_ptr",
+      "type": "std::shared_ptr<SkFont>"
+    }
+  ],
+  "typedefs": []
+}

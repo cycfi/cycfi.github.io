@@ -1,0 +1,269 @@
+classes:
+- name: font_descr
+  description: __MISSING__
+  methods:
+  - black:
+    - name: cycfi::artist::font_descr black() const
+      description: __MISSING__
+    description: __MISSING__
+  - bold:
+    - name: cycfi::artist::font_descr bold() const
+      description: __MISSING__
+    description: __MISSING__
+  - condensed:
+    - name: cycfi::artist::font_descr condensed() const
+      description: __MISSING__
+    description: __MISSING__
+  - expanded:
+    - name: cycfi::artist::font_descr expanded() const
+      description: __MISSING__
+    description: __MISSING__
+  - extra_black:
+    - name: cycfi::artist::font_descr extra_black() const
+      description: __MISSING__
+    description: __MISSING__
+  - extra_bold:
+    - name: cycfi::artist::font_descr extra_bold() const
+      description: __MISSING__
+    description: __MISSING__
+  - extra_condensed:
+    - name: cycfi::artist::font_descr extra_condensed() const
+      description: __MISSING__
+    description: __MISSING__
+  - extra_expanded:
+    - name: cycfi::artist::font_descr extra_expanded() const
+      description: __MISSING__
+    description: __MISSING__
+  - extra_light:
+    - name: cycfi::artist::font_descr extra_light() const
+      description: __MISSING__
+    description: __MISSING__
+  - font_descr:
+    - name: font_descr(const cycfi::artist::font_descr &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    - name: font_descr(cycfi::artist::font_descr &&)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    - name: font_descr()
+      description: __MISSING__
+    description: __MISSING__
+  - italic:
+    - name: cycfi::artist::font_descr italic() const
+      description: __MISSING__
+    description: __MISSING__
+  - light:
+    - name: cycfi::artist::font_descr light() const
+      description: __MISSING__
+    description: __MISSING__
+  - medium:
+    - name: cycfi::artist::font_descr medium() const
+      description: __MISSING__
+    description: __MISSING__
+  - normal:
+    - name: cycfi::artist::font_descr normal() const
+      description: __MISSING__
+    description: __MISSING__
+  - oblique:
+    - name: cycfi::artist::font_descr oblique() const
+      description: __MISSING__
+    description: __MISSING__
+  - operator=:
+    - name: constexpr cycfi::artist::font_descr & operator=(cycfi::artist::font_descr
+        &&)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - semi_bold:
+    - name: cycfi::artist::font_descr semi_bold() const
+      description: __MISSING__
+    description: __MISSING__
+  - semi_condensed:
+    - name: cycfi::artist::font_descr semi_condensed() const
+      description: __MISSING__
+    description: __MISSING__
+  - semi_expanded:
+    - name: cycfi::artist::font_descr semi_expanded() const
+      description: __MISSING__
+    description: __MISSING__
+  - size:
+    - name: cycfi::artist::font_descr size(float) const
+      description: __MISSING__
+      arguments:
+      - name: size_
+        description: __MISSING__
+    description: __MISSING__
+  - slant_normal:
+    - name: cycfi::artist::font_descr slant_normal() const
+      description: __MISSING__
+    description: __MISSING__
+  - stretch:
+    - name: cycfi::artist::font_descr stretch(font_constants::stretch_enum) const
+      description: __MISSING__
+      arguments:
+      - name: s
+        description: __MISSING__
+    description: __MISSING__
+  - stretch_normal:
+    - name: cycfi::artist::font_descr stretch_normal() const
+      description: __MISSING__
+    description: __MISSING__
+  - style:
+    - name: cycfi::artist::font_descr style(font_constants::slant_enum) const
+      description: __MISSING__
+      arguments:
+      - name: s
+        description: __MISSING__
+    description: __MISSING__
+  - thin:
+    - name: cycfi::artist::font_descr thin() const
+      description: __MISSING__
+    description: __MISSING__
+  - ultra_condensed:
+    - name: cycfi::artist::font_descr ultra_condensed() const
+      description: __MISSING__
+    description: __MISSING__
+  - ultra_expanded:
+    - name: cycfi::artist::font_descr ultra_expanded() const
+      description: __MISSING__
+    description: __MISSING__
+  - weight:
+    - name: cycfi::artist::font_descr weight(font_constants::weight_enum) const
+      description: __MISSING__
+      arguments:
+      - name: w
+        description: __MISSING__
+    description: __MISSING__
+  - weight_normal:
+    - name: cycfi::artist::font_descr weight_normal() const
+      description: __MISSING__
+    description: __MISSING__
+- name: font
+  description: __MISSING__
+  methods:
+  - font:
+    - name: font()
+      description: __MISSING__
+    - name: font(cycfi::artist::font_descr)
+      description: __MISSING__
+      arguments:
+      - name: descr
+        description: __MISSING__
+    - name: font(const cycfi::artist::font &)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    - name: font(cycfi::artist::font &&)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    description: __MISSING__
+  - impl:
+    - name: cycfi::artist::font_impl_ptr impl() const
+      description: __MISSING__
+    description: __MISSING__
+  - line_height:
+    - name: float line_height() const
+      description: __MISSING__
+    description: __MISSING__
+  - measure_text:
+    - name: float measure_text(std::string_view) const
+      description: __MISSING__
+      arguments:
+      - name: str
+        description: __MISSING__
+    description: __MISSING__
+  - metrics:
+    - name: cycfi::artist::font::metrics_info metrics() const
+      description: __MISSING__
+    description: __MISSING__
+  - operator bool:
+    - name: explicit operator bool() const
+      description: __MISSING__
+    description: __MISSING__
+  - operator=:
+    - name: cycfi::artist::font & operator=(const cycfi::artist::font &)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    - name: cycfi::artist::font & operator=(cycfi::artist::font &&)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    description: __MISSING__
+  - ~font:
+    - name: ~font()
+      description: __MISSING__
+    description: __MISSING__
+- name: metrics_info
+  description: __MISSING__
+  methods:
+  - ~metrics_info:
+    - name: ~metrics_info()
+      description: __MISSING__
+    description: __MISSING__
+enums:
+- name: weight_enum
+  description: __MISSING__
+  values:
+  - name: thin
+    description: __MISSING__
+  - name: extra_light
+    description: __MISSING__
+  - name: light
+    description: __MISSING__
+  - name: weight_normal
+    description: __MISSING__
+  - name: medium
+    description: __MISSING__
+  - name: semi_bold
+    description: __MISSING__
+  - name: bold
+    description: __MISSING__
+  - name: extra_bold
+    description: __MISSING__
+  - name: black
+    description: __MISSING__
+  - name: extra_black
+    description: __MISSING__
+- name: slant_enum
+  description: __MISSING__
+  values:
+  - name: slant_normal
+    description: __MISSING__
+  - name: italic
+    description: __MISSING__
+  - name: oblique
+    description: __MISSING__
+- name: stretch_enum
+  description: __MISSING__
+  values:
+  - name: ultra_condensed
+    description: __MISSING__
+  - name: extra_condensed
+    description: __MISSING__
+  - name: condensed
+    description: __MISSING__
+  - name: semi_condensed
+    description: __MISSING__
+  - name: stretch_normal
+    description: __MISSING__
+  - name: semi_expanded
+    description: __MISSING__
+  - name: expanded
+    description: __MISSING__
+  - name: extra_expanded
+    description: __MISSING__
+  - name: ultra_expanded
+    description: __MISSING__
+

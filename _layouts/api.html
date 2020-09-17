@@ -2,18 +2,16 @@
 layout: "default"
 ---
 <link href="{{ '/assets/css/api.min.css' | relative_url }}" rel="stylesheet">
-
+{%-assign prj_name  = page.path | split: '/' | first-%}
 {%-assign cls_name  = page.title-%}
-{%-assign yaml_data = site.data.api[cls_name]-%}
+{%-assign yaml_data = site.data[prj_name].api[cls_name]-%}
 {%-assign json_data = "hyde-" | append: cls_name-%}
-{%-assign json_data = site.data.api[json_data]-%}
+{%-assign json_data = site.data[prj_name].api[json_data]-%}
 {%-assign src_path  = json_data.paths.src_path-%}
 {%-assign src_root  = json_data.paths.src_root-%}
-{%-assign inc_path  = src_path | replace: src_root, '' | replace_first: '/', ''-%}
+{%-assign inc_path  = src_path-%}
 {%-assign cls_json  = json_data.classes | where: "name", cls_name | first-%}
 {%-assign cls_yaml  = yaml_data.classes | where: "name", cls_name | first-%}
-
-<h1>{{ cls_name }}</h1>
 
 <hr/><code>#include &lt;{{ inc_path }}&gt;</code>
 <hr/><p>{{ cls_yaml.description | markdownify }}</p>

@@ -1,0 +1,758 @@
+{
+  "classes": [
+    {
+      "defined_in_file": "artist/text_layout.hpp",
+      "deprecated": false,
+      "fields": {
+        "cycfi::artist::text_layout::npos": {
+          "access": "public",
+          "defined_in_file": "artist/text_layout.hpp",
+          "deprecated": false,
+          "name": "npos",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "text_layout"
+          ],
+          "qualified_name": "cycfi::artist::text_layout::npos",
+          "static": true,
+          "type": "const unsigned long"
+        }
+      },
+      "kind": "class",
+      "methods": {
+        "caret_index": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "name": "std::size_t caret_index(float, float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "std::size_t cycfi::artist::text_layout::caret_index(float, float) const",
+            "return_type": "std::size_t",
+            "short_name": "caret_index",
+            "signature": "std::size_t caret_index(float, float) const",
+            "signature_with_names": "std::size_t caret_index(float x, float y) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "name": "std::size_t caret_index(cycfi::artist::point) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "std::size_t cycfi::artist::text_layout::caret_index(cycfi::artist::point) const",
+            "return_type": "std::size_t",
+            "short_name": "caret_index",
+            "signature": "std::size_t caret_index(cycfi::artist::point) const",
+            "signature_with_names": "std::size_t caret_index(cycfi::artist::point p) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "caret_point": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "index",
+                "type": "std::size_t"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::point caret_point(std::size_t) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "cycfi::artist::point cycfi::artist::text_layout::caret_point(std::size_t) const",
+            "return_type": "cycfi::artist::point",
+            "short_name": "caret_point",
+            "signature": "cycfi::artist::point caret_point(std::size_t) const",
+            "signature_with_names": "cycfi::artist::point caret_point(std::size_t index) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "draw": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "cnv",
+                "type": "cycfi::artist::canvas &"
+              },
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              },
+              {
+                "name": "c",
+                "type": "cycfi::artist::color"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "name": "void draw(cycfi::artist::canvas &, cycfi::artist::point, cycfi::artist::color) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "void cycfi::artist::text_layout::draw(cycfi::artist::canvas &, cycfi::artist::point, cycfi::artist::color) const",
+            "return_type": "void",
+            "short_name": "draw",
+            "signature": "void draw(cycfi::artist::canvas &, cycfi::artist::point, cycfi::artist::color) const",
+            "signature_with_names": "void draw(cycfi::artist::canvas & cnv, cycfi::artist::point p, cycfi::artist::color c) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "cnv",
+                "type": "cycfi::artist::canvas &"
+              },
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              },
+              {
+                "name": "c",
+                "type": "cycfi::artist::color"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "name": "void draw(cycfi::artist::canvas &, float, float, cycfi::artist::color) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "void cycfi::artist::text_layout::draw(cycfi::artist::canvas &, float, float, cycfi::artist::color) const",
+            "return_type": "void",
+            "short_name": "draw",
+            "signature": "void draw(cycfi::artist::canvas &, float, float, cycfi::artist::color) const",
+            "signature_with_names": "void draw(cycfi::artist::canvas & cnv, float x, float y, cycfi::artist::color c) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "flow": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "width",
+                "type": "float"
+              },
+              {
+                "name": "justify",
+                "type": "bool"
+              }
+            ],
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "name": "void flow(float, bool)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "void cycfi::artist::text_layout::flow(float, bool)",
+            "return_type": "void",
+            "short_name": "flow",
+            "signature": "void flow(float, bool)",
+            "signature_with_names": "void flow(float width, bool justify)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "glf",
+                "type": "const cycfi::artist::text_layout::get_line_info &"
+              },
+              {
+                "name": "finfo",
+                "type": "cycfi::artist::text_layout::flow_info"
+              }
+            ],
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "name": "void flow(const cycfi::artist::text_layout::get_line_info &, cycfi::artist::text_layout::flow_info)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "void cycfi::artist::text_layout::flow(const cycfi::artist::text_layout::get_line_info &, cycfi::artist::text_layout::flow_info)",
+            "return_type": "void",
+            "short_name": "flow",
+            "signature": "void flow(const cycfi::artist::text_layout::get_line_info &, cycfi::artist::text_layout::flow_info)",
+            "signature_with_names": "void flow(const cycfi::artist::text_layout::get_line_info & glf, cycfi::artist::text_layout::flow_info finfo)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "line_break": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "index",
+                "type": "std::size_t"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::text_layout::break_enum line_break(std::size_t) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "cycfi::artist::text_layout::break_enum cycfi::artist::text_layout::line_break(std::size_t) const",
+            "return_type": "cycfi::artist::text_layout::break_enum",
+            "short_name": "line_break",
+            "signature": "cycfi::artist::text_layout::break_enum line_break(std::size_t) const",
+            "signature_with_names": "cycfi::artist::text_layout::break_enum line_break(std::size_t index) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "num_lines": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "name": "std::size_t num_lines() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "std::size_t cycfi::artist::text_layout::num_lines() const",
+            "return_type": "std::size_t",
+            "short_name": "num_lines",
+            "signature": "std::size_t num_lines() const",
+            "signature_with_names": "std::size_t num_lines() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "text": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "utf8",
+                "type": "std::string_view"
+              }
+            ],
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "name": "void text(std::string_view)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "void cycfi::artist::text_layout::text(std::string_view)",
+            "return_type": "void",
+            "short_name": "text",
+            "signature": "void text(std::string_view)",
+            "signature_with_names": "void text(std::string_view utf8)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "utf32",
+                "type": "std::u32string_view"
+              }
+            ],
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "name": "void text(std::u32string_view)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "void cycfi::artist::text_layout::text(std::u32string_view)",
+            "return_type": "void",
+            "short_name": "text",
+            "signature": "void text(std::u32string_view)",
+            "signature_with_names": "void text(std::u32string_view utf32)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "name": "std::u32string_view text() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "std::u32string_view cycfi::artist::text_layout::text() const",
+            "return_type": "std::u32string_view",
+            "short_name": "text",
+            "signature": "std::u32string_view text() const",
+            "signature_with_names": "std::u32string_view text() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "text_layout": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "font_",
+                "type": "cycfi::artist::font_descr"
+              },
+              {
+                "name": "utf8",
+                "type": "std::string_view"
+              }
+            ],
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "text_layout(cycfi::artist::font_descr, std::string_view)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "cycfi::artist::text_layout::text_layout(cycfi::artist::font_descr, std::string_view)",
+            "return_type": "void",
+            "short_name": "text_layout",
+            "signature": "text_layout(cycfi::artist::font_descr, std::string_view)",
+            "signature_with_names": "text_layout(cycfi::artist::font_descr font_, std::string_view utf8)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "font_",
+                "type": "cycfi::artist::font_descr"
+              },
+              {
+                "name": "utf32",
+                "type": "std::u32string_view"
+              }
+            ],
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "text_layout(cycfi::artist::font_descr, std::u32string_view)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "cycfi::artist::text_layout::text_layout(cycfi::artist::font_descr, std::u32string_view)",
+            "return_type": "void",
+            "short_name": "text_layout",
+            "signature": "text_layout(cycfi::artist::font_descr, std::u32string_view)",
+            "signature_with_names": "text_layout(cycfi::artist::font_descr font_, std::u32string_view utf32)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rhs",
+                "type": "cycfi::artist::text_layout &&"
+              }
+            ],
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "text_layout(cycfi::artist::text_layout &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "cycfi::artist::text_layout::text_layout(cycfi::artist::text_layout &&)",
+            "return_type": "void",
+            "short_name": "text_layout",
+            "signature": "text_layout(cycfi::artist::text_layout &&)",
+            "signature_with_names": "text_layout(cycfi::artist::text_layout && rhs)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::text_layout &"
+              }
+            ],
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "text_layout(const cycfi::artist::text_layout &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "cycfi::artist::text_layout::text_layout(const cycfi::artist::text_layout &)",
+            "return_type": "void",
+            "short_name": "text_layout",
+            "signature": "text_layout(const cycfi::artist::text_layout &)",
+            "signature_with_names": "text_layout(const cycfi::artist::text_layout &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "word_break": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "index",
+                "type": "std::size_t"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::text_layout::break_enum word_break(std::size_t) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "cycfi::artist::text_layout::break_enum cycfi::artist::text_layout::word_break(std::size_t) const",
+            "return_type": "cycfi::artist::text_layout::break_enum",
+            "short_name": "word_break",
+            "signature": "cycfi::artist::text_layout::break_enum word_break(std::size_t) const",
+            "signature_with_names": "cycfi::artist::text_layout::break_enum word_break(std::size_t index) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "~text_layout": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "artist/text_layout.hpp",
+            "deprecated": false,
+            "is_dtor": true,
+            "name": "~text_layout()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "text_layout"
+            ],
+            "qualified_name": "cycfi::artist::text_layout::~text_layout()",
+            "return_type": "void",
+            "short_name": "~text_layout",
+            "signature": "~text_layout()",
+            "signature_with_names": "~text_layout()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "text_layout",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::text_layout",
+      "typealiases": [
+        {
+          "access": "public",
+          "defined_in_file": "artist/text_layout.hpp",
+          "deprecated": false,
+          "name": "get_line_info",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "text_layout"
+          ],
+          "qualified_name": "cycfi::artist::text_layout::get_line_info",
+          "type": "std::function<line_info (float)>"
+        }
+      ]
+    },
+    {
+      "access": "public",
+      "ctor": "unspecified",
+      "defined_in_file": "artist/text_layout.hpp",
+      "deprecated": false,
+      "dtor": "unspecified",
+      "fields": {
+        "cycfi::artist::text_layout::line_info::offset": {
+          "access": "public",
+          "defined_in_file": "artist/text_layout.hpp",
+          "deprecated": false,
+          "name": "offset",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "text_layout",
+            "line_info"
+          ],
+          "qualified_name": "cycfi::artist::text_layout::line_info::offset",
+          "type": "float"
+        },
+        "cycfi::artist::text_layout::line_info::width": {
+          "access": "public",
+          "defined_in_file": "artist/text_layout.hpp",
+          "deprecated": false,
+          "name": "width",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "text_layout",
+            "line_info"
+          ],
+          "qualified_name": "cycfi::artist::text_layout::line_info::width",
+          "type": "float"
+        }
+      },
+      "kind": "struct",
+      "methods": {},
+      "name": "line_info",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [
+        "text_layout"
+      ],
+      "qualified_name": "cycfi::artist::text_layout::line_info"
+    },
+    {
+      "access": "public",
+      "ctor": "unspecified",
+      "defined_in_file": "artist/text_layout.hpp",
+      "deprecated": false,
+      "dtor": "unspecified",
+      "fields": {
+        "cycfi::artist::text_layout::flow_info::justify": {
+          "access": "public",
+          "defined_in_file": "artist/text_layout.hpp",
+          "deprecated": false,
+          "name": "justify",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "text_layout",
+            "flow_info"
+          ],
+          "qualified_name": "cycfi::artist::text_layout::flow_info::justify",
+          "type": "bool"
+        },
+        "cycfi::artist::text_layout::flow_info::last_line_height": {
+          "access": "public",
+          "defined_in_file": "artist/text_layout.hpp",
+          "deprecated": false,
+          "name": "last_line_height",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "text_layout",
+            "flow_info"
+          ],
+          "qualified_name": "cycfi::artist::text_layout::flow_info::last_line_height",
+          "type": "float"
+        },
+        "cycfi::artist::text_layout::flow_info::line_height": {
+          "access": "public",
+          "defined_in_file": "artist/text_layout.hpp",
+          "deprecated": false,
+          "name": "line_height",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "text_layout",
+            "flow_info"
+          ],
+          "qualified_name": "cycfi::artist::text_layout::flow_info::line_height",
+          "type": "float"
+        }
+      },
+      "kind": "struct",
+      "methods": {},
+      "name": "flow_info",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [
+        "text_layout"
+      ],
+      "qualified_name": "cycfi::artist::text_layout::flow_info"
+    }
+  ],
+  "enums": [
+    {
+      "access": "public",
+      "defined_in_file": "artist/text_layout.hpp",
+      "deprecated": false,
+      "name": "break_enum",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [
+        "text_layout"
+      ],
+      "qualified_name": "cycfi::artist::text_layout::break_enum",
+      "type": "unsigned int",
+      "values": [
+        {
+          "name": "indeterminate"
+        },
+        {
+          "name": "must_break"
+        },
+        {
+          "name": "allow_break"
+        },
+        {
+          "name": "no_break"
+        }
+      ]
+    }
+  ],
+  "functions": {},
+  "namespaces": [
+    {
+      "defined_in_file": "artist/text_layout.hpp",
+      "deprecated": false,
+      "name": "cycfi",
+      "namespaces": [],
+      "parents": [],
+      "qualified_name": "cycfi"
+    },
+    {
+      "defined_in_file": "artist/text_layout.hpp",
+      "deprecated": false,
+      "name": "artist",
+      "namespaces": [
+        "cycfi"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist"
+    }
+  ],
+  "paths": {
+    "src_path": "artist/text_layout.hpp",
+    "src_root": ""
+  },
+  "typealiases": [],
+  "typedefs": []
+}

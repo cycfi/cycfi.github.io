@@ -1,0 +1,102 @@
+classes:
+- name: image
+  description: __MISSING__
+  methods:
+  - bitmap_size:
+    - name: cycfi::artist::extent bitmap_size() const
+      description: __MISSING__
+    description: __MISSING__
+  - image:
+    - name: explicit image(float, float)
+      description: __MISSING__
+      arguments:
+      - name: sizex
+        description: __MISSING__
+      - name: sizey
+        description: __MISSING__
+    - name: explicit image(cycfi::artist::extent)
+      description: __MISSING__
+      arguments:
+      - name: size
+        description: __MISSING__
+    - name: explicit image(const fs::path &)
+      description: __MISSING__
+      arguments:
+      - name: path_
+        description: __MISSING__
+    - name: image(const cycfi::artist::image &)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    - name: image(cycfi::artist::image &&)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    description: __MISSING__
+  - impl:
+    - name: cycfi::artist::image_impl_ptr impl() const
+      description: __MISSING__
+    description: __MISSING__
+  - operator=:
+    - name: cycfi::artist::image & operator=(const cycfi::artist::image &)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    - name: cycfi::artist::image & operator=(cycfi::artist::image &&)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    description: __MISSING__
+  - pixels:
+    - name: uint32_t * pixels()
+      description: __MISSING__
+    - name: const uint32_t * pixels() const
+      description: __MISSING__
+    description: __MISSING__
+  - save_png:
+    - name: void save_png(std::string_view) const
+      description: __MISSING__
+      arguments:
+      - name: path
+        description: __MISSING__
+    description: __MISSING__
+  - size:
+    - name: cycfi::artist::extent size() const
+      description: __MISSING__
+    description: __MISSING__
+  - ~image:
+    - name: ~image()
+      description: __MISSING__
+    description: __MISSING__
+- name: offscreen_image
+  description: __MISSING__
+  methods:
+  - context:
+    - name: canvas_impl * context() const
+      description: __MISSING__
+    description: __MISSING__
+  - offscreen_image:
+    - name: explicit offscreen_image(cycfi::artist::image &)
+      description: __MISSING__
+      arguments:
+      - name: img
+        description: __MISSING__
+    description: __MISSING__
+  - operator=:
+    - name: cycfi::artist::offscreen_image & operator=(const cycfi::artist::offscreen_image
+        &)
+      description: __MISSING__
+      arguments:
+      - name: rhs
+        description: __MISSING__
+    description: __MISSING__
+  - ~offscreen_image:
+    - name: ~offscreen_image()
+      description: __MISSING__
+    description: __MISSING__
+enums: []
+

@@ -1,0 +1,940 @@
+{
+  "classes": [
+    {
+      "ctor": "unspecified",
+      "defined_in_file": "artist/affine_transform.hpp",
+      "deprecated": false,
+      "dtor": "unspecified",
+      "fields": {
+        "cycfi::artist::affine_transform::a": {
+          "access": "public",
+          "defined_in_file": "artist/affine_transform.hpp",
+          "deprecated": false,
+          "name": "a",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "affine_transform"
+          ],
+          "qualified_name": "cycfi::artist::affine_transform::a",
+          "type": "double"
+        },
+        "cycfi::artist::affine_transform::b": {
+          "access": "public",
+          "defined_in_file": "artist/affine_transform.hpp",
+          "deprecated": false,
+          "name": "b",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "affine_transform"
+          ],
+          "qualified_name": "cycfi::artist::affine_transform::b",
+          "type": "double"
+        },
+        "cycfi::artist::affine_transform::c": {
+          "access": "public",
+          "defined_in_file": "artist/affine_transform.hpp",
+          "deprecated": false,
+          "name": "c",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "affine_transform"
+          ],
+          "qualified_name": "cycfi::artist::affine_transform::c",
+          "type": "double"
+        },
+        "cycfi::artist::affine_transform::d": {
+          "access": "public",
+          "defined_in_file": "artist/affine_transform.hpp",
+          "deprecated": false,
+          "name": "d",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "affine_transform"
+          ],
+          "qualified_name": "cycfi::artist::affine_transform::d",
+          "type": "double"
+        },
+        "cycfi::artist::affine_transform::tx": {
+          "access": "public",
+          "defined_in_file": "artist/affine_transform.hpp",
+          "deprecated": false,
+          "name": "tx",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "affine_transform"
+          ],
+          "qualified_name": "cycfi::artist::affine_transform::tx",
+          "type": "double"
+        },
+        "cycfi::artist::affine_transform::ty": {
+          "access": "public",
+          "defined_in_file": "artist/affine_transform.hpp",
+          "deprecated": false,
+          "name": "ty",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "affine_transform"
+          ],
+          "qualified_name": "cycfi::artist::affine_transform::ty",
+          "type": "double"
+        }
+      },
+      "kind": "struct",
+      "methods": {
+        "affine_transform": [
+          {
+            "access": "public",
+            "arguments": [],
+            "constexpr": true,
+            "defined_in_file": "artist/affine_transform.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "affine_transform()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "affine_transform"
+            ],
+            "qualified_name": "cycfi::artist::affine_transform::affine_transform()",
+            "return_type": "void",
+            "short_name": "affine_transform",
+            "signature": "affine_transform()",
+            "signature_with_names": "affine_transform()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::affine_transform &"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/affine_transform.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "affine_transform(const cycfi::artist::affine_transform &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "affine_transform"
+            ],
+            "qualified_name": "cycfi::artist::affine_transform::affine_transform(const cycfi::artist::affine_transform &)",
+            "return_type": "void",
+            "short_name": "affine_transform",
+            "signature": "affine_transform(const cycfi::artist::affine_transform &)",
+            "signature_with_names": "affine_transform(const cycfi::artist::affine_transform &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "cycfi::artist::affine_transform &&"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/affine_transform.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "affine_transform(cycfi::artist::affine_transform &&)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "affine_transform"
+            ],
+            "qualified_name": "cycfi::artist::affine_transform::affine_transform(cycfi::artist::affine_transform &&)",
+            "return_type": "void",
+            "short_name": "affine_transform",
+            "signature": "affine_transform(cycfi::artist::affine_transform &&)",
+            "signature_with_names": "affine_transform(cycfi::artist::affine_transform &&)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "apply": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/affine_transform.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::point apply(cycfi::artist::point) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "affine_transform"
+            ],
+            "qualified_name": "constexpr cycfi::artist::point cycfi::artist::affine_transform::apply(cycfi::artist::point) const",
+            "return_type": "cycfi::artist::point",
+            "short_name": "apply",
+            "signature": "constexpr cycfi::artist::point apply(cycfi::artist::point) const",
+            "signature_with_names": "constexpr cycfi::artist::point apply(cycfi::artist::point p) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/affine_transform.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::point apply(float, float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "affine_transform"
+            ],
+            "qualified_name": "constexpr cycfi::artist::point cycfi::artist::affine_transform::apply(float, float) const",
+            "return_type": "cycfi::artist::point",
+            "short_name": "apply",
+            "signature": "constexpr cycfi::artist::point apply(float, float) const",
+            "signature_with_names": "constexpr cycfi::artist::point apply(float x, float y) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "cycfi::artist::point []"
+              },
+              {
+                "name": "n",
+                "type": "std::size_t"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/affine_transform.hpp",
+            "deprecated": false,
+            "name": "constexpr void apply(cycfi::artist::point *, std::size_t) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "affine_transform"
+            ],
+            "qualified_name": "constexpr void cycfi::artist::affine_transform::apply(cycfi::artist::point *, std::size_t) const",
+            "return_type": "void",
+            "short_name": "apply",
+            "signature": "constexpr void apply(cycfi::artist::point *, std::size_t) const",
+            "signature_with_names": "constexpr void apply(cycfi::artist::point * p, std::size_t n) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "cycfi::artist::point [N]"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/affine_transform.hpp",
+            "deprecated": false,
+            "name": "template <std::size_t N>\nconstexpr void apply(cycfi::artist::point *) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "affine_transform"
+            ],
+            "qualified_name": "template <std::size_t N>\nconstexpr void cycfi::artist::affine_transform::apply(cycfi::artist::point *) const",
+            "return_type": "void",
+            "short_name": "apply",
+            "signature": "template <std::size_t N>\nconstexpr void apply(cycfi::artist::point *) const",
+            "signature_with_names": "template <std::size_t N>\nconstexpr void apply(cycfi::artist::point * p) const",
+            "template_parameters": [
+              {
+                "name": "N",
+                "type": "std::size_t"
+              }
+            ],
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "invert": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/affine_transform.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::affine_transform invert() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "affine_transform"
+            ],
+            "qualified_name": "constexpr cycfi::artist::affine_transform cycfi::artist::affine_transform::invert() const",
+            "return_type": "cycfi::artist::affine_transform",
+            "short_name": "invert",
+            "signature": "constexpr cycfi::artist::affine_transform invert() const",
+            "signature_with_names": "constexpr cycfi::artist::affine_transform invert() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "is_identity": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/affine_transform.hpp",
+            "deprecated": false,
+            "name": "constexpr bool is_identity() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "affine_transform"
+            ],
+            "qualified_name": "constexpr bool cycfi::artist::affine_transform::is_identity() const",
+            "return_type": "bool",
+            "short_name": "is_identity",
+            "signature": "constexpr bool is_identity() const",
+            "signature_with_names": "constexpr bool is_identity() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "rotate": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "rad",
+                "type": "double"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/affine_transform.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::affine_transform rotate(double) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "affine_transform"
+            ],
+            "qualified_name": "cycfi::artist::affine_transform cycfi::artist::affine_transform::rotate(double) const",
+            "return_type": "cycfi::artist::affine_transform",
+            "short_name": "rotate",
+            "signature": "cycfi::artist::affine_transform rotate(double) const",
+            "signature_with_names": "cycfi::artist::affine_transform rotate(double rad) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "scale": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "sx",
+                "type": "double"
+              },
+              {
+                "name": "sy",
+                "type": "double"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/affine_transform.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::affine_transform scale(double, double) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "affine_transform"
+            ],
+            "qualified_name": "constexpr cycfi::artist::affine_transform cycfi::artist::affine_transform::scale(double, double) const",
+            "return_type": "cycfi::artist::affine_transform",
+            "short_name": "scale",
+            "signature": "constexpr cycfi::artist::affine_transform scale(double, double) const",
+            "signature_with_names": "constexpr cycfi::artist::affine_transform scale(double sx, double sy) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "sc",
+                "type": "double"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/affine_transform.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::affine_transform scale(double) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "affine_transform"
+            ],
+            "qualified_name": "constexpr cycfi::artist::affine_transform cycfi::artist::affine_transform::scale(double) const",
+            "return_type": "cycfi::artist::affine_transform",
+            "short_name": "scale",
+            "signature": "constexpr cycfi::artist::affine_transform scale(double) const",
+            "signature_with_names": "constexpr cycfi::artist::affine_transform scale(double sc) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "skew": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "sx",
+                "type": "double"
+              },
+              {
+                "name": "sy",
+                "type": "double"
+              }
+            ],
+            "const": true,
+            "defined_in_file": "artist/affine_transform.hpp",
+            "deprecated": false,
+            "name": "cycfi::artist::affine_transform skew(double, double) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "affine_transform"
+            ],
+            "qualified_name": "cycfi::artist::affine_transform cycfi::artist::affine_transform::skew(double, double) const",
+            "return_type": "cycfi::artist::affine_transform",
+            "short_name": "skew",
+            "signature": "cycfi::artist::affine_transform skew(double, double) const",
+            "signature_with_names": "cycfi::artist::affine_transform skew(double sx, double sy) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "translate": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "tx",
+                "type": "double"
+              },
+              {
+                "name": "ty",
+                "type": "double"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/affine_transform.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::affine_transform translate(double, double) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "affine_transform"
+            ],
+            "qualified_name": "constexpr cycfi::artist::affine_transform cycfi::artist::affine_transform::translate(double, double) const",
+            "return_type": "cycfi::artist::affine_transform",
+            "short_name": "translate",
+            "signature": "constexpr cycfi::artist::affine_transform translate(double, double) const",
+            "signature_with_names": "constexpr cycfi::artist::affine_transform translate(double tx, double ty) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "~affine_transform": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "artist/affine_transform.hpp",
+            "deprecated": false,
+            "is_dtor": true,
+            "name": "~affine_transform()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "affine_transform"
+            ],
+            "qualified_name": "cycfi::artist::affine_transform::~affine_transform()",
+            "return_type": "void",
+            "short_name": "~affine_transform",
+            "signature": "~affine_transform()",
+            "signature_with_names": "~affine_transform()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "affine_transform",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::affine_transform"
+    }
+  ],
+  "enums": [],
+  "functions": {
+    "make_rotation": [
+      {
+        "arguments": [
+          {
+            "name": "rad",
+            "type": "double"
+          }
+        ],
+        "defined_in_file": "artist/affine_transform.hpp",
+        "deprecated": false,
+        "name": "cycfi::artist::affine_transform make_rotation(double)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "cycfi::artist::affine_transform cycfi::artist::make_rotation(double)",
+        "return_type": "cycfi::artist::affine_transform",
+        "short_name": "make_rotation",
+        "signature": "cycfi::artist::affine_transform make_rotation(double)",
+        "signature_with_names": "cycfi::artist::affine_transform make_rotation(double rad)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      },
+      {
+        "arguments": [
+          {
+            "name": "rad",
+            "type": "double"
+          }
+        ],
+        "defined_in_file": "artist/affine_transform.hpp",
+        "deprecated": false,
+        "name": "cycfi::artist::affine_transform make_rotation(double)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "cycfi::artist::affine_transform cycfi::artist::make_rotation(double)",
+        "return_type": "cycfi::artist::affine_transform",
+        "short_name": "make_rotation",
+        "signature": "cycfi::artist::affine_transform make_rotation(double)",
+        "signature_with_names": "cycfi::artist::affine_transform make_rotation(double rad)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "make_scale": [
+      {
+        "arguments": [
+          {
+            "name": "sx",
+            "type": "double"
+          },
+          {
+            "name": "sy",
+            "type": "double"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/affine_transform.hpp",
+        "deprecated": false,
+        "name": "constexpr cycfi::artist::affine_transform make_scale(double, double)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr cycfi::artist::affine_transform cycfi::artist::make_scale(double, double)",
+        "return_type": "cycfi::artist::affine_transform",
+        "short_name": "make_scale",
+        "signature": "constexpr cycfi::artist::affine_transform make_scale(double, double)",
+        "signature_with_names": "constexpr cycfi::artist::affine_transform make_scale(double sx, double sy)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      },
+      {
+        "arguments": [
+          {
+            "name": "sc",
+            "type": "double"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/affine_transform.hpp",
+        "deprecated": false,
+        "name": "constexpr cycfi::artist::affine_transform make_scale(double)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr cycfi::artist::affine_transform cycfi::artist::make_scale(double)",
+        "return_type": "cycfi::artist::affine_transform",
+        "short_name": "make_scale",
+        "signature": "constexpr cycfi::artist::affine_transform make_scale(double)",
+        "signature_with_names": "constexpr cycfi::artist::affine_transform make_scale(double sc)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      },
+      {
+        "arguments": [
+          {
+            "name": "sx",
+            "type": "double"
+          },
+          {
+            "name": "sy",
+            "type": "double"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/affine_transform.hpp",
+        "deprecated": false,
+        "name": "constexpr cycfi::artist::affine_transform make_scale(double, double)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr cycfi::artist::affine_transform cycfi::artist::make_scale(double, double)",
+        "return_type": "cycfi::artist::affine_transform",
+        "short_name": "make_scale",
+        "signature": "constexpr cycfi::artist::affine_transform make_scale(double, double)",
+        "signature_with_names": "constexpr cycfi::artist::affine_transform make_scale(double sx, double sy)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      },
+      {
+        "arguments": [
+          {
+            "name": "sc",
+            "type": "double"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/affine_transform.hpp",
+        "deprecated": false,
+        "name": "constexpr cycfi::artist::affine_transform make_scale(double)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr cycfi::artist::affine_transform cycfi::artist::make_scale(double)",
+        "return_type": "cycfi::artist::affine_transform",
+        "short_name": "make_scale",
+        "signature": "constexpr cycfi::artist::affine_transform make_scale(double)",
+        "signature_with_names": "constexpr cycfi::artist::affine_transform make_scale(double sc)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "make_skew": [
+      {
+        "arguments": [
+          {
+            "name": "sx",
+            "type": "double"
+          },
+          {
+            "name": "sy",
+            "type": "double"
+          }
+        ],
+        "defined_in_file": "artist/affine_transform.hpp",
+        "deprecated": false,
+        "name": "cycfi::artist::affine_transform make_skew(double, double)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "cycfi::artist::affine_transform cycfi::artist::make_skew(double, double)",
+        "return_type": "cycfi::artist::affine_transform",
+        "short_name": "make_skew",
+        "signature": "cycfi::artist::affine_transform make_skew(double, double)",
+        "signature_with_names": "cycfi::artist::affine_transform make_skew(double sx, double sy)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      },
+      {
+        "arguments": [
+          {
+            "name": "sx",
+            "type": "double"
+          },
+          {
+            "name": "sy",
+            "type": "double"
+          }
+        ],
+        "defined_in_file": "artist/affine_transform.hpp",
+        "deprecated": false,
+        "name": "cycfi::artist::affine_transform make_skew(double, double)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "cycfi::artist::affine_transform cycfi::artist::make_skew(double, double)",
+        "return_type": "cycfi::artist::affine_transform",
+        "short_name": "make_skew",
+        "signature": "cycfi::artist::affine_transform make_skew(double, double)",
+        "signature_with_names": "cycfi::artist::affine_transform make_skew(double sx, double sy)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "make_translation": [
+      {
+        "arguments": [
+          {
+            "name": "tx",
+            "type": "double"
+          },
+          {
+            "name": "ty",
+            "type": "double"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/affine_transform.hpp",
+        "deprecated": false,
+        "name": "constexpr cycfi::artist::affine_transform make_translation(double, double)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr cycfi::artist::affine_transform cycfi::artist::make_translation(double, double)",
+        "return_type": "cycfi::artist::affine_transform",
+        "short_name": "make_translation",
+        "signature": "constexpr cycfi::artist::affine_transform make_translation(double, double)",
+        "signature_with_names": "constexpr cycfi::artist::affine_transform make_translation(double tx, double ty)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      },
+      {
+        "arguments": [
+          {
+            "name": "tx",
+            "type": "double"
+          },
+          {
+            "name": "ty",
+            "type": "double"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/affine_transform.hpp",
+        "deprecated": false,
+        "name": "constexpr cycfi::artist::affine_transform make_translation(double, double)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr cycfi::artist::affine_transform cycfi::artist::make_translation(double, double)",
+        "return_type": "cycfi::artist::affine_transform",
+        "short_name": "make_translation",
+        "signature": "constexpr cycfi::artist::affine_transform make_translation(double, double)",
+        "signature_with_names": "constexpr cycfi::artist::affine_transform make_translation(double tx, double ty)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "operator!=": [
+      {
+        "arguments": [
+          {
+            "name": "lhs",
+            "type": "const cycfi::artist::affine_transform &"
+          },
+          {
+            "name": "rhs",
+            "type": "const cycfi::artist::affine_transform &"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/affine_transform.hpp",
+        "deprecated": false,
+        "name": "constexpr bool operator!=(const cycfi::artist::affine_transform &, const cycfi::artist::affine_transform &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr bool cycfi::artist::operator!=(const cycfi::artist::affine_transform &, const cycfi::artist::affine_transform &)",
+        "return_type": "bool",
+        "short_name": "operator!=",
+        "signature": "constexpr bool operator!=(const cycfi::artist::affine_transform &, const cycfi::artist::affine_transform &)",
+        "signature_with_names": "constexpr bool operator!=(const cycfi::artist::affine_transform & lhs, const cycfi::artist::affine_transform & rhs)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "operator*": [
+      {
+        "arguments": [
+          {
+            "name": "t1",
+            "type": "cycfi::artist::affine_transform"
+          },
+          {
+            "name": "t2",
+            "type": "cycfi::artist::affine_transform"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/affine_transform.hpp",
+        "deprecated": false,
+        "name": "constexpr cycfi::artist::affine_transform operator*(cycfi::artist::affine_transform, cycfi::artist::affine_transform)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr cycfi::artist::affine_transform cycfi::artist::operator*(cycfi::artist::affine_transform, cycfi::artist::affine_transform)",
+        "return_type": "cycfi::artist::affine_transform",
+        "short_name": "operator*",
+        "signature": "constexpr cycfi::artist::affine_transform operator*(cycfi::artist::affine_transform, cycfi::artist::affine_transform)",
+        "signature_with_names": "constexpr cycfi::artist::affine_transform operator*(cycfi::artist::affine_transform t1, cycfi::artist::affine_transform t2)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "operator==": [
+      {
+        "arguments": [
+          {
+            "name": "lhs",
+            "type": "const cycfi::artist::affine_transform &"
+          },
+          {
+            "name": "rhs",
+            "type": "const cycfi::artist::affine_transform &"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/affine_transform.hpp",
+        "deprecated": false,
+        "name": "constexpr bool operator==(const cycfi::artist::affine_transform &, const cycfi::artist::affine_transform &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr bool cycfi::artist::operator==(const cycfi::artist::affine_transform &, const cycfi::artist::affine_transform &)",
+        "return_type": "bool",
+        "short_name": "operator==",
+        "signature": "constexpr bool operator==(const cycfi::artist::affine_transform &, const cycfi::artist::affine_transform &)",
+        "signature_with_names": "constexpr bool operator==(const cycfi::artist::affine_transform & lhs, const cycfi::artist::affine_transform & rhs)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ]
+  },
+  "namespaces": [
+    {
+      "defined_in_file": "artist/affine_transform.hpp",
+      "deprecated": false,
+      "name": "cycfi",
+      "namespaces": [],
+      "parents": [],
+      "qualified_name": "cycfi"
+    },
+    {
+      "defined_in_file": "artist/affine_transform.hpp",
+      "deprecated": false,
+      "name": "artist",
+      "namespaces": [
+        "cycfi"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist"
+    }
+  ],
+  "paths": {
+    "src_path": "artist/affine_transform.hpp",
+    "src_root": ""
+  },
+  "typealiases": [],
+  "typedefs": []
+}

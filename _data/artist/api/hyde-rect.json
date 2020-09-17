@@ -1,0 +1,1458 @@
+{
+  "classes": [
+    {
+      "defined_in_file": "artist/rect.hpp",
+      "deprecated": false,
+      "dtor": "unspecified",
+      "fields": {
+        "cycfi::artist::rect::bottom": {
+          "access": "public",
+          "defined_in_file": "artist/rect.hpp",
+          "deprecated": false,
+          "name": "bottom",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "rect"
+          ],
+          "qualified_name": "cycfi::artist::rect::bottom",
+          "type": "float"
+        },
+        "cycfi::artist::rect::left": {
+          "access": "public",
+          "defined_in_file": "artist/rect.hpp",
+          "deprecated": false,
+          "name": "left",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "rect"
+          ],
+          "qualified_name": "cycfi::artist::rect::left",
+          "type": "float"
+        },
+        "cycfi::artist::rect::right": {
+          "access": "public",
+          "defined_in_file": "artist/rect.hpp",
+          "deprecated": false,
+          "name": "right",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "rect"
+          ],
+          "qualified_name": "cycfi::artist::rect::right",
+          "type": "float"
+        },
+        "cycfi::artist::rect::top": {
+          "access": "public",
+          "defined_in_file": "artist/rect.hpp",
+          "deprecated": false,
+          "name": "top",
+          "namespaces": [
+            "cycfi",
+            "artist"
+          ],
+          "parents": [
+            "rect"
+          ],
+          "qualified_name": "cycfi::artist::rect::top",
+          "type": "float"
+        }
+      },
+      "kind": "struct",
+      "methods": {
+        "bottom_left": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::point bottom_left() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr cycfi::artist::point cycfi::artist::rect::bottom_left() const",
+            "return_type": "cycfi::artist::point",
+            "short_name": "bottom_left",
+            "signature": "constexpr cycfi::artist::point bottom_left() const",
+            "signature_with_names": "constexpr cycfi::artist::point bottom_left() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "bottom_right": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::point bottom_right() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr cycfi::artist::point cycfi::artist::rect::bottom_right() const",
+            "return_type": "cycfi::artist::point",
+            "short_name": "bottom_right",
+            "signature": "constexpr cycfi::artist::point bottom_right() const",
+            "signature_with_names": "constexpr cycfi::artist::point bottom_right() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "height": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr float height() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr float cycfi::artist::rect::height() const",
+            "return_type": "float",
+            "short_name": "height",
+            "signature": "constexpr float height() const",
+            "signature_with_names": "constexpr float height() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "height_",
+                "type": "float"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr void height(float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr void cycfi::artist::rect::height(float)",
+            "return_type": "void",
+            "short_name": "height",
+            "signature": "constexpr void height(float)",
+            "signature_with_names": "constexpr void height(float height_)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "includes": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "p",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr bool includes(cycfi::artist::point) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr bool cycfi::artist::rect::includes(cycfi::artist::point) const",
+            "return_type": "bool",
+            "short_name": "includes",
+            "signature": "constexpr bool includes(cycfi::artist::point) const",
+            "signature_with_names": "constexpr bool includes(cycfi::artist::point p) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "other",
+                "type": "const cycfi::artist::rect &"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr bool includes(const cycfi::artist::rect &) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr bool cycfi::artist::rect::includes(const cycfi::artist::rect &) const",
+            "return_type": "bool",
+            "short_name": "includes",
+            "signature": "constexpr bool includes(const cycfi::artist::rect &) const",
+            "signature_with_names": "constexpr bool includes(const cycfi::artist::rect & other) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "inset": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x_inset",
+                "type": "float"
+              },
+              {
+                "name": "y_inset",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::rect inset(float, float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr cycfi::artist::rect cycfi::artist::rect::inset(float, float) const",
+            "return_type": "cycfi::artist::rect",
+            "short_name": "inset",
+            "signature": "constexpr cycfi::artist::rect inset(float, float) const",
+            "signature_with_names": "constexpr cycfi::artist::rect inset(float x_inset, float y_inset) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "xy_inset",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::rect inset(float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr cycfi::artist::rect cycfi::artist::rect::inset(float) const",
+            "return_type": "cycfi::artist::rect",
+            "short_name": "inset",
+            "signature": "constexpr cycfi::artist::rect inset(float) const",
+            "signature_with_names": "constexpr cycfi::artist::rect inset(float xy_inset) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "is_empty": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr bool is_empty() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr bool cycfi::artist::rect::is_empty() const",
+            "return_type": "bool",
+            "short_name": "is_empty",
+            "signature": "constexpr bool is_empty() const",
+            "signature_with_names": "constexpr bool is_empty() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "move": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "dx",
+                "type": "float"
+              },
+              {
+                "name": "dy",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::rect move(float, float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr cycfi::artist::rect cycfi::artist::rect::move(float, float) const",
+            "return_type": "cycfi::artist::rect",
+            "short_name": "move",
+            "signature": "constexpr cycfi::artist::rect move(float, float) const",
+            "signature_with_names": "constexpr cycfi::artist::rect move(float dx, float dy) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "move_to": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "x",
+                "type": "float"
+              },
+              {
+                "name": "y",
+                "type": "float"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::rect move_to(float, float) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr cycfi::artist::rect cycfi::artist::rect::move_to(float, float) const",
+            "return_type": "cycfi::artist::rect",
+            "short_name": "move_to",
+            "signature": "constexpr cycfi::artist::rect move_to(float, float) const",
+            "signature_with_names": "constexpr cycfi::artist::rect move_to(float x, float y) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator!=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "other",
+                "type": "const cycfi::artist::rect &"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr bool operator!=(const cycfi::artist::rect &) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr bool cycfi::artist::rect::operator!=(const cycfi::artist::rect &) const",
+            "return_type": "bool",
+            "short_name": "operator!=",
+            "signature": "constexpr bool operator!=(const cycfi::artist::rect &) const",
+            "signature_with_names": "constexpr bool operator!=(const cycfi::artist::rect & other) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator=": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::rect &"
+              }
+            ],
+            "constexpr": true,
+            "default": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::rect & operator=(const cycfi::artist::rect &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr cycfi::artist::rect & cycfi::artist::rect::operator=(const cycfi::artist::rect &)",
+            "return_type": "cycfi::artist::rect &",
+            "short_name": "operator=",
+            "signature": "constexpr cycfi::artist::rect & operator=(const cycfi::artist::rect &)",
+            "signature_with_names": "constexpr cycfi::artist::rect & operator=(const cycfi::artist::rect &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "operator==": [
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "other",
+                "type": "const cycfi::artist::rect &"
+              }
+            ],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr bool operator==(const cycfi::artist::rect &) const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr bool cycfi::artist::rect::operator==(const cycfi::artist::rect &) const",
+            "return_type": "bool",
+            "short_name": "operator==",
+            "signature": "constexpr bool operator==(const cycfi::artist::rect &) const",
+            "signature_with_names": "constexpr bool operator==(const cycfi::artist::rect & other) const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "rect": [
+          {
+            "access": "public",
+            "arguments": [],
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "rect()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "cycfi::artist::rect::rect()",
+            "return_type": "void",
+            "short_name": "rect",
+            "signature": "rect()",
+            "signature_with_names": "rect()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "left",
+                "type": "float"
+              },
+              {
+                "name": "top",
+                "type": "float"
+              },
+              {
+                "name": "right",
+                "type": "float"
+              },
+              {
+                "name": "bottom",
+                "type": "float"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "rect(float, float, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "cycfi::artist::rect::rect(float, float, float, float)",
+            "return_type": "void",
+            "short_name": "rect",
+            "signature": "rect(float, float, float, float)",
+            "signature_with_names": "rect(float left, float top, float right, float bottom)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "origin",
+                "type": "cycfi::artist::point"
+              },
+              {
+                "name": "right",
+                "type": "float"
+              },
+              {
+                "name": "bottom",
+                "type": "float"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "rect(cycfi::artist::point, float, float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "cycfi::artist::rect::rect(cycfi::artist::point, float, float)",
+            "return_type": "void",
+            "short_name": "rect",
+            "signature": "rect(cycfi::artist::point, float, float)",
+            "signature_with_names": "rect(cycfi::artist::point origin, float right, float bottom)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "top_left",
+                "type": "cycfi::artist::point"
+              },
+              {
+                "name": "bottom_right",
+                "type": "cycfi::artist::point"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "rect(cycfi::artist::point, cycfi::artist::point)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "cycfi::artist::rect::rect(cycfi::artist::point, cycfi::artist::point)",
+            "return_type": "void",
+            "short_name": "rect",
+            "signature": "rect(cycfi::artist::point, cycfi::artist::point)",
+            "signature_with_names": "rect(cycfi::artist::point top_left, cycfi::artist::point bottom_right)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "left",
+                "type": "float"
+              },
+              {
+                "name": "top",
+                "type": "float"
+              },
+              {
+                "name": "size",
+                "type": "cycfi::artist::extent"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "rect(float, float, cycfi::artist::extent)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "cycfi::artist::rect::rect(float, float, cycfi::artist::extent)",
+            "return_type": "void",
+            "short_name": "rect",
+            "signature": "rect(float, float, cycfi::artist::extent)",
+            "signature_with_names": "rect(float left, float top, cycfi::artist::extent size)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "origin",
+                "type": "cycfi::artist::point"
+              },
+              {
+                "name": "size",
+                "type": "cycfi::artist::extent"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "rect(cycfi::artist::point, cycfi::artist::extent)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "cycfi::artist::rect::rect(cycfi::artist::point, cycfi::artist::extent)",
+            "return_type": "void",
+            "short_name": "rect",
+            "signature": "rect(cycfi::artist::point, cycfi::artist::extent)",
+            "signature_with_names": "rect(cycfi::artist::point origin, cycfi::artist::extent size)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "",
+                "type": "const cycfi::artist::rect &"
+              }
+            ],
+            "constexpr": true,
+            "default": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "is_ctor": true,
+            "name": "rect(const cycfi::artist::rect &)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "cycfi::artist::rect::rect(const cycfi::artist::rect &)",
+            "return_type": "void",
+            "short_name": "rect",
+            "signature": "rect(const cycfi::artist::rect &)",
+            "signature_with_names": "rect(const cycfi::artist::rect &)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "size": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::extent size() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr cycfi::artist::extent cycfi::artist::rect::size() const",
+            "return_type": "cycfi::artist::extent",
+            "short_name": "size",
+            "signature": "constexpr cycfi::artist::extent size() const",
+            "signature_with_names": "constexpr cycfi::artist::extent size() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "size_",
+                "type": "cycfi::artist::extent"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr void size(cycfi::artist::extent)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr void cycfi::artist::rect::size(cycfi::artist::extent)",
+            "return_type": "void",
+            "short_name": "size",
+            "signature": "constexpr void size(cycfi::artist::extent)",
+            "signature_with_names": "constexpr void size(cycfi::artist::extent size_)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "top_left": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::point top_left() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr cycfi::artist::point cycfi::artist::rect::top_left() const",
+            "return_type": "cycfi::artist::point",
+            "short_name": "top_left",
+            "signature": "constexpr cycfi::artist::point top_left() const",
+            "signature_with_names": "constexpr cycfi::artist::point top_left() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "top_right": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr cycfi::artist::point top_right() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr cycfi::artist::point cycfi::artist::rect::top_right() const",
+            "return_type": "cycfi::artist::point",
+            "short_name": "top_right",
+            "signature": "constexpr cycfi::artist::point top_right() const",
+            "signature_with_names": "constexpr cycfi::artist::point top_right() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "width": [
+          {
+            "access": "public",
+            "arguments": [],
+            "const": true,
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr float width() const",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr float cycfi::artist::rect::width() const",
+            "return_type": "float",
+            "short_name": "width",
+            "signature": "constexpr float width() const",
+            "signature_with_names": "constexpr float width() const",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          },
+          {
+            "access": "public",
+            "arguments": [
+              {
+                "name": "width_",
+                "type": "float"
+              }
+            ],
+            "constexpr": true,
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "name": "constexpr void width(float)",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "constexpr void cycfi::artist::rect::width(float)",
+            "return_type": "void",
+            "short_name": "width",
+            "signature": "constexpr void width(float)",
+            "signature_with_names": "constexpr void width(float width_)",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ],
+        "~rect": [
+          {
+            "access": "public",
+            "arguments": [],
+            "defined_in_file": "artist/rect.hpp",
+            "deprecated": false,
+            "is_dtor": true,
+            "name": "~rect()",
+            "namespaces": [
+              "cycfi",
+              "artist"
+            ],
+            "parents": [
+              "rect"
+            ],
+            "qualified_name": "cycfi::artist::rect::~rect()",
+            "return_type": "void",
+            "short_name": "~rect",
+            "signature": "~rect()",
+            "signature_with_names": "~rect()",
+            "visibility": "default",
+            "visibility_explicit": "false"
+          }
+        ]
+      },
+      "name": "rect",
+      "namespaces": [
+        "cycfi",
+        "artist"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist::rect"
+    }
+  ],
+  "enums": [],
+  "functions": {
+    "align": [
+      {
+        "arguments": [
+          {
+            "name": "r",
+            "type": "const cycfi::artist::rect &"
+          },
+          {
+            "name": "encl",
+            "type": "const cycfi::artist::rect &"
+          },
+          {
+            "name": "x_align",
+            "type": "float"
+          },
+          {
+            "name": "y_align",
+            "type": "float"
+          }
+        ],
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "cycfi::artist::rect align(const cycfi::artist::rect &, const cycfi::artist::rect &, float, float)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "cycfi::artist::rect cycfi::artist::align(const cycfi::artist::rect &, const cycfi::artist::rect &, float, float)",
+        "return_type": "cycfi::artist::rect",
+        "short_name": "align",
+        "signature": "cycfi::artist::rect align(const cycfi::artist::rect &, const cycfi::artist::rect &, float, float)",
+        "signature_with_names": "cycfi::artist::rect align(const cycfi::artist::rect & r, const cycfi::artist::rect & encl, float x_align, float y_align)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "align_h": [
+      {
+        "arguments": [
+          {
+            "name": "r",
+            "type": "const cycfi::artist::rect &"
+          },
+          {
+            "name": "encl",
+            "type": "const cycfi::artist::rect &"
+          },
+          {
+            "name": "x_align",
+            "type": "float"
+          }
+        ],
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "cycfi::artist::rect align_h(const cycfi::artist::rect &, const cycfi::artist::rect &, float)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "cycfi::artist::rect cycfi::artist::align_h(const cycfi::artist::rect &, const cycfi::artist::rect &, float)",
+        "return_type": "cycfi::artist::rect",
+        "short_name": "align_h",
+        "signature": "cycfi::artist::rect align_h(const cycfi::artist::rect &, const cycfi::artist::rect &, float)",
+        "signature_with_names": "cycfi::artist::rect align_h(const cycfi::artist::rect & r, const cycfi::artist::rect & encl, float x_align)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "align_v": [
+      {
+        "arguments": [
+          {
+            "name": "r",
+            "type": "const cycfi::artist::rect &"
+          },
+          {
+            "name": "encl",
+            "type": "const cycfi::artist::rect &"
+          },
+          {
+            "name": "y_align",
+            "type": "float"
+          }
+        ],
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "cycfi::artist::rect align_v(const cycfi::artist::rect &, const cycfi::artist::rect &, float)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "cycfi::artist::rect cycfi::artist::align_v(const cycfi::artist::rect &, const cycfi::artist::rect &, float)",
+        "return_type": "cycfi::artist::rect",
+        "short_name": "align_v",
+        "signature": "cycfi::artist::rect align_v(const cycfi::artist::rect &, const cycfi::artist::rect &, float)",
+        "signature_with_names": "cycfi::artist::rect align_v(const cycfi::artist::rect & r, const cycfi::artist::rect & encl, float y_align)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "area": [
+      {
+        "arguments": [
+          {
+            "name": "r",
+            "type": "const cycfi::artist::rect &"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "constexpr float area(const cycfi::artist::rect &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr float cycfi::artist::area(const cycfi::artist::rect &)",
+        "return_type": "float",
+        "short_name": "area",
+        "signature": "constexpr float area(const cycfi::artist::rect &)",
+        "signature_with_names": "constexpr float area(const cycfi::artist::rect & r)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      },
+      {
+        "arguments": [
+          {
+            "name": "r",
+            "type": "const cycfi::artist::rect &"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "constexpr float area(const cycfi::artist::rect &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr float cycfi::artist::area(const cycfi::artist::rect &)",
+        "return_type": "float",
+        "short_name": "area",
+        "signature": "constexpr float area(const cycfi::artist::rect &)",
+        "signature_with_names": "constexpr float area(const cycfi::artist::rect & r)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "center": [
+      {
+        "arguments": [
+          {
+            "name": "r",
+            "type": "const cycfi::artist::rect &"
+          },
+          {
+            "name": "encl",
+            "type": "const cycfi::artist::rect &"
+          }
+        ],
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "cycfi::artist::rect center(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "cycfi::artist::rect cycfi::artist::center(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "return_type": "cycfi::artist::rect",
+        "short_name": "center",
+        "signature": "cycfi::artist::rect center(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "signature_with_names": "cycfi::artist::rect center(const cycfi::artist::rect & r, const cycfi::artist::rect & encl)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "center_h": [
+      {
+        "arguments": [
+          {
+            "name": "r",
+            "type": "const cycfi::artist::rect &"
+          },
+          {
+            "name": "encl",
+            "type": "const cycfi::artist::rect &"
+          }
+        ],
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "cycfi::artist::rect center_h(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "cycfi::artist::rect cycfi::artist::center_h(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "return_type": "cycfi::artist::rect",
+        "short_name": "center_h",
+        "signature": "cycfi::artist::rect center_h(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "signature_with_names": "cycfi::artist::rect center_h(const cycfi::artist::rect & r, const cycfi::artist::rect & encl)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "center_point": [
+      {
+        "arguments": [
+          {
+            "name": "r",
+            "type": "const cycfi::artist::rect &"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "constexpr cycfi::artist::point center_point(const cycfi::artist::rect &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr cycfi::artist::point cycfi::artist::center_point(const cycfi::artist::rect &)",
+        "return_type": "cycfi::artist::point",
+        "short_name": "center_point",
+        "signature": "constexpr cycfi::artist::point center_point(const cycfi::artist::rect &)",
+        "signature_with_names": "constexpr cycfi::artist::point center_point(const cycfi::artist::rect & r)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      },
+      {
+        "arguments": [
+          {
+            "name": "r",
+            "type": "const cycfi::artist::rect &"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "constexpr cycfi::artist::point center_point(const cycfi::artist::rect &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr cycfi::artist::point cycfi::artist::center_point(const cycfi::artist::rect &)",
+        "return_type": "cycfi::artist::point",
+        "short_name": "center_point",
+        "signature": "constexpr cycfi::artist::point center_point(const cycfi::artist::rect &)",
+        "signature_with_names": "constexpr cycfi::artist::point center_point(const cycfi::artist::rect & r)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "center_v": [
+      {
+        "arguments": [
+          {
+            "name": "r",
+            "type": "const cycfi::artist::rect &"
+          },
+          {
+            "name": "encl",
+            "type": "const cycfi::artist::rect &"
+          }
+        ],
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "cycfi::artist::rect center_v(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "cycfi::artist::rect cycfi::artist::center_v(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "return_type": "cycfi::artist::rect",
+        "short_name": "center_v",
+        "signature": "cycfi::artist::rect center_v(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "signature_with_names": "cycfi::artist::rect center_v(const cycfi::artist::rect & r, const cycfi::artist::rect & encl)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "clear": [
+      {
+        "arguments": [
+          {
+            "name": "r",
+            "type": "cycfi::artist::rect &"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "constexpr void clear(cycfi::artist::rect &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr void cycfi::artist::clear(cycfi::artist::rect &)",
+        "return_type": "void",
+        "short_name": "clear",
+        "signature": "constexpr void clear(cycfi::artist::rect &)",
+        "signature_with_names": "constexpr void clear(cycfi::artist::rect & r)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      },
+      {
+        "arguments": [
+          {
+            "name": "r",
+            "type": "cycfi::artist::rect &"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "constexpr void clear(cycfi::artist::rect &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr void cycfi::artist::clear(cycfi::artist::rect &)",
+        "return_type": "void",
+        "short_name": "clear",
+        "signature": "constexpr void clear(cycfi::artist::rect &)",
+        "signature_with_names": "constexpr void clear(cycfi::artist::rect & r)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "intersection": [
+      {
+        "arguments": [
+          {
+            "name": "a",
+            "type": "const cycfi::artist::rect &"
+          },
+          {
+            "name": "b",
+            "type": "const cycfi::artist::rect &"
+          }
+        ],
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "cycfi::artist::rect intersection(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "cycfi::artist::rect cycfi::artist::intersection(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "return_type": "cycfi::artist::rect",
+        "short_name": "intersection",
+        "signature": "cycfi::artist::rect intersection(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "signature_with_names": "cycfi::artist::rect intersection(const cycfi::artist::rect & a, const cycfi::artist::rect & b)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "intersects": [
+      {
+        "arguments": [
+          {
+            "name": "a",
+            "type": "const cycfi::artist::rect &"
+          },
+          {
+            "name": "b",
+            "type": "const cycfi::artist::rect &"
+          }
+        ],
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "bool intersects(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "bool cycfi::artist::intersects(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "return_type": "bool",
+        "short_name": "intersects",
+        "signature": "bool intersects(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "signature_with_names": "bool intersects(const cycfi::artist::rect & a, const cycfi::artist::rect & b)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "is_same_size": [
+      {
+        "arguments": [
+          {
+            "name": "a",
+            "type": "const cycfi::artist::rect &"
+          },
+          {
+            "name": "b",
+            "type": "const cycfi::artist::rect &"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "constexpr bool is_same_size(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr bool cycfi::artist::is_same_size(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "return_type": "bool",
+        "short_name": "is_same_size",
+        "signature": "constexpr bool is_same_size(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "signature_with_names": "constexpr bool is_same_size(const cycfi::artist::rect & a, const cycfi::artist::rect & b)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      },
+      {
+        "arguments": [
+          {
+            "name": "a",
+            "type": "const cycfi::artist::rect &"
+          },
+          {
+            "name": "b",
+            "type": "const cycfi::artist::rect &"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "constexpr bool is_same_size(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr bool cycfi::artist::is_same_size(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "return_type": "bool",
+        "short_name": "is_same_size",
+        "signature": "constexpr bool is_same_size(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "signature_with_names": "constexpr bool is_same_size(const cycfi::artist::rect & a, const cycfi::artist::rect & b)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "is_valid": [
+      {
+        "arguments": [
+          {
+            "name": "r",
+            "type": "const cycfi::artist::rect &"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "constexpr bool is_valid(const cycfi::artist::rect &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr bool cycfi::artist::is_valid(const cycfi::artist::rect &)",
+        "return_type": "bool",
+        "short_name": "is_valid",
+        "signature": "constexpr bool is_valid(const cycfi::artist::rect &)",
+        "signature_with_names": "constexpr bool is_valid(const cycfi::artist::rect & r)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      },
+      {
+        "arguments": [
+          {
+            "name": "r",
+            "type": "const cycfi::artist::rect &"
+          }
+        ],
+        "constexpr": true,
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "constexpr bool is_valid(const cycfi::artist::rect &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "constexpr bool cycfi::artist::is_valid(const cycfi::artist::rect &)",
+        "return_type": "bool",
+        "short_name": "is_valid",
+        "signature": "constexpr bool is_valid(const cycfi::artist::rect &)",
+        "signature_with_names": "constexpr bool is_valid(const cycfi::artist::rect & r)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ],
+    "union_": [
+      {
+        "arguments": [
+          {
+            "name": "a",
+            "type": "const cycfi::artist::rect &"
+          },
+          {
+            "name": "b",
+            "type": "const cycfi::artist::rect &"
+          }
+        ],
+        "defined_in_file": "artist/rect.hpp",
+        "deprecated": false,
+        "name": "cycfi::artist::rect union_(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "namespaces": [
+          "cycfi",
+          "artist"
+        ],
+        "parents": [],
+        "qualified_name": "cycfi::artist::rect cycfi::artist::union_(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "return_type": "cycfi::artist::rect",
+        "short_name": "union_",
+        "signature": "cycfi::artist::rect union_(const cycfi::artist::rect &, const cycfi::artist::rect &)",
+        "signature_with_names": "cycfi::artist::rect union_(const cycfi::artist::rect & a, const cycfi::artist::rect & b)",
+        "visibility": "default",
+        "visibility_explicit": "false"
+      }
+    ]
+  },
+  "namespaces": [
+    {
+      "defined_in_file": "artist/rect.hpp",
+      "deprecated": false,
+      "name": "cycfi",
+      "namespaces": [],
+      "parents": [],
+      "qualified_name": "cycfi"
+    },
+    {
+      "defined_in_file": "artist/rect.hpp",
+      "deprecated": false,
+      "name": "artist",
+      "namespaces": [
+        "cycfi"
+      ],
+      "parents": [],
+      "qualified_name": "cycfi::artist"
+    }
+  ],
+  "paths": {
+    "src_path": "artist/rect.hpp",
+    "src_root": ""
+  },
+  "typealiases": [],
+  "typedefs": []
+}

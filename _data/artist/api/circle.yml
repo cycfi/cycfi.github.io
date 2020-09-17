@@ -1,0 +1,95 @@
+classes:
+- name: circle
+  description: __MISSING__
+  methods:
+  - bounds:
+    - name: cycfi::artist::rect bounds() const
+      description: __MISSING__
+    description: __MISSING__
+  - center:
+    - name: cycfi::artist::point center() const
+      description: __MISSING__
+    description: __MISSING__
+  - circle:
+    - name: circle()
+      description: __MISSING__
+    - name: circle(float, float, float)
+      description: __MISSING__
+      arguments:
+      - name: cx
+        description: __MISSING__
+      - name: cy
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    - name: circle(cycfi::artist::point, float)
+      description: __MISSING__
+      arguments:
+      - name: c
+        description: __MISSING__
+      - name: radius
+        description: __MISSING__
+    - name: circle(const cycfi::artist::rect &)
+      description: __MISSING__
+      arguments:
+      - name: r
+        description: __MISSING__
+    - name: circle(const cycfi::artist::circle &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - inset:
+    - name: cycfi::artist::circle inset(float) const
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+    description: __MISSING__
+  - move:
+    - name: cycfi::artist::circle move(float, float) const
+      description: __MISSING__
+      arguments:
+      - name: dx
+        description: __MISSING__
+      - name: dy
+        description: __MISSING__
+    description: __MISSING__
+  - move_to:
+    - name: cycfi::artist::circle move_to(float, float) const
+      description: __MISSING__
+      arguments:
+      - name: x
+        description: __MISSING__
+      - name: y
+        description: __MISSING__
+    description: __MISSING__
+  - operator!=:
+    - name: bool operator!=(const cycfi::artist::circle &) const
+      description: __MISSING__
+      arguments:
+      - name: other
+        description: __MISSING__
+    description: __MISSING__
+  - operator=:
+    - name: constexpr cycfi::artist::circle & operator=(const cycfi::artist::circle
+        &)
+      description: __MISSING__
+      arguments:
+      - name: ''
+        description: __MISSING__
+    description: __MISSING__
+  - operator==:
+    - name: bool operator==(const cycfi::artist::circle &) const
+      description: __MISSING__
+      arguments:
+      - name: other
+        description: __MISSING__
+    description: __MISSING__
+  - ~circle:
+    - name: ~circle()
+      description: __MISSING__
+    description: __MISSING__
+enums: []
+
