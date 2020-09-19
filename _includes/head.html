@@ -11,6 +11,7 @@
     {%-endif-%}
     </title>
 
+{% include favicons.html %}
     <link href="{{ '/atom.xml' | relative_url }}" rel="alternate" title="News" type="application/atom+xml" />
     <link href="{{ '/assets/css/style.min.css' | relative_url }}" rel="stylesheet" media="screen">
     {%-for stylesheet in page.stylesheets-%}
