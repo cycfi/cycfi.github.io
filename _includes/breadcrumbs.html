@@ -1,6 +1,6 @@
         <div class="breadcrumbs">
         {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/' | relative_url }}"><i class="fa fa-home"></i></a>
         {% for crumb in crumbs offset: 1 %}
           {%-if forloop.last-%}
             &#x2009;|&#xa0;{{ page.title }}
