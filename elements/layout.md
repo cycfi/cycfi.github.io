@@ -144,7 +144,7 @@ elements.
 
 ### limit
 
-<img width="40%" height="40%" src="assets/images/layout/limit.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/limit.png">
 
 Overrides the *limits* of an element.
 
@@ -168,7 +168,7 @@ limit(limits, subject)
 
 ### fixed_size
 
-<img width="40%" height="40%" src="assets/images/layout/fixed_size.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/fixed_size.png">
 
 Fixes the size of an enclosed element (`subject`).
 
@@ -194,7 +194,7 @@ fixed_size({ width, height }, subject)
 
 ### hsize
 
-<img width="40%" height="40%" src="assets/images/layout/hsize.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/hsize.png">
 
 Fixes the horizontal size of an enclosed element (`subject`).
 
@@ -221,7 +221,7 @@ hsize(width, subject)
 
 ### vsize
 
-<img width="40%" height="40%" src="assets/images/layout/vsize.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/vsize.png">
 
 Fixes the *vertical limits* of an enclosed element (`subject`).
 
@@ -248,7 +248,7 @@ vsize(height, subject)
 
 ### min_size
 
-<img width="40%" height="40%" src="assets/images/layout/min_size.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/min_size.png">
 
 Overrides the *minimum limits* of an enclosed element (`subject`).
 
@@ -274,7 +274,7 @@ min_size({ width, height }, subject)
 
 ### hmin_size
 
-<img width="40%" height="40%" src="assets/images/layout/hmin_size.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/hmin_size.png">
 
 Overrides the *minimum horizontal limit* of an enclosed element (`subject`).
 
@@ -302,7 +302,7 @@ hmin_size(width, subject)
 
 ### vmin_size
 
-<img width="40%" height="40%" src="assets/images/layout/vmin_size.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/vmin_size.png">
 
 Overrides the *minimum vertical limit* of an enclosed element (`subject`).
 
@@ -328,7 +328,7 @@ vmin_size(height, subject)
 
 ### max_size
 
-<img width="40%" height="40%" src="assets/images/layout/max_size.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/max_size.png">
 
 Overrides the *maximum limits* of an enclosed element (`subject`).
 
@@ -354,7 +354,7 @@ max_size({ width, height }, subject)
 
 ### hmax_size
 
-<img width="40%" height="40%" src="assets/images/layout/hmax_size.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/hmax_size.png">
 
 Overrides the *maximum horizontal limit* of an enclosed element (`subject`).
 
@@ -382,7 +382,7 @@ hmax_size(width, subject)
 
 ### vmax_size
 
-<img width="40%" height="40%" src="assets/images/layout/vmax_size.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/vmax_size.png">
 
 Overrides the *maximum vertical limit* of an enclosed element (`subject`).
 
@@ -441,7 +441,7 @@ default 1.0 stretchiness.
 
 ### hstretch
 
-<img width="40%" height="40%" src="assets/images/layout/hstretch.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/hstretch.png">
 
 Overrides the horizontal stretchiness of an an enclosed element (`subject`).
 
@@ -465,7 +465,7 @@ hstretch(stretch, subject)
 For example, the image below shows how three elements are laid out in an
 `htile`, with stretch values of `1.0`, `1.0` and `2.0`, respectively:
 
-<img width="40%" height="40%" src="assets/images/layout/htile-stretch.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/htile-stretch.png">
 
 The element with the `2.0` stretch value stretches twice as much compared to
 its siblings.
@@ -474,7 +474,7 @@ its siblings.
 
 ### vstretch
 
-<img width="40%" height="40%" src="assets/images/layout/vstretch.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/vstretch.png">
 
 Overrides the vertical stretchiness of an an enclosed element (`subject`).
 
@@ -498,7 +498,7 @@ vstretch(stretch, subject)
 For example, the image below shows how three elements are laid out in an
 `htile`, with stretch values of `0.5`, `1.0` and `1.5`, respectively:
 
-<img width="40%" height="40%" src="assets/images/layout/vtile-stretch.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/vtile-stretch.png">
 
 The element with the `0.5` stretch value stretches half less, while the
 element with the `1.5` stretches half more than the default.
@@ -546,7 +546,7 @@ catalogues all the available align elements.
 
 ### halign
 
-<img width="40%" height="40%" src="assets/images/layout/halign.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/halign.png">
 
 Aligns the an enclosed element (`subject`) in the x-axis.
 
@@ -577,7 +577,7 @@ halign(align, subject)
 
 ### align_left
 
-<img width="30%" height="30%" src="assets/images/layout/align_left.png">
+<img width="30%" height="30%" src="/assets/img/elements/layout/align_left.png">
 
 Left-aligns the an enclosed element (`subject`).
 
@@ -600,7 +600,7 @@ align_left(subject)
 
 ### align_center
 
-<img width="30%" height="30%" src="assets/images/layout/align_center.png">
+<img width="30%" height="30%" src="/assets/img/elements/layout/align_center.png">
 
 Center-aligns the an enclosed element (`subject`).
 
@@ -623,7 +623,7 @@ align_center(subject)
 
 ### align_right
 
-<img width="30%" height="30%" src="assets/images/layout/align_right.png">
+<img width="30%" height="30%" src="/assets/img/elements/layout/align_right.png">
 
 Right-aligns the an enclosed element (`subject`).
 
@@ -646,7 +646,7 @@ align_right(subject)
 
 ### valign
 
-<img width="20%" height="20%" src="assets/images/layout/valign.png">
+<img width="20%" height="20%" src="/assets/img/elements/layout/valign.png">
 
 Aligns the an enclosed element (`subject`) in the y-axis.
 
@@ -678,7 +678,7 @@ valign(align, subject)
 
 ### align_top
 
-<img width="15%" height="15%" src="assets/images/layout/align_top.png">
+<img width="15%" height="15%" src="/assets/img/elements/layout/align_top.png">
 
 Aligns the an enclosed element (`subject`) to the top.
 
@@ -701,7 +701,7 @@ align_top(subject)
 
 ### align_middle
 
-<img width="15%" height="15%" src="assets/images/layout/align_middle.png">
+<img width="15%" height="15%" src="/assets/img/elements/layout/align_middle.png">
 
 Aligns the an enclosed element (`subject`) to the middle.
 
@@ -724,7 +724,7 @@ align_middle(subject)
 
 ### align_bottom
 
-<img width="15%" height="15%" src="assets/images/layout/align_bottom.png">
+<img width="15%" height="15%" src="/assets/img/elements/layout/align_bottom.png">
 
 Aligns the an enclosed element (`subject`) to the bottom.
 
@@ -747,7 +747,7 @@ align_bottom(subject)
 
 ### align_left_top
 
-<img width="25%" height="25%" src="assets/images/layout/align_left_top.png">
+<img width="25%" height="25%" src="/assets/img/elements/layout/align_left_top.png">
 
 Aligns the an enclosed element (`subject`) to the left-top.
 
@@ -770,7 +770,7 @@ align_left_top(subject)
 
 ### align_center_top
 
-<img width="25%" height="25%" src="assets/images/layout/align_center_top.png">
+<img width="25%" height="25%" src="/assets/img/elements/layout/align_center_top.png">
 
 Aligns the an enclosed element (`subject`) to the center-top.
 
@@ -793,7 +793,7 @@ align_center_top(subject)
 
 ### align_right_top
 
-<img width="25%" height="25%" src="assets/images/layout/align_right_top.png">
+<img width="25%" height="25%" src="/assets/img/elements/layout/align_right_top.png">
 
 Aligns the an enclosed element (`subject`) to the right-top.
 
@@ -816,7 +816,7 @@ align_right_top(subject)
 
 ### align_left_middle
 
-<img width="25%" height="25%" src="assets/images/layout/align_left_middle.png">
+<img width="25%" height="25%" src="/assets/img/elements/layout/align_left_middle.png">
 
 Aligns the an enclosed element (`subject`) to the left-middle.
 
@@ -839,7 +839,7 @@ align_left_middle(subject)
 
 ### align_center_middle
 
-<img width="25%" height="25%" src="assets/images/layout/align_center_middle.png">
+<img width="25%" height="25%" src="/assets/img/elements/layout/align_center_middle.png">
 
 Aligns the an enclosed element (`subject`) to the center-middle.
 
@@ -862,7 +862,7 @@ align_center_middle(subject)
 
 ### align_right_middle
 
-<img width="25%" height="25%" src="assets/images/layout/align_right_middle.png">
+<img width="25%" height="25%" src="/assets/img/elements/layout/align_right_middle.png">
 
 Aligns the an enclosed element (`subject`) to the right-middle.
 
@@ -885,7 +885,7 @@ align_right_middle(subject)
 
 ### align_left_bottom
 
-<img width="25%" height="25%" src="assets/images/layout/align_left_bottom.png">
+<img width="25%" height="25%" src="/assets/img/elements/layout/align_left_bottom.png">
 
 Aligns the an enclosed element (`subject`) to the left-bottom.
 
@@ -908,7 +908,7 @@ align_left_bottom(subject)
 
 ### align_center_bottom
 
-<img width="25%" height="25%" src="assets/images/layout/align_center_bottom.png">
+<img width="25%" height="25%" src="/assets/img/elements/layout/align_center_bottom.png">
 
 Aligns the an enclosed element (`subject`) to the center-bottom.
 
@@ -931,7 +931,7 @@ align_center_bottom(subject)
 
 ### align_right_bottom
 
-<img width="25%" height="25%" src="assets/images/layout/align_right_bottom.png">
+<img width="25%" height="25%" src="/assets/img/elements/layout/align_right_bottom.png">
 
 Aligns the an enclosed element (`subject`) to the right-bottom.
 
@@ -962,7 +962,7 @@ purposes. This section catalogues all the available margin elements.
 
 ### margin
 
-<img width="40%" height="40%" src="assets/images/layout/margin.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/margin.png">
 
 Adds a margin all around an enclosed element (`subject`).
 
@@ -990,7 +990,7 @@ margin({ left, top, right, bottom }, subject)
 
 ### left_margin
 
-<img width="40%" height="40%" src="assets/images/layout/left_margin.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/left_margin.png">
 
 Adds a margin to the left of an enclosed element (`subject`).
 
@@ -1018,7 +1018,7 @@ left_margin(left, subject)
 
 ### right_margin
 
-<img width="40%" height="40%" src="assets/images/layout/right_margin.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/right_margin.png">
 
 Adds a margin to the right of an enclosed element (`subject`).
 
@@ -1046,7 +1046,7 @@ right_margin(right, subject)
 
 ### top_margin
 
-<img width="40%" height="40%" src="assets/images/layout/top_margin.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/top_margin.png">
 
 Adds a margin to the top of an enclosed element (`subject`).
 
@@ -1074,7 +1074,7 @@ top_margin(top, subject)
 
 ### bottom_margin
 
-<img width="40%" height="40%" src="assets/images/layout/bottom_margin.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/bottom_margin.png">
 
 Adds a margin to the bottom of an enclosed element (`subject`).
 
@@ -1105,7 +1105,7 @@ bottom_margin(bottom, subject)
 
 (same as `left_right_margin`)
 
-<img width="40%" height="40%" src="assets/images/layout/hmargin.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/hmargin.png">
 
 Adds a margin to the left and right sides of an enclosed element (`subject`).
 
@@ -1146,7 +1146,7 @@ left_right_margin(left, right, subject)
 
 (same as `top_bottom_margin`)
 
-<img width="40%" height="40%" src="assets/images/layout/vmargin.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/vmargin.png">
 
 Adds a margin to the top and bottom sides of an enclosed element (`subject`).
 
@@ -1185,7 +1185,7 @@ top_bottom_margin(top, bottom, subject)
 
 ### left_top_margin
 
-<img width="40%" height="40%" src="assets/images/layout/left_top_margin.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/left_top_margin.png">
 
 Adds a margin to the left and top sides of an enclosed element (`subject`).
 
@@ -1218,7 +1218,7 @@ left_top_margin(left, top, subject)
 
 ### left_bottom_margin
 
-<img width="40%" height="40%" src="assets/images/layout/left_bottom_margin.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/left_bottom_margin.png">
 
 Adds a margin to the left and bottom sides of an enclosed element (`subject`).
 
@@ -1251,7 +1251,7 @@ left_bottom_margin(left, bottom, subject)
 
 ### right_top_margin
 
-<img width="40%" height="40%" src="assets/images/layout/right_top_margin.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/right_top_margin.png">
 
 Adds a margin to the right and top sides of an enclosed element (`subject`).
 
@@ -1284,7 +1284,7 @@ right_top_margin(right, top, subject)
 
 ### right_bottom_margin
 
-<img width="40%" height="40%" src="assets/images/layout/right_top_margin.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/right_top_margin.png">
 
 Adds a margin to the right and bottom sides of an enclosed element (`subject`).
 
@@ -1317,7 +1317,7 @@ right_bottom_margin(right, bottom, subject)
 
 ## Floating Element
 
-<img width="40%" height="40%" src="assets/images/layout/floating.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/floating.png">
 
 A floating element allows arbitrary placement of an enclosed element
 (`subject`) in the main view.
@@ -1359,7 +1359,7 @@ for composing UI elements while grids are best for composing tables.
 
 ### Horizontal Grids
 
-<img width="60%" height="60%" src="assets/images/layout/hgrid.png">
+<img width="60%" height="60%" src="/assets/img/elements/layout/hgrid.png">
 
 Horizontal Grids are composites that lay out one or more child elements in a
 row following externally supplied horizontal fractional positions. Horizontal
@@ -1488,7 +1488,7 @@ build complex hierarchical structures.
 
 ### Horizontal Tiles
 
-<img width="60%" height="60%" src="assets/images/layout/htile.png">
+<img width="60%" height="60%" src="/assets/img/elements/layout/htile.png">
 
 Horizontal Tiles are similar to Horizontal Grids, but allow elements to
 fluidly adjust horizontally depending on available space. Horizontal Tiles
@@ -1600,7 +1600,7 @@ build complex hierarchical structures.
 
 ### Vertical Grids
 
-<img width="60%" height="60%" src="assets/images/layout/vgrid.png">
+<img width="60%" height="60%" src="/assets/img/elements/layout/vgrid.png">
 
 Vertical Grids are composites that lay out one or more child elements in a
 column following externally supplied vertical fractional positions. Vertical
@@ -1728,7 +1728,7 @@ build complex hierarchical structures.
 
 ### Vertical Tiles
 
-<img width="60%" height="60%" src="assets/images/layout/vtile.png">
+<img width="60%" height="60%" src="/assets/img/elements/layout/vtile.png">
 
 Vertical Tiles are similar to Vertical Grids, but allow elements to fluidly
 adjust vertically depending on available space. Vertical Tiles are best used
@@ -1839,7 +1839,7 @@ allows you to build complex hierarchical structures.
 
 ## Layers
 
-<img width="40%" height="40%" src="assets/images/layout/layer.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/layer.png">
 
 The Elements Library is 2D, but the z-axis pertains to top-to-bottom
 layering. Layers allow groups of elements to be placed in the z-axis where
@@ -1937,7 +1937,7 @@ allows you to build complex hierarchical structures.
 
 ### Decks
 
-<img width="40%" height="40%" src="assets/images/layout/deck.png">
+<img width="40%" height="40%" src="/assets/img/elements/layout/deck.png">
 
 The Deck is very similar to layers. Elements are placed in the z-axis. But
 unlike layers, only selected element is active (top-most by default).
@@ -2029,7 +2029,7 @@ height of each row is determined by the *maximum vertical limit* of all the
 elements to be laid out in that row. The following graphic depicts a
 simplified layout scenario for child elements `a` to `r`.
 
-<img width="60%" height="60%" src="assets/images/layout/flow.png">
+<img width="60%" height="60%" src="/assets/img/elements/layout/flow.png">
 
 The child elements arranged in a `flow` composite are automatically re-flowed
 (re-lay-out) when the view size changes.

@@ -265,7 +265,7 @@ If successful, cmake will generate Unix Make files in the build directory.
 ## Building and Running the examples
 
 <div class = "img-align-right" style="width:35%">
-  <img src="assets/images/examples.png" alt="Examples">
+  <img src="/assets/img/elements/examples.png" alt="Examples">
   <p>CLion Project Tool Window</p>
 </div>
 
