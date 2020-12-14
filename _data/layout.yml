@@ -92,3 +92,6 @@ navigation:
     url: "/atom.xml"
     icon_type: "rss"
     icon_category: "fas"
+
+- label: "FAQ"
+  url: "/faq"
