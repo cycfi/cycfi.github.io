@@ -14,22 +14,11 @@ title: Setup and Installation
 
 ## Requirements
 
-Here are the basic requirements and dependencies that you need to satisfy in
-order to use the library:
+Here are the basic tools that you need in order to use the library:
 
 1. A C++17 compiler
 2. Git
 3. [CMake] 3.9.6 or higher
-4. [Cairo]
-5. [fontconfig]
-6. [freetype2] (Windows and Linux only).
-
-Additionally, the following libraries are dragged as submodules:
-
-1. The [Cycfi infra library]
-
-Infra provides some basic groundwork common to Cycfi libraries, including
-Elements.
 
 ### C++17
 
@@ -66,9 +55,24 @@ cmake --build . --config Release
 
 ### Required Libraries
 
-Elements requires [Cairo] 1.16 or higher, [fontconfig] and [freetype2]
-(on Windows and Linux).
+Here are Element's dependencies:
+
+1. [Cairo]
+2. [fontconfig]
+3. [freetype2]
+4. [bzip2]
+5. [expat]
+6. [zlib]
+7. [libpng]
+
 Specific instructions are provided below for specific environments.
+
+Additionally, the following libraries are dragged as submodules:
+
+1. The [Cycfi infra library]
+
+Infra provides some basic groundwork common to Cycfi libraries, including
+Elements.
 
 -------------------------------------------------------------------------------
 
@@ -81,6 +85,10 @@ This by using [Homebrew]:
 ```
 brew install cairo
 brew install fontconfig
+brew install bzip2
+brew install expat
+brew install zlib
+brew install libpng
 ```
 
 ### Install CMake
@@ -313,6 +321,10 @@ alongside the "hello_universe" example directory you copied to:
 [Cycfi infra library]:    https://github.com/cycfi/infra/
 [fontconfig]:             https://www.freedesktop.org/wiki/Software/fontconfig/
 [freetype2]:              https://www.freetype.org/
+[bzip2]:                  https://www.sourceware.org/bzip2/
+[expat]:                  https://libexpat.github.io/
+[zlib]:                   https://zlib.net/
+[libpng]:                 http://www.libpng.org/pub/png/libpng.html
 [g++]:                    https://gcc.gnu.org/
 [GTK3 library]:           https://www.gtk.org/
 [Homebrew]:               https://brew.sh/
