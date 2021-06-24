@@ -46,12 +46,6 @@ git clone --recurse-submodules  https://github.com/cycfi/elements.git
 Make sure you have [CMake] 3.9.6 or higher. Follow the
 [installation procedure] for your platform, or follow the instructions below
 for specific environments.
-The project can be built either with the platform specific tool or using CMake
-with the command
-
-```
-cmake --build . --config Release
-```
 
 ### Required Libraries
 
