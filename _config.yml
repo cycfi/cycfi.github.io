@@ -1,5 +1,5 @@
 # Default front-matter variables: global, pages and posts
-theme: jekyll-theme-cayman
+theme: jekyll-theme-modernist
 defaults:
 - scope:
     path: ""
