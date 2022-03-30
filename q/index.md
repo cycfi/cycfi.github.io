@@ -29,8 +29,8 @@ license](http://tinyurl.com/p6pekvo).
 
 ## Documentation
 
-1. [Design and Architecture](q/design.md)
-2. [Setup and Installation](q/setup.md)
-3. [Hello, World](q/hello_world.md)
-4. [Hello, Universe](q/hello_universe.md)
-5. [Fundamentals](q/fundamentals.md)
+1. [Design and Architecture](/q/design.md)
+2. [Setup and Installation](/q/setup.md)
+3. [Hello, World](/q/hello_world.md)
+4. [Hello, Universe](/q/hello_universe.md)
+5. [Fundamentals](/q/fundamentals.md)
