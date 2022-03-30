@@ -29,8 +29,8 @@ license](http://tinyurl.com/p6pekvo).
 
 ## Documentation
 
-1. [Design and Architecture](design.md)
-2. [Setup and Installation](setup.md)
-3. [Hello, World](hello_world.md)
-4. [Hello, Universe](hello_universe.md)
-5. [Fundamentals](fundamentals.md)
+1. [Design and Architecture](/xaudit.io/q/design.md)
+2. [Setup and Installation](/xaudit.io/q/setup.md)
+3. [Hello, World](/xaudit.io/q/hello_world.md)
+4. [Hello, Universe](/xaudit.io/q/hello_universe.md)
+5. [Fundamentals](/xaudit.io/q/fundamentals.md)
