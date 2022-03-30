@@ -26,4 +26,4 @@ Documentation:
 [Boost.Phoenix]:    https://tinyurl.com/y6vkeo5t
 [Boost.Fusion]:     https://tinyurl.com/ybn5oq9v
 [Boost Libraries]:  https://tinyurl.com/jubgged
-[Q Library]:        https://github.com/xauditSite/cycfi.github.io/q
+[Q Library]:        https://github.com/xauditSite/cycfi.github.io/q/index.md
