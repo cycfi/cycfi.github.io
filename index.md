@@ -17,7 +17,8 @@ in advanced C++ and an advocate of Open Source. He has authored a number of
 highly successful Open Source projects such as [Boost.Spirit], [Boost.Phoenix]
 and [Boost.Fusion]. These libraries are all part of the [Boost Libraries],
 a well respected, peer-reviewed, Open Source, collaborative development effort.
-Documentation:
+
+## Documentation:
 [Q Library] 
 
 [Cycfi Research]:   https://www.cycfi.com/
@@ -26,4 +27,4 @@ Documentation:
 [Boost.Phoenix]:    https://tinyurl.com/y6vkeo5t
 [Boost.Fusion]:     https://tinyurl.com/ybn5oq9v
 [Boost Libraries]:  https://tinyurl.com/jubgged
-[Q Library]:        https://github.com/xauditSite/cycfi.github.io/q/index.md
+[Q Library]:        https://github.com/xauditSite/cycfi.github.io/q
