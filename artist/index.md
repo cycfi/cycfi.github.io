@@ -20,7 +20,7 @@ graphics.
 
 ## Documentation
 
-1. [Gallery](gallery.md)
+1. [Gallery](/cycfi.github.io/artist/gallery.md)
 2. [Setup and Installation](setup.md)
 3. [Backends](backends.md)
 4. [Foundation](foundation.md)
