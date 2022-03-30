@@ -1,13 +1,13 @@
 ---
 title: "api"
 ---
-- [canvas](canvas)
-- [affine_transform](affine_transform)
-- [circle](circle)
-- [color](color)
-- [font](font)
-- [image](image)
-- [path](path)
-- [point](point)
-- [rect](rect)
-- [text_layout](text_layout)
+- [canvas](/artist/api/canvas/index.md)
+- [affine_transform](/artist/api/affine_transform/index.md)
+- [circle](/artist/api/circle/index.md)
+- [color](/artist/api/color/index.md)
+- [font](/artist/api/font/index.md)
+- [image](/artist/api/image/index.md)
+- [path](/artist/api/path/index.md)
+- [point](/artist/api/point/index.md)
+- [rect](/artist/api/rect/index.md)
+- [text_layout](/artist/api/text_layout/index.md)
