@@ -19,13 +19,13 @@ and [Boost.Fusion]. These libraries are all part of the [Boost Libraries],
 a well respected, peer-reviewed, Open Source, collaborative development effort.
 
 ## Documentation:
-[Q Library](/xaudit.io/q/index.md)
+[Q Library](/q/index.md)
 
-[qPlug](/xaudit.io/qplug/index.md)
+[qPlug](/qplug/index.md)
 
-[elements](/xaudit.io/elements/index.md)
+[elements](/elements/index.md)
 
-[artist](/xaudit.io/artist/index.md)
+[artist](/artist/index.md)
 
 [Cycfi Research]:   https://www.cycfi.com/
 [Ciere Consulting]: https://ciere.com/
