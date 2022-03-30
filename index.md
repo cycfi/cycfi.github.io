@@ -25,6 +25,8 @@ a well respected, peer-reviewed, Open Source, collaborative development effort.
 
 [elements](/elements/index.md)
 
+[artist](/artist/index.md)
+
 [Cycfi Research]:   https://www.cycfi.com/
 [Ciere Consulting]: https://ciere.com/
 [Boost.Spirit]:     https://tinyurl.com/ydhotlaf
