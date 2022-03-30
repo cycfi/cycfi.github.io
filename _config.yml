@@ -46,3 +46,5 @@ plugins:
 authors:
   content: "Joel de Guzman"
   web: "Joel de Guzman"
+
+theme: jekyll-theme-cayman
