@@ -20,7 +20,9 @@ a well respected, peer-reviewed, Open Source, collaborative development effort.
 
 ## Documentation:
 [Q Library](/q/index.md)
+
 [qPlug](/qplug/index.md)
+
 [elements](/elements/index.md)
 
 [Cycfi Research]:   https://www.cycfi.com/
