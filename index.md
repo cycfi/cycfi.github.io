@@ -19,7 +19,7 @@ and [Boost.Fusion]. These libraries are all part of the [Boost Libraries],
 a well respected, peer-reviewed, Open Source, collaborative development effort.
 
 ## Documentation:
-[Q Library]("/q")
+[Q Library](/q/index.md)
 
 [Cycfi Research]:   https://www.cycfi.com/
 [Ciere Consulting]: https://ciere.com/
