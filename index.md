@@ -27,4 +27,4 @@ a well respected, peer-reviewed, Open Source, collaborative development effort.
 [Boost.Phoenix]:    https://tinyurl.com/y6vkeo5t
 [Boost.Fusion]:     https://tinyurl.com/ybn5oq9v
 [Boost Libraries]:  https://tinyurl.com/jubgged
-[Q Library]:        https://github.com/xauditSite/cycfi.github.io/q
+A [Q Library] ("/q")
