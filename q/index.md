@@ -29,8 +29,8 @@ license](http://tinyurl.com/p6pekvo).
 
 ## Documentation
 
-1. [Design and Architecture](https://cycfi.github.io/q/design)
-2. [Setup and Installation](https://cycfi.github.io/q/setup)
-3. [Hello, World](https://cycfi.github.io/q/hello_world)
-4. [Hello, Universe](https://cycfi.github.io/q/hello_universe)
-5. [Fundamentals](https://cycfi.github.io/q/fundamentals)
+1. [Design and Architecture](/xaudit.io/q/design.md)
+2. [Setup and Installation](/xaudit.io/q/setup.md)
+3. [Hello, World](/xaudit.io/q/hello_world.md)
+4. [Hello, Universe](/xaudit.io/q/hello_universe.md)
+5. [Fundamentals](/xaudit.io/q/fundamentals.md)

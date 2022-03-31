@@ -20,10 +20,11 @@ graphics.
 
 ## Documentation
 
-1. [Gallery](gallery)
-2. [Setup and Installation](setup)
-3. [Backends](backends)
-3. [Foundation](foundation)
+1. [Gallery](/artist/gallery.md)
+2. [Setup and Installation](/artist/setup.md)
+3. [Backends](/artist/backends.md)
+4. [Foundation](/artist/foundation.md)
+5. [API](/artist/api/index.md)
 
 [HTML Canvas 2D Context specification]: https://www.w3.org/TR/2dcontext/
 [Quartz-2D]:        https://apple.co/2SljYHw
