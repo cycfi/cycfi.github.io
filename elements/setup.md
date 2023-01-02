@@ -58,6 +58,7 @@ Here are Element's dependencies:
 5. [expat]
 6. [zlib]
 7. [libpng]
+8. [pkg-config]
 
 Specific instructions are provided below for specific environments.
 
@@ -83,6 +84,7 @@ brew install bzip2
 brew install expat
 brew install zlib
 brew install libpng
+brew install pkg-config
 ```
 
 ### Install CMake
@@ -326,3 +328,5 @@ directory alongside the "hello_universe" example directory you copied to:
 [MSYS2]:                  https://www.msys2.org/
 [Visual Studio 2019]:     https://visualstudio.microsoft.com/vs/
 [XCode]:                  https://developer.apple.com/xcode/
+[pkg-config]:             https://www.freedesktop.org/wiki/Software/pkg-config/
+
