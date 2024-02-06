@@ -47,6 +47,23 @@ Make sure you have [CMake] 3.9.6 or higher. Follow the
 [installation procedure] for your platform, or follow the instructions below
 for specific environments.
 
+In general you just need to run the configure and build commands:
+
+```bash
+mkdir build && cd build
+cmake -D CMAKE_BUILD_TYPE=Release ..
+cmake --build .
+```
+
+from CMake 3.13:
+
+```bash
+cmake -B build -D CMAKE_BUILD_TYPE=Release
+cmake --build build
+```
+
+or call the build command from the platform native build tool.
+
 ### Required Libraries
 
 Here are Element's dependencies:
