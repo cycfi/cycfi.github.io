@@ -1,4 +1,0 @@
----
-title: "circle"
-layout: "api"
----
