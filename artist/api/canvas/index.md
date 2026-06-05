@@ -1,4 +1,0 @@
----
-title: "canvas"
-layout: "api"
----

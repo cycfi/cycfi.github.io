@@ -1,4 +1,0 @@
----
-title: "rect"
-layout: "api"
----
